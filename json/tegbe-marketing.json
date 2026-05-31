@@ -1,0 +1,1577 @@
+{
+  "name": "Marketing",
+  "slug": "marketing",
+  "schema": {
+    "solucoes": {
+      "label": "Soluções (Marketing)",
+      "fields": {
+        "items": {
+          "type": "array",
+          "label": "Serviços",
+          "itemFields": {
+            "id": {
+              "type": "text",
+              "label": "ID"
+            },
+            "icon": {
+              "type": "icon",
+              "label": "Ícone"
+            },
+            "image": {
+              "type": "text",
+              "label": "URL da imagem"
+            },
+            "title": {
+              "type": "richtext",
+              "label": "Título"
+            },
+            "description": {
+              "type": "richtext",
+              "label": "Descrição"
+            }
+          }
+        },
+        "button": {
+          "type": "object",
+          "label": "Botão",
+          "fields": {
+            "link": {
+              "type": "text",
+              "label": "Link"
+            },
+            "label": {
+              "type": "text",
+              "label": "Texto"
+            },
+            "action": {
+              "type": "text",
+              "label": "Ação"
+            },
+            "variant": {
+              "type": "text",
+              "label": "Variante visual"
+            }
+          }
+        },
+        "header": {
+          "type": "object",
+          "label": "Cabeçalho",
+          "fields": {
+            "title": {
+              "type": "richtext",
+              "label": "Título"
+            },
+            "subtitle": {
+              "type": "richtext",
+              "label": "Subtítulo"
+            }
+          }
+        },
+        "service_router": {
+          "type": "object",
+          "label": "Roteador de serviços",
+          "fields": {
+            "header": {
+              "type": "object",
+              "label": "Cabeçalho",
+              "fields": {
+                "desc": {
+                  "type": "textarea",
+                  "label": "Descrição"
+                },
+                "label": {
+                  "type": "text",
+                  "label": "Label"
+                },
+                "title": {
+                  "type": "text",
+                  "label": "Título"
+                }
+              }
+            },
+            "services": {
+              "type": "array",
+              "label": "Pilares",
+              "itemFields": {
+                "id": {
+                  "type": "text",
+                  "label": "ID"
+                },
+                "href": {
+                  "type": "text",
+                  "label": "Link"
+                },
+                "icon": {
+                  "type": "icon",
+                  "label": "Ícone"
+                },
+                "image": {
+                  "type": "text",
+                  "label": "URL da imagem"
+                },
+                "theme": {
+                  "type": "object",
+                  "label": "Tema",
+                  "fields": {
+                    "bg": {
+                      "type": "text",
+                      "label": "Classe de fundo"
+                    },
+                    "btn": {
+                      "type": "text",
+                      "label": "Classe hover botão"
+                    },
+                    "color": {
+                      "type": "text",
+                      "label": "Classe de cor"
+                    },
+                    "border": {
+                      "type": "text",
+                      "label": "Classe de borda"
+                    }
+                  }
+                },
+                "title": {
+                  "type": "text",
+                  "label": "Título"
+                },
+                "number": {
+                  "type": "text",
+                  "label": "Número (01, 02...)"
+                },
+                "buttonText": {
+                  "type": "text",
+                  "label": "Texto do botão"
+                },
+                "description": {
+                  "type": "textarea",
+                  "label": "Descrição"
+                },
+                "verticalTitle": {
+                  "type": "text",
+                  "label": "Título vertical"
+                }
+              }
+            },
+            "animation_config": {
+              "type": "object",
+              "label": "Config de animação (Spring)",
+              "fields": {
+                "mass": {
+                  "type": "number",
+                  "label": "Massa"
+                },
+                "damping": {
+                  "type": "number",
+                  "label": "Amortecimento"
+                },
+                "stiffness": {
+                  "type": "number",
+                  "label": "Rigidez"
+                },
+                "transition_type": {
+                  "type": "text",
+                  "label": "Tipo de transição"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "ferramentas": {
+      "label": "Ferramentas",
+      "fields": {
+        "ferramentas": {
+          "type": "object",
+          "label": "Bloco de ferramentas",
+          "fields": {
+            "cta": {
+              "type": "object",
+              "label": "CTA",
+              "fields": {
+                "link": {
+                  "type": "text",
+                  "label": "Link"
+                },
+                "label": {
+                  "type": "text",
+                  "label": "Texto"
+                }
+              }
+            },
+            "tools": {
+              "type": "array",
+              "label": "Ferramentas",
+              "itemFields": {
+                "icon": {
+                  "type": "icon",
+                  "label": "Ícone"
+                },
+                "name": {
+                  "type": "richtext",
+                  "label": "Nome"
+                },
+                "shadow": {
+                  "type": "text",
+                  "label": "Classe de sombra Tailwind"
+                },
+                "gradient": {
+                  "type": "text",
+                  "label": "Classe de gradiente Tailwind"
+                },
+                "description": {
+                  "type": "richtext",
+                  "label": "Descrição"
+                }
+              }
+            },
+            "header": {
+              "type": "object",
+              "label": "Cabeçalho",
+              "fields": {
+                "badge": {
+                  "type": "richtext",
+                  "label": "Badge"
+                },
+                "title": {
+                  "type": "richtext",
+                  "label": "Título"
+                },
+                "description": {
+                  "type": "richtext",
+                  "label": "Descrição"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "meta-marketing": {
+      "label": "Meta Marketing (contador de resultados)",
+      "fields": {
+        "footer": {
+          "type": "richtext",
+          "label": "Rodapé"
+        },
+        "header": {
+          "type": "object",
+          "label": "Cabeçalho",
+          "fields": {
+            "title": {
+              "type": "richtext",
+              "label": "Título"
+            },
+            "subtitle": {
+              "type": "richtext",
+              "label": "Subtítulo (com tamanho)"
+            }
+          }
+        },
+        "progress": {
+          "type": "object",
+          "label": "Barra de progresso",
+          "fields": {
+            "max": {
+              "type": "number",
+              "label": "Máximo"
+            },
+            "target": {
+              "type": "number",
+              "label": "Meta"
+            },
+            "current": {
+              "type": "number",
+              "label": "Atual"
+            }
+          }
+        }
+      }
+    },
+    "agencias-falham": {
+      "label": "Por que agências falham",
+      "fields": {
+        "body": {
+          "type": "richtext",
+          "label": "Corpo do texto"
+        },
+        "badge": {
+          "type": "text",
+          "label": "Badge"
+        },
+        "content": {
+          "type": "object",
+          "label": "Conteúdo",
+          "fields": {
+            "copy": {
+              "type": "object",
+              "label": "Texto",
+              "fields": {
+                "paragraph": {
+                  "type": "textarea",
+                  "label": "Parágrafo"
+                },
+                "strong_points": {
+                  "type": "array",
+                  "label": "Pontos fortes",
+                  "itemFields": {
+                    "value": {
+                      "type": "text",
+                      "label": "Ponto"
+                    }
+                  }
+                }
+              }
+            },
+            "badge": {
+              "type": "object",
+              "label": "Badge",
+              "fields": {
+                "label": {
+                  "type": "text",
+                  "label": "Label"
+                },
+                "icon_pulse": {
+                  "type": "text",
+                  "label": "Cor do pulso (Tailwind)"
+                },
+                "text_style": {
+                  "type": "text",
+                  "label": "Classe de estilo do texto"
+                }
+              }
+            },
+            "headline": {
+              "type": "object",
+              "label": "Headline",
+              "fields": {
+                "highlight_text": {
+                  "type": "text",
+                  "label": "Texto destacado"
+                },
+                "static_text_prefix": {
+                  "type": "text",
+                  "label": "Prefixo"
+                },
+                "static_text_suffix": {
+                  "type": "text",
+                  "label": "Sufixo"
+                }
+              }
+            }
+          }
+        },
+        "heading": {
+          "type": "richtext",
+          "label": "Título principal"
+        },
+        "styling": {
+          "type": "object",
+          "label": "Estilo visual",
+          "fields": {
+            "background": {
+              "type": "object",
+              "label": "Fundo",
+              "fields": {
+                "hex": {
+                  "type": "color",
+                  "label": "Cor HEX"
+                },
+                "texture": {
+                  "type": "text",
+                  "label": "Textura"
+                },
+                "border_top": {
+                  "type": "text",
+                  "label": "Borda superior"
+                }
+              }
+            },
+            "ambient_lights": {
+              "type": "array",
+              "label": "Luzes ambiente",
+              "itemFields": {
+                "blur": {
+                  "type": "text",
+                  "label": "Blur"
+                },
+                "color": {
+                  "type": "color",
+                  "label": "Cor"
+                },
+                "opacity": {
+                  "type": "text",
+                  "label": "Opacidade"
+                },
+                "position": {
+                  "type": "text",
+                  "label": "Posição"
+                }
+              }
+            },
+            "gradient_brand": {
+              "type": "text",
+              "label": "Gradiente da marca (CSS)"
+            }
+          }
+        },
+        "metadata": {
+          "type": "object",
+          "label": "Metadados",
+          "fields": {
+            "category": {
+              "type": "text",
+              "label": "Categoria"
+            },
+            "specialty": {
+              "type": "text",
+              "label": "Especialidade"
+            },
+            "inspiration": {
+              "type": "text",
+              "label": "Inspiração visual"
+            },
+            "animation_engine": {
+              "type": "text",
+              "label": "Engine de animação"
+            }
+          }
+        },
+        "technical_config": {
+          "type": "object",
+          "label": "Config técnica (GSAP)",
+          "fields": {
+            "gsap_animations": {
+              "type": "object",
+              "label": "Animações GSAP",
+              "fields": {
+                "from": {
+                  "type": "object",
+                  "label": "Estado inicial",
+                  "fields": {
+                    "y": {
+                      "type": "number",
+                      "label": "Y (offset)"
+                    },
+                    "ease": {
+                      "type": "text",
+                      "label": "Easing"
+                    },
+                    "opacity": {
+                      "type": "number",
+                      "label": "Opacidade inicial"
+                    },
+                    "stagger": {
+                      "type": "number",
+                      "label": "Stagger (s)"
+                    }
+                  }
+                },
+                "selector": {
+                  "type": "text",
+                  "label": "Seletor CSS"
+                },
+                "trigger_start": {
+                  "type": "text",
+                  "label": "Trigger de início"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "video-marketing": {
+      "label": "Vídeo Marketing (hero)",
+      "fields": {
+        "video": {
+          "type": "object",
+          "label": "Vídeo",
+          "fields": {
+            "type": {
+              "type": "text",
+              "label": "Tipo (hero | animation)"
+            },
+            "badge": {
+              "type": "text",
+              "label": "Badge"
+            },
+            "title": {
+              "type": "richtext",
+              "label": "Título"
+            },
+            "subtitle": {
+              "type": "richtext",
+              "label": "Subtítulo"
+            },
+            "videoSrc": {
+              "type": "text",
+              "label": "URL do arquivo de vídeo"
+            }
+          }
+        },
+        "content": {
+          "type": "object",
+          "label": "Conteúdo textual",
+          "fields": {
+            "labels": {
+              "type": "object",
+              "label": "Labels de estado",
+              "fields": {
+                "error": {
+                  "type": "text",
+                  "label": "Mensagem de erro"
+                },
+                "loading": {
+                  "type": "text",
+                  "label": "Mensagem de carregamento"
+                }
+              }
+            },
+            "headline": {
+              "type": "object",
+              "label": "Headline",
+              "fields": {
+                "line_1": {
+                  "type": "text",
+                  "label": "Linha 1"
+                },
+                "line_2": {
+                  "type": "object",
+                  "label": "Linha 2",
+                  "fields": {
+                    "prefix": {
+                      "type": "text",
+                      "label": "Prefixo"
+                    },
+                    "suffix": {
+                      "type": "text",
+                      "label": "Sufixo"
+                    },
+                    "highlight": {
+                      "type": "text",
+                      "label": "Palavra destacada"
+                    }
+                  }
+                },
+                "subline": {
+                  "type": "text",
+                  "label": "Sublinha"
+                }
+              }
+            }
+          }
+        },
+        "metadata": {
+          "type": "object",
+          "label": "Metadados",
+          "fields": {
+            "assets": {
+              "type": "object",
+              "label": "Assets",
+              "fields": {
+                "video_url": {
+                  "type": "text",
+                  "label": "URL do vídeo alternativo"
+                },
+                "noise_texture": {
+                  "type": "text",
+                  "label": "URL da textura de ruído"
+                }
+              }
+            },
+            "vision": {
+              "type": "textarea",
+              "label": "Visão / notas"
+            },
+            "component": {
+              "type": "text",
+              "label": "Componente"
+            }
+          }
+        }
+      }
+    },
+    "marketing-inteligente": {
+      "label": "Marketing Inteligente",
+      "fields": {
+        "badge": {
+          "type": "richtext",
+          "label": "Badge"
+        },
+        "stats": {
+          "type": "array",
+          "label": "Estatísticas",
+          "itemFields": {
+            "label": {
+              "type": "richtext",
+              "label": "Label descritivo"
+            },
+            "value": {
+              "type": "text",
+              "label": "Valor (ex: +120%)"
+            }
+          }
+        },
+        "title": {
+          "type": "richtext",
+          "label": "Título"
+        },
+        "button": {
+          "type": "object",
+          "label": "Botão",
+          "fields": {
+            "link": {
+              "type": "text",
+              "label": "Link"
+            },
+            "label": {
+              "type": "text",
+              "label": "Texto"
+            },
+            "action": {
+              "type": "text",
+              "label": "Ação"
+            },
+            "variant": {
+              "type": "text",
+              "label": "Variante visual"
+            }
+          }
+        },
+        "description": {
+          "type": "richtext",
+          "label": "Descrição"
+        }
+      }
+    },
+    "hero-carrossel-marketing": {
+      "label": "Hero Carrossel (Marketing)",
+      "fields": {
+        "items": {
+          "type": "array",
+          "label": "Slides",
+          "itemFields": {
+            "id": {
+              "type": "number",
+              "label": "ID"
+            },
+            "tag": {
+              "type": "text",
+              "label": "Tag"
+            },
+            "image": {
+              "type": "text",
+              "label": "URL da imagem"
+            },
+            "title": {
+              "type": "text",
+              "label": "Título"
+            },
+            "ctaLink": {
+              "type": "text",
+              "label": "Link do CTA"
+            },
+            "ctaText": {
+              "type": "text",
+              "label": "Texto do CTA"
+            },
+            "subtext": {
+              "type": "text",
+              "label": "Subtexto"
+            },
+            "description": {
+              "type": "textarea",
+              "label": "Descrição"
+            }
+          }
+        }
+      }
+    },
+    "agendar-reuniao-marketing": {
+      "label": "Agendar Reunião (Marketing)",
+      "fields": {
+        "hero": {
+          "type": "object",
+          "label": "Hero",
+          "fields": {
+            "tag": {
+              "type": "text",
+              "label": "Tag"
+            },
+            "title": {
+              "type": "richtext",
+              "label": "Título"
+            },
+            "button": {
+              "type": "object",
+              "label": "Botão",
+              "fields": {
+                "link": {
+                  "type": "text",
+                  "label": "Link"
+                },
+                "label": {
+                  "type": "text",
+                  "label": "Texto"
+                },
+                "action": {
+                  "type": "text",
+                  "label": "Ação"
+                },
+                "target": {
+                  "type": "text",
+                  "label": "Target"
+                },
+                "variant": {
+                  "type": "text",
+                  "label": "Variante visual"
+                }
+              }
+            },
+            "description": {
+              "type": "richtext",
+              "label": "Descrição"
+            }
+          }
+        },
+        "imagem": {
+          "type": "object",
+          "label": "Imagem",
+          "fields": {
+            "alt": {
+              "type": "text",
+              "label": "Alt"
+            },
+            "src": {
+              "type": "text",
+              "label": "URL (src)"
+            },
+            "imagem": {
+              "type": "text",
+              "label": "URL alternativa"
+            }
+          }
+        },
+        "social": {
+          "type": "object",
+          "label": "Redes Sociais",
+          "fields": {
+            "tag": {
+              "type": "text",
+              "label": "Tag"
+            },
+            "items": {
+              "type": "array",
+              "label": "Links",
+              "itemFields": {
+                "icon": {
+                  "type": "icon",
+                  "label": "Ícone"
+                },
+                "link": {
+                  "type": "text",
+                  "label": "URL"
+                }
+              }
+            },
+            "title": {
+              "type": "richtext",
+              "label": "Título"
+            }
+          }
+        }
+      }
+    },
+    "parceiros": {
+      "label": "Parceiros Estratégicos",
+      "fields": {
+        "badge": { "type": "richtext", "label": "Badge" },
+        "title": { "type": "richtext", "label": "Título" },
+        "button": {
+          "type": "object",
+          "label": "Botão",
+          "fields": {
+            "link": { "type": "text", "label": "Link" },
+            "size": { "type": "text", "label": "Tamanho" },
+            "label": { "type": "text", "label": "Texto" },
+            "action": { "type": "text", "label": "Ação" },
+            "target": { "type": "text", "label": "Target" },
+            "variant": { "type": "text", "label": "Variante visual" }
+          }
+        },
+        "msgFinal": { "type": "text", "label": "Mensagem final" },
+        "parceiros": {
+          "type": "array",
+          "label": "Parceiros",
+          "itemFields": {
+            "id": { "type": "number", "label": "ID" },
+            "nome": { "type": "text", "label": "Nome" },
+            "cargo": { "type": "text", "label": "Cargo" },
+            "img_logo": { "type": "text", "label": "Logo URL" },
+            "img_nome": { "type": "text", "label": "Nome img URL" },
+            "depoimento": { "type": "richtext", "label": "Depoimento" },
+            "img_logo_alt": { "type": "text", "label": "Alt logo" },
+            "img_nome_alt": { "type": "text", "label": "Alt nome" },
+            "img_principal": { "type": "text", "label": "Foto principal URL" },
+            "img_principal_alt": { "type": "text", "label": "Alt foto" }
+          }
+        },
+        "description": { "type": "richtext", "label": "Descrição" }
+      }
+    },
+    "carrossel-de-funcionarios": {
+      "label": "Carrossel de Funcionários",
+      "fields": {
+        "header": {
+          "type": "object",
+          "label": "Cabeçalho",
+          "fields": {
+            "title": {
+              "type": "richtext",
+              "label": "Título"
+            }
+          }
+        },
+        "especialistas": {
+          "type": "array",
+          "label": "Funcionários",
+          "itemFields": {
+            "nome": {
+              "type": "text",
+              "label": "Nome"
+            },
+            "cargo": {
+              "type": "richtext",
+              "label": "Cargo / Bio"
+            },
+            "imagem": {
+              "type": "text",
+              "label": "URL da foto"
+            },
+            "sobrenome": {
+              "type": "text",
+              "label": "Sobrenome"
+            },
+            "corSobrenome": {
+              "type": "color",
+              "label": "Cor do sobrenome"
+            }
+          }
+        }
+      }
+    }
+  },
+  "content": {
+    "solucoes": {
+      "items": [
+        {
+          "id": "service-1",
+          "icon": "lucide:target",
+          "image": "https://tegbe-cdn.b-cdn.net/uploads/1770689972071-1.png",
+          "title": [
+            {
+              "type": "text",
+              "value": "Gestão Estratégica"
+            }
+          ],
+          "description": [
+            {
+              "type": "text",
+              "value": "Planejamento e condução estratégica do marketing com foco no crescimento da empresa e no melhor aproveitamento do investimento."
+            }
+          ]
+        },
+        {
+          "id": "service-1769472907843",
+          "icon": "mdi:rocket-launch",
+          "image": "https://tegbe-cdn.b-cdn.net/uploads/1770689977970-2.png",
+          "title": [
+            {
+              "type": "text",
+              "value": "Gestão de Mídia Paga"
+            }
+          ],
+          "description": [
+            {
+              "type": "text",
+              "value": "Gestão de campanhas de anúncios nas principais plataformas digitais para aumentar visibilidade, leads e vendas."
+            }
+          ]
+        },
+        {
+          "id": "service-1769472942396",
+          "icon": "mdi:check-decagram",
+          "image": "https://tegbe-cdn.b-cdn.net/uploads/1770689985685-3.png",
+          "title": [
+            {
+              "type": "text",
+              "value": "Produção de Criativos"
+            }
+          ],
+          "description": [
+            {
+              "type": "text",
+              "value": "Desenvolvimento completo de criativos para anúncios, do planejamento à entrega final, com foco em conversão e resultado."
+            }
+          ]
+        },
+        {
+          "id": "service-1769473004799",
+          "icon": "lucide:message-square",
+          "image": "https://tegbe-cdn.b-cdn.net/uploads/1770689993342-4.png",
+          "title": [
+            {
+              "type": "text",
+              "value": "Implementação de CRM"
+            }
+          ],
+          "description": [
+            {
+              "type": "text",
+              "value": "Estruturação e gestão do CRM para organizar o processo comercial e melhorar o relacionamento com clientes."
+            }
+          ]
+        },
+        {
+          "id": "service-1769473018835",
+          "icon": "lucide:zap",
+          "image": "https://tegbe-cdn.b-cdn.net/uploads/1770690001074-5.png",
+          "title": [
+            {
+              "type": "text",
+              "value": "Agentes de IA"
+            }
+          ],
+          "description": [
+            {
+              "type": "text",
+              "value": "Criação de agentes de inteligência artificial para automatizar atendimentos e processos comerciais."
+            }
+          ]
+        },
+        {
+          "id": "service-1769473036771",
+          "icon": "mdi:open-in-new",
+          "image": "https://tegbe-cdn.b-cdn.net/uploads/1770690006788-6.png",
+          "title": [
+            {
+              "type": "text",
+              "value": "Página de Conversão"
+            }
+          ],
+          "description": [
+            {
+              "type": "text",
+              "value": "Criação de páginas estratégicas com foco em engajamento e conversão."
+            }
+          ]
+        }
+      ],
+      "button": {
+        "link": "https://wa.me/5514988281001",
+        "label": "CONTRATAR AGORA",
+        "action": "link",
+        "variant": "marketing"
+      },
+      "header": {
+        "title": [
+          {
+            "type": "text",
+            "value": "Conheça nossas soluções"
+          }
+        ],
+        "subtitle": [
+          {
+            "type": "text",
+            "value": "Tudo que seu negócio precisa para vender mais"
+          }
+        ]
+      },
+      "service_router": {
+        "header": {
+          "desc": "Não somos generalistas. Somos especialistas em três verticais de alto impacto financeiro.",
+          "label": "Nossos Pilares",
+          "title": "Escolha sua Escala."
+        },
+        "services": [
+          {
+            "id": "service-01",
+            "href": "/ecommerce",
+            "icon": "solar:shop-2-bold-duotone",
+            "image": "",
+            "theme": {
+              "bg": "bg-amber-500",
+              "btn": "hover:bg-[#F59E0B]",
+              "color": "text-amber-500",
+              "border": "border-[#F59E0B]"
+            },
+            "title": "E-commerce",
+            "number": "01",
+            "buttonText": "Construir Máquina",
+            "description": "Sua loja validada com a segurança de uma Consultoria Oficial. Não entregamos apenas um site bonito, entregamos uma operação de vendas blindada contra falhas.",
+            "verticalTitle": "ESTRUTURA2 3"
+          },
+          {
+            "id": "service-02",
+            "href": "/marketing",
+            "icon": "solar:chart-2-bold-duotone",
+            "image": "",
+            "theme": {
+              "bg": "bg-[#EC4899]",
+              "btn": "hover:bg-[#EC4899]",
+              "color": "text-[#EC4899]",
+              "border": "border-[#EC4899]"
+            },
+            "title": "Growth & Ads",
+            "number": "02",
+            "buttonText": "Acelerar Vendas",
+            "description": "Engenharia de tráfego e CRM avançado. Transformamos cliques anônimos em receita recorrente usando inteligência de dados proprietária.",
+            "verticalTitle": "TRAÇÃO"
+          },
+          {
+            "id": "service-03",
+            "href": "/formacoes",
+            "icon": "solar:diploma-verified-bold-duotone",
+            "image": "",
+            "theme": {
+              "bg": "bg-amber-500",
+              "btn": "hover:bg-[#F59E0B]",
+              "color": "text-amber-500",
+              "border": "border-[#F59E0B]"
+            },
+            "title": "Academy",
+            "number": "03",
+            "buttonText": "Dominar o Jogo",
+            "description": "O campo de batalha transformado em protocolo. Treine sua equipe interna com os processos exatos que usamos para gerar múltiplos 8 dígitos.",
+            "verticalTitle": "LEGADO"
+          }
+        ],
+        "animation_config": {
+          "mass": 1,
+          "damping": 25,
+          "stiffness": 100,
+          "transition_type": "spring"
+        }
+      }
+    },
+    "ferramentas": {
+      "ferramentas": {
+        "cta": {
+          "link": "#",
+          "label": "Explorar Ferramentas"
+        },
+        "tools": [
+          {
+            "icon": "lucide:bot",
+            "name": [
+              {
+                "type": "text",
+                "value": "Inteligência Artificial"
+              }
+            ],
+            "shadow": "shadow-violet-500/20",
+            "gradient": "from-violet-500 to-purple-600",
+            "description": [
+              {
+                "type": "text",
+                "value": "Automação inteligente para atendimento e análise de dados em tempo real."
+              }
+            ]
+          },
+          {
+            "icon": "lucide:trending-up",
+            "name": [
+              {
+                "type": "text",
+                "value": "CRM de Vendas"
+              }
+            ],
+            "shadow": "shadow-blue-500/20",
+            "gradient": "from-blue-500 to-cyan-500",
+            "description": [
+              {
+                "type": "text",
+                "value": "Gerencie leads e clientes de forma organizada, acompanhando cada etapa do funil."
+              }
+            ]
+          },
+          {
+            "icon": "lucide:monitor-check",
+            "name": [
+              {
+                "type": "text",
+                "value": "Páginas de Vendas"
+              }
+            ],
+            "shadow": "shadow-emerald-500/20",
+            "gradient": "from-emerald-500 to-teal-500",
+            "description": [
+              {
+                "type": "text",
+                "value": "Landing pages de altíssima conversão, prontas para vender e escalar sua operação."
+              }
+            ]
+          },
+          {
+            "icon": "mdi:chart-line",
+            "name": [
+              {
+                "type": "text",
+                "value": "Analytics Avançado"
+              }
+            ],
+            "shadow": "shadow-amber-500/20",
+            "gradient": "from-amber-500 to-orange-500",
+            "description": [
+              {
+                "type": "text",
+                "value": "Dashboards completos e intuitivos para você acompanhar cada métrica do seu negócio."
+              }
+            ]
+          },
+          {
+            "icon": "mdi:email",
+            "name": [
+              {
+                "type": "text",
+                "value": "E-mail Marketing"
+              }
+            ],
+            "shadow": "shadow-rose-500/20",
+            "gradient": "from-rose-500 to-pink-500",
+            "description": [
+              {
+                "type": "text",
+                "value": "Crie campanhas segmentadas e automatizadas que geram resultados e vendas reais."
+              }
+            ]
+          },
+          {
+            "icon": "lucide:settings",
+            "name": [
+              {
+                "type": "text",
+                "value": "Integrações"
+              }
+            ],
+            "shadow": "shadow-indigo-500/20",
+            "gradient": "from-indigo-500 to-blue-600",
+            "description": [
+              {
+                "type": "text",
+                "value": "Conecte todas as suas ferramentas e centralize sua operação em um único lugar."
+              }
+            ]
+          }
+        ],
+        "header": {
+          "badge": [
+            {
+              "type": "text",
+              "value": "Ferramentas"
+            }
+          ],
+          "title": [
+            {
+              "type": "text",
+              "value": "Tecnologia para Escalar"
+            }
+          ],
+          "description": [
+            {
+              "type": "text",
+              "value": "Soluções que trabalham por si enquanto você foca no crescimento estratégico do seu negócio."
+            }
+          ]
+        }
+      }
+    },
+    "meta-marketing": {
+      "footer": [
+        {
+          "type": "text",
+          "value": "resultados gerados até agora pela "
+        },
+        {
+          "type": "bold",
+          "value": "#geraçãotegbe"
+        }
+      ],
+      "header": {
+        "title": [
+          {
+            "type": "text",
+            "value": "Qual é a principal "
+          },
+          {
+            "type": "highlight",
+            "color": "#F9396F",
+            "value": "meta"
+          },
+          {
+            "type": "text",
+            "value": " da Tegbe?"
+          }
+        ],
+        "subtitle": [
+          {
+            "size": 18,
+            "type": "text",
+            "value": "Gerar "
+          },
+          {
+            "size": 18,
+            "type": "bold",
+            "value": "R$ 100 milhões em novas receitas"
+          },
+          {
+            "size": 18,
+            "type": "text",
+            "value": " através dos nossos parceiros até 2030."
+          }
+        ]
+      },
+      "progress": {
+        "max": 5000,
+        "target": 1500,
+        "current": 1500
+      }
+    },
+    "agencias-falham": {
+      "body": [
+        {
+          "type": "text",
+          "value": "A maioria das agências foca apenas em tráfego e estética."
+        },
+        {
+          "type": "linebreak"
+        },
+        {
+          "type": "text",
+          "value": "Mas crescimento de verdade exige estratégia, posicionamento e execução consistente."
+        },
+        {
+          "type": "linebreak"
+        },
+        {
+          "type": "bold",
+          "value": "É aqui que a Tegbe faz diferente."
+        }
+      ],
+      "badge": "Marketing Estratégico",
+      "content": {
+        "copy": {
+          "paragraph": "Nós transformamos investimento em marketing em crescimento previsível, com estratégia, método e foco em vendas.",
+          "strong_points": [
+            "Ecossistema de Receita",
+            "Tráfego + CRM + IA"
+          ]
+        },
+        "badge": {
+          "label": "Engenharia de Vendas",
+          "icon_pulse": "rose-500",
+          "text_style": "uppercase tracking-[0.2em]"
+        },
+        "headline": {
+          "highlight_text": "contratar",
+          "static_text_prefix": "Por que ",
+          "static_text_suffix": "a Tegbe?"
+        }
+      },
+      "heading": [
+        {
+          "type": "text",
+          "value": "Por que tantas "
+        },
+        {
+          "type": "highlight",
+          "color": "#F9396F",
+          "value": "agências falham"
+        },
+        {
+          "type": "text",
+          "value": " em gerar resultados reais?"
+        }
+      ],
+      "styling": {
+        "background": {
+          "hex": "#020202",
+          "texture": "Grainy Noise (Opacity 10%)",
+          "border_top": "white/5"
+        },
+        "ambient_lights": [
+          {
+            "blur": "120px",
+            "color": "#E31B63",
+            "opacity": "10%",
+            "position": "top-right"
+          },
+          {
+            "blur": "100px",
+            "color": "#FF0F43",
+            "opacity": "5%",
+            "position": "bottom-left"
+          }
+        ],
+        "gradient_brand": "linear-gradient(to right, #FF0F43, #E31B63)"
+      },
+      "metadata": {
+        "category": "Section - Conversion Engineering",
+        "specialty": "Direct Response & Performance Copywriting",
+        "inspiration": "Minimalismo Apple / Potência Ferrari",
+        "animation_engine": "GSAP + ScrollTrigger"
+      },
+      "technical_config": {
+        "gsap_animations": {
+          "from": {
+            "y": 30,
+            "ease": "power3.out",
+            "opacity": 0,
+            "stagger": 0.2
+          },
+          "selector": ".reveal-text",
+          "trigger_start": "top 80%"
+        }
+      }
+    },
+    "video-marketing": {
+      "video": {
+        "type": "hero",
+        "badge": "Tegbe Performance",
+        "title": [],
+        "subtitle": [],
+        "videoSrc": "https://tegbe-cdn.b-cdn.net/uploads/1774020788960-Tegbe---Land.mp4"
+      },
+      "content": {
+        "labels": {
+          "error": "Vídeo indisponível no momento.",
+          "loading": "Carregando Experiência..."
+        },
+        "headline": {
+          "line_1": "Resultado não acontece. ",
+          "line_2": {
+            "prefix": "É",
+            "suffix": ".",
+            "highlight": " CONSTRUIDO "
+          },
+          "subline": "SEREMOS SEU BRAÇO DIREITO NESSA JORNADA"
+        }
+      },
+      "metadata": {
+        "assets": {
+          "video_url": "https://tegbe-cdn.b-cdn.net/video-marketing/tegbe-institucional/1770507040850-mvl_qualifica_leads.webm",
+          "noise_texture": "https://oaaddtqd6pehgldz.public.blob.vercel-storage.com/1768148154583-branco.jpg"
+        },
+        "vision": "",
+        "component": ""
+      }
+    },
+    "marketing-inteligente": {
+      "badge": [
+        {
+          "type": "text",
+          "value": "Marketing Inteligente"
+        }
+      ],
+      "stats": [
+        {
+          "label": [
+            {
+              "type": "text",
+              "value": "crescimento médio"
+            }
+          ],
+          "value": "+120%"
+        }
+      ],
+      "title": [
+        {
+          "type": "text",
+          "value": "Aumente suas vendas com estratégia"
+        }
+      ],
+      "button": {
+        "link": "/contato",
+        "label": "Falar com especialista",
+        "action": "link",
+        "variant": "marketing"
+      },
+      "description": [
+        {
+          "type": "text",
+          "value": "Criamos sistemas de marketing que escalam negócios."
+        }
+      ]
+    },
+    "hero-carrossel-marketing": {
+      "items": [
+        {
+          "id": 1,
+          "tag": "PROGRAMA PRESENCIAL",
+          "image": "",
+          "title": "TEGBE GESTÃO E ESTRATÉGIA",
+          "ctaLink": "#",
+          "ctaText": "Conheça agora",
+          "subtext": "Aprenda com líderes de mercado em apenas 4 dias.",
+          "description": "Construa estratégias sólidas para escalar sua empresa"
+        },
+        {
+          "id": 2,
+          "tag": "IMERSÃO ONLINE",
+          "image": "/exemplo_carrossel.png",
+          "title": "TEGBE GROWTH EXTREMO",
+          "ctaLink": "#",
+          "ctaText": "Garantir minha vaga",
+          "subtext": "Táticas do Vale do Silício aplicáveis imediatamente.",
+          "description": "Dobre o faturamento da sua empresa"
+        }
+      ]
+    },
+    "agendar-reuniao-marketing": {
+      "hero": {
+        "tag": "Ficou com dúvida?",
+        "title": [
+          {
+            "type": "text",
+            "value": "Agende uma reunião"
+          }
+        ],
+        "button": {
+          "link": "https://wa.me/5514988281001",
+          "label": "Agendar reunião",
+          "action": "link",
+          "target": "_blank",
+          "variant": "default"
+        },
+        "description": [
+          {
+            "type": "text",
+            "value": "Ainda restou alguma dúvida? Agende já uma reunião com um de nossos consultores de marketing."
+          }
+        ]
+      },
+      "imagem": {
+        "alt": "Equipe Tegbe",
+        "src": "https://tegbe-cdn.b-cdn.net/uploads/1773931975100-Sem-Imagem.png",
+        "imagem": "https://tegbe-cdn.b-cdn.net/uploads/1773931975100-Sem-Imagem.png"
+      },
+      "social": {
+        "tag": "Mantenha-se atualizado",
+        "items": [
+          {
+            "icon": "mdi:youtube",
+            "link": "#"
+          },
+          {
+            "icon": "mdi:facebook",
+            "link": "#"
+          },
+          {
+            "icon": "mdi:instagram",
+            "link": "#"
+          },
+          {
+            "icon": "mdi:linkedin",
+            "link": "#"
+          }
+        ],
+        "title": [
+          {
+            "type": "text",
+            "value": "Acompanhe nossas mídias"
+          }
+        ]
+      }
+    },
+    "parceiros": {
+      "badge": [{ "type": "text", "value": "Parceiros Estratégicos" }],
+      "title": [
+        { "type": "text", "value": "Trabalhamos com quem " },
+        { "type": "highlight", "color": "#F9396F", "value": "domina o mercado." }
+      ],
+      "button": {
+        "link": "/contato",
+        "size": "lg",
+        "label": "Quero me tornar parceiro",
+        "action": "link",
+        "target": "_self",
+        "variant": "marketing"
+      },
+      "msgFinal": "Vagas limitadas para consultoria estratégica",
+      "parceiros": [
+        {
+          "id": 1,
+          "nome": "João Branco",
+          "cargo": "Ex-CMO do McDonald's",
+          "img_logo": "/dev/foto_logo_card.avif",
+          "img_nome": "/dev/foto_nome_card.avif",
+          "depoimento": [{ "type": "text", "value": "Top 10 profissionais de marketing no Brasil pela Forbes. Considerado CMO mais eficaz do país pela Scopen." }],
+          "img_logo_alt": "McDonald's",
+          "img_nome_alt": "Ferrero",
+          "img_principal": "/dev/foto_card.avif",
+          "img_principal_alt": "João Branco"
+        },
+        {
+          "id": 2,
+          "nome": "Vinícius",
+          "cargo": "Fundador Mavellium",
+          "img_logo": "/dev/foto_logo_card.avif",
+          "img_nome": "/dev/foto_nome_card.avif",
+          "depoimento": [{ "type": "text", "value": "Top 10 profissionais de marketing no Brasil pela Forbes. Considerado CMO mais eficaz do país pela Scopen." }],
+          "img_logo_alt": "McDonald's",
+          "img_nome_alt": "Ferrero",
+          "img_principal": "/dev/foto_card.avif",
+          "img_principal_alt": "João Branco"
+        }
+      ],
+      "description": [{ "type": "text", "value": "Unimos forças com especialistas que elevam o nível das empresas." }]
+    },
+    "carrossel-de-funcionarios": {
+      "header": {
+        "title": [
+          { "type": "text", "value": "E nesse processo reunimos vários " },
+          { "type": "highlight", "color": "#F9396F", "value": "especialistas" }
+        ]
+      },
+      "especialistas": [
+        {
+          "nome": "Rafael",
+          "cargo": [{ "type": "text", "value": "Fundador da Viver de AI, professor de IA na ESPM e mentor do TEGBE." }],
+          "imagem": "/doni.jpg",
+          "sobrenome": "Milagre",
+          "corSobrenome": "#F9396F"
+        },
+        {
+          "nome": "Marcelo",
+          "cargo": [{ "type": "text", "value": "Ex-diretor Nacional da Ambev e Labatt Breweries." }],
+          "imagem": "/doni.jpg",
+          "sobrenome": "Camargo",
+          "corSobrenome": "#F9396F"
+        },
+        {
+          "nome": "Fabíola",
+          "cargo": [{ "type": "text", "value": "Cofundadora do Edubank e Ex-Diretora de Pessoas da Ambev." }],
+          "imagem": "/doni.jpg",
+          "sobrenome": "Overrath",
+          "corSobrenome": "#F9396F"
+        },
+        {
+          "nome": "Tomás",
+          "cargo": [{ "type": "text", "value": "CEO e co-fundador da Track.co." }],
+          "imagem": "/doni.jpg",
+          "sobrenome": "Duarte",
+          "corSobrenome": "#F9396F"
+        },
+        {
+          "nome": "Donizete",
+          "cargo": [{ "type": "text", "value": "Fundador da Tegbe e Especialista em Escala de E-commerce." }],
+          "imagem": "/doni.jpg",
+          "sobrenome": "Caetano",
+          "corSobrenome": "#F9396F"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "slug": "header",
+  "name": "Header",
+  "updatedAt": "2026-05-28T00:00:00.000Z",
+  "schema": {
+    "name": "Header",
+    "slug": "header",
+    "schema": {
+      "general": {
+        "label": "Configurações Gerais",
+        "fields": {
+          "logo": { "type": "text", "label": "URL do logo (SVG)" },
+          "logoAlt": { "type": "text", "label": "Alt do logo" },
+          "consultantBadge": { "type": "text", "label": "Badge de consultor" },
+          "ctaLink": { "type": "text", "label": "Link do CTA principal" },
+          "ctaText": { "type": "text", "label": "Texto do CTA principal" }
+        }
+      },
+      "links": {
+        "label": "Links de Navegação",
+        "type": "array",
+        "itemFields": {
+          "name": { "type": "text", "label": "Nome" },
+          "href": { "type": "text", "label": "URL" }
+        }
+      },
+      "announcementBar": {
+        "label": "Barra de Anúncio",
+        "fields": {
+          "enabled": { "type": "boolean", "label": "Ativada?" },
+          "styles": {
+            "type": "object",
+            "label": "Estilos",
+            "fields": {
+              "variant": { "type": "text", "label": "Variante (default | warning)" },
+              "position": { "type": "text", "label": "Posição (fixed | absolute)" },
+              "className": { "type": "text", "label": "Classes Tailwind de posicionamento" },
+              "fullWidth": { "type": "boolean", "label": "Largura total?" },
+              "customTextColor": { "type": "color", "label": "Cor do texto customizada" },
+              "customBackgroundColor": { "type": "color", "label": "Cor de fundo customizada" }
+            }
+          },
+          "content": {
+            "type": "object",
+            "label": "Conteúdo",
+            "fields": {
+              "icon": { "type": "icon", "label": "Ícone" },
+              "text": { "type": "text", "label": "Texto" },
+              "linkUrl": { "type": "text", "label": "URL do link" },
+              "linkText": { "type": "text", "label": "Texto do link" },
+              "showIcon": { "type": "boolean", "label": "Mostrar ícone?" }
+            }
+          },
+          "behavior": {
+            "type": "object",
+            "label": "Comportamento",
+            "fields": {
+              "autoClose": { "type": "number", "label": "Fechar automaticamente (ms)" },
+              "persistent": { "type": "boolean", "label": "Persistente?" }
+            }
+          }
+        }
+      }
+    }
+  },
+  "content": {
+    "general": {
+      "logo": "https://tegbe-cdn.b-cdn.net/uploads/1774578674491-logo.svg",
+      "logoAlt": "Tegbe",
+      "consultantBadge": "Consultor Oficial Mercado Livre",
+      "ctaLink": "https://wa.me/5514988281001",
+      "ctaText": "Falar com especialista"
+    },
+    "links": [
+      { "name": "E-commerce", "href": "/ecommerce" },
+      { "name": "Marketing", "href": "/marketing" },
+      { "name": "Formações", "href": "/formacoes" },
+      { "name": "Sobre", "href": "/sobre" },
+      { "name": "Blog", "href": "/blog" }
+    ],
+    "announcementBar": {
+      "enabled": false,
+      "styles": {
+        "variant": "default",
+        "position": "fixed",
+        "className": "top-20",
+        "fullWidth": true,
+        "customTextColor": null,
+        "customBackgroundColor": null
+      },
+      "content": {
+        "icon": "ph:megaphone-bold",
+        "text": "Novo curso presencial de E-commerce disponível!",
+        "linkUrl": "/formacoes",
+        "linkText": "Saiba mais",
+        "showIcon": true
+      },
+      "behavior": {
+        "autoClose": 0,
+        "persistent": false
+      }
+    }
+  }
+}

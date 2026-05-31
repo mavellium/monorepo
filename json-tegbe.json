@@ -1,0 +1,3805 @@
+/api/tegbe-institucional/json/quem-somos
+
+{
+  "button": {
+    "link": "carreiras",
+    "label": "Conhecer o Método",
+    "action": "https://wa.me/5514988281001",
+    "target": "_blank"
+  },
+  "header": {
+    "title": [
+      {
+        "type": "text",
+        "value": "Onde a parceria"
+      },
+      {
+        "type": "linebreak"
+      },
+      {
+        "type": "text",
+        "value": "constrói "
+      },
+      {
+        "type": "highlight",
+        "color": "#FFC72C",
+        "value": "resultado"
+      }
+    ],
+    "subtitle": [
+      {
+        "type": "text",
+        "value": "A Tegbe nasce em dezembro de 2022, em Garça (SP), com uma convicção inegociável: no e-commerce, ninguém escala o topo sozinho. Surgimos para ser mais do que uma consultoria; nascemos para ser o parceiro estratégico que entra no jogo para vencer junto."
+      },
+      {
+        "type": "text",
+        "value": "Nossa fundação foi motivada por uma falha clara no mercado: empresas com excelente potencial, mas travadas por falta de um método prático. Percebemos que o empresário não precisava de mais relatórios teóricos, mas de um aliado que soubesse desenhar canais de vendas e, mais importante, soubesse como fazê-los funcionar no dia a dia."
+      },
+      {
+        "type": "text",
+        "value": "Com o tempo, essa relação de confiança com nossos parceiros nos fez evoluir. Entendemos que o nosso papel é atuar como um braço de vendas dentro do negócio, auxiliando no desenvolvimento de canais de forma estruturada. O que começou como um suporte operacional transformou-se em uma estrutura capaz de orientar decisões de alto nível, sustentar o crescimento e ampliar o impacto de quem faz o Brasil avançar."
+      },
+      {
+        "type": "text",
+        "value": "Na Tegbe, a sua meta é a nossa bússola. Não entregamos apenas uma solução de vendas; entregamos a presença estratégica e a prática necessária para transformar cada canal em uma máquina de escala e lucro."
+      }
+    ]
+  },
+  "founder": {
+    "name": [
+      {
+        "type": "text",
+        "value": "Donizete Caetano"
+      }
+    ],
+    "role": [
+      {
+        "type": "text",
+        "value": "Fundador da Tegbe • Consultor Mercado Livre"
+      }
+    ],
+    "image": "https://tegbe-cdn.b-cdn.net/uploads/1776177129319-Sem-marketing.png",
+    "socials": [
+      {
+        "icon": "ph:instagram-logo",
+        "link": "#"
+      },
+      {
+        "icon": "ph:linkedin-logo",
+        "link": "#"
+      }
+    ],
+    "companies": [
+      {
+        "logo": "simple-icons:mercadopago",
+        "name": "Mercado Livre"
+      },
+      {
+        "logo": "simple-icons:amazon",
+        "name": "Amazon"
+      },
+      {
+        "logo": "simple-icons:shopee",
+        "name": "Shopee"
+      }
+    ]
+  }
+}
+
+----
+
+/api/tegbe-institucional/json/o-que-somos
+
+{
+  "header": {
+    "title": [
+      {
+        "type": "text",
+        "value": "Somos uma alavanca de "
+      },
+      {
+        "type": "highlight",
+        "color": "#F1D95D",
+        "value": "negócios e pessoas"
+      }
+    ]
+  },
+  "paragraphs": [
+    [
+      {
+        "type": "text",
+        "value": "Transformamos tráfego em vendas, estratégia em margem e conhecimento em resultados diários."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "value": "Aqui unimos "
+      },
+      {
+        "type": "highlight",
+        "color": "#F1D95D",
+        "serif": false,
+        "value": "marketing de performance, gestão de marketplaces, criativos que convertem e educação prática para times reais",
+        "italic": false
+      },
+      {
+        "type": "text",
+        "value": " — tudo para gerar faturamento consistente e crescimento que se mantém."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "value": "Porque no e-commerce brasileiro "
+      },
+      {
+        "bold": true,
+        "type": "highlight",
+        "color": "#F1D95D",
+        "serif": false,
+        "value": "o objetivo não é só vender mais.",
+        "italic": false
+      },
+      {
+        "type": "text",
+        "value": " É construir algo que te dê liberdade e legado. Nós entregamos as ferramentas — e o caminho para chegar lá."
+      }
+    ]
+  ]
+}
+
+---
+
+/api/tegbe-institucional/json/hero-carrossel-marketing
+
+[
+  {
+    "id": 1,
+    "tag": "PROGRAMA PRESENCIAL",
+    "image": "",
+    "title": "TEGBE GESTÃO E ESTRATÉGIA",
+    "ctaLink": "#",
+    "ctaText": "Conheça agora",
+    "subtext": "Aprenda com líderes de mercado em apenas 4 dias.",
+    "description": "Construa estratégias sólidas para escalar sua empresa"
+  },
+  {
+    "id": 2,
+    "tag": "IMERSÃO ONLINE",
+    "image": "/exemplo_carrossel.png",
+    "title": "TEGBE GROWTH EXTREMO",
+    "ctaLink": "#",
+    "ctaText": "Garantir minha vaga",
+    "subtext": "Táticas do Vale do Silício aplicáveis imediatamente.",
+    "description": "Dobre o faturamento da sua empresa"
+  }
+]
+
+---
+
+/api/tegbe-institucional/json/meta-alunos
+
+{
+  "footer": [
+    {
+      "type": "text",
+      "value": "resultados gerados até agora pela "
+    },
+    {
+      "type": "bold",
+      "value": "#geraçãotegbe"
+    }
+  ],
+  "header": {
+    "title": [
+      {
+        "type": "text",
+        "value": "Qual é a principal "
+      },
+      {
+        "type": "highlight",
+        "color": "#FFC72C",
+        "value": "meta"
+      },
+      {
+        "type": "text",
+        "value": " da Tegbe?"
+      }
+    ],
+    "subtitle": [
+      {
+        "size": 18,
+        "type": "text",
+        "value": "Gerar "
+      },
+      {
+        "size": 18,
+        "type": "bold",
+        "value": "R$ 100 milhões em novas receitas"
+      },
+      {
+        "size": 18,
+        "type": "text",
+        "value": " através dos nossos parceiros até 2030."
+      }
+    ]
+  },
+  "progress": {
+    "max": 5000,
+    "target": 1500,
+    "current": 1500
+  }
+}
+
+---
+
+/api/tegbe-institucional/json/carrossel-de-especialistas
+
+{
+  "header": {
+    "title": [
+      {
+        "type": "text",
+        "value": "E nesse processo reunimos vários "
+      },
+      {
+        "type": "highlight",
+        "color": "#F1D95D",
+        "value": "especialistas"
+      }
+    ]
+  },
+  "especialistas": [
+    {
+      "nome": "Rafael",
+      "cargo": [
+        {
+          "type": "text",
+          "value": "Fundador da Viver de AI, professor de IA na ESPM e mentor do TEGBE."
+        }
+      ],
+      "imagem": "/doni.jpg",
+      "sobrenome": "Milagre"
+    },
+    {
+      "nome": "Marcelo",
+      "cargo": [
+        {
+          "type": "text",
+          "value": "Ex-diretor Nacional da Ambev e Labatt Breweries."
+        }
+      ],
+      "imagem": "/doni.jpg",
+      "sobrenome": "Camargo"
+    },
+    {
+      "nome": "Fabíola",
+      "cargo": [
+        {
+          "type": "text",
+          "value": "Cofundadora do Edubank e Ex-Diretora de Pessoas da Ambev."
+        }
+      ],
+      "imagem": "/doni.jpg",
+      "sobrenome": "Overrath"
+    },
+    {
+      "nome": "Tomás",
+      "cargo": [
+        {
+          "type": "text",
+          "value": "CEO e co-fundador da Track.co."
+        }
+      ],
+      "imagem": "/doni.jpg",
+      "sobrenome": "Duarte"
+    },
+    {
+      "nome": "Donizete",
+      "cargo": [
+        {
+          "type": "text",
+          "value": "Fundador da Tegbe e Especialista em Escala de E-commerce."
+        }
+      ],
+      "imagem": "/doni.jpg",
+      "sobrenome": "Caetano"
+    }
+  ],
+  "_init": true
+}
+
+---
+
+/api/tegbe-institucional/json/localizacao
+
+[
+  {
+    "id": "1",
+    "alt": "Escritório Tegbe em Garça",
+    "image": "https://tegbe-cdn.b-cdn.net/uploads/1776179352941-WhatsApp-Image-2026-01-21-at-16.45.40ttt.jpeg",
+    "title": [
+      {
+        "type": "text",
+        "value": "Escritório em Garça, São Paulo."
+      }
+    ],
+    "button": {
+      "link": "https://maps.app.goo.gl/vPoKscAn58iodWEP7",
+      "label": "Ver sede no Google Maps",
+      "action": "link",
+      "target": "_blank"
+    },
+    "description": [
+      {
+        "type": "text",
+        "value": "É daqui que coordenamos projetos, estratégias e operações digitais que impactam empresas em todo o Brasil. Nossa estrutura é enxuta, estratégica e totalmente conectada."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "alt": "Ambiente de trabalho da equipe",
+    "image": "https://tegbe-cdn.b-cdn.net/uploads/1776179374538-WhatsApp-Image-2026-01-21-at-16.45.40eee.jpeg",
+    "title": [
+      {
+        "type": "text",
+        "value": "Garça, São Paulo."
+      }
+    ],
+    "button": {
+      "link": "https://maps.app.goo.gl/vPoKscAn58iodWEP7",
+      "label": "Ver sede no Google Maps",
+      "action": "link",
+      "target": "_blank"
+    },
+    "description": [
+      {
+        "type": "text",
+        "value": "Aqui funciona o coração operacional da Tegbe. Um espaço moderno e funcional onde estratégia, criatividade e performance se encontram para entregar soluções digitais de impacto em todo o Brasil."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "alt": "Time trabalhando em projetos digitais",
+    "image": "https://tegbe-cdn.b-cdn.net/uploads/1776179389455-WhatsApp-Image-2026-01-21-at-16.45.39.jpeg",
+    "title": [
+      {
+        "type": "text",
+        "value": "Nosso QG estratégico fica em Garça, São Paulo."
+      }
+    ],
+    "button": {
+      "link": "https://maps.app.goo.gl/vPoKscAn58iodWEP7",
+      "label": "Ver sede no Google Maps",
+      "action": "link",
+      "target": "_blank"
+    },
+    "description": [
+      {
+        "type": "text",
+        "value": "É daqui que coordenamos projetos, estratégias e operações digitais que impactam empresas em todo o Brasil. Nossa estrutura é enxuta, estratégica e totalmente conectada."
+      }
+    ]
+  }
+]
+
+---
+
+/api/tegbe-institucional/json/trabalhar-conosco
+
+{
+  "hero": {
+    "tag": "Quer construir sua carreira na Tegbe?",
+    "title": [
+      {
+        "type": "text",
+        "value": "Trabalhe conosco"
+      }
+    ],
+    "button": {
+      "link": "/carreiras",
+      "label": "Conheça nossas vagas",
+      "action": "link",
+      "target": "_blank"
+    },
+    "description": [
+      {
+        "type": "text",
+        "value": "Se você quer crescer junto com quem constrói negócios que realmente importam, conheça nossas oportunidades."
+      }
+    ],
+    "image": {
+      "alt": "Equipe Tegbe",
+      "src": "/doni.jpg",
+      "imagem": "/doni.jpg"
+    },
+    "imagem": {
+      "alt": "Equipe Tegbe",
+      "imagem": "/doni.jpg"
+    }
+  },
+  "imagem": {
+    "alt": "Tegbe",
+    "src": "https://tegbe-cdn.b-cdn.net/uploads/1776179182932-Imagens-Site-3--1475-x-897-px---2-.png",
+    "width": 320,
+    "height": 150,
+    "imagem": "https://tegbe-cdn.b-cdn.net/uploads/1774301081001-Foto-Equipe-Tegbe.jpeg"
+  },
+  "social": {
+    "tag": "Mantenha-se atualizado",
+    "items": [
+      {
+        "icon": "mdi:youtube",
+        "link": ""
+      },
+      {
+        "icon": "mdi:facebook",
+        "link": ""
+      },
+      {
+        "icon": "mdi:instagram",
+        "link": ""
+      },
+      {
+        "icon": "mdi:linkedin",
+        "link": ""
+      }
+    ],
+    "title": [
+      {
+        "type": "text",
+        "value": "Acompanhe nossas mídias"
+      }
+    ]
+  }
+}
+
+---
+
+/api/tegbe-institucional/json/meta-marketing
+
+---
+
+{
+  "footer": [
+    {
+      "type": "text",
+      "value": "resultados gerados até agora pela "
+    },
+    {
+      "type": "bold",
+      "value": "#geraçãotegbe"
+    }
+  ],
+  "header": {
+    "title": [
+      {
+        "type": "text",
+        "value": "Qual é a principal "
+      },
+      {
+        "type": "highlight",
+        "color": "#F9396F",
+        "value": "meta"
+      },
+      {
+        "type": "text",
+        "value": " da Tegbe?"
+      }
+    ],
+    "subtitle": [
+      {
+        "size": 18,
+        "type": "text",
+        "value": "Gerar "
+      },
+      {
+        "size": 18,
+        "type": "bold",
+        "value": "R$ 100 milhões em novas receitas"
+      },
+      {
+        "size": 18,
+        "type": "text",
+        "value": " através dos nossos parceiros até 2030."
+      }
+    ]
+  },
+  "progress": {
+    "max": 5000,
+    "target": 1500,
+    "current": 1500
+  }
+}
+
+---
+
+/api/tegbe-institucional/json/carrossel-de-funcionarios
+
+{
+  "header": {
+    "title": [
+      {
+        "type": "text",
+        "value": "E nesse processo reunimos vários "
+      },
+      {
+        "type": "highlight",
+        "color": "#F9396F",
+        "value": "especialistas"
+      }
+    ]
+  },
+  "especialistas": [
+    {
+      "nome": "Rafael",
+      "cargo": [
+        {
+          "type": "text",
+          "value": "Fundador da Viver de AI, professor de IA na ESPM e mentor do TEGBE."
+        }
+      ],
+      "imagem": "/doni.jpg",
+      "sobrenome": "Milagre",
+      "corSobrenome": "#F9396F"
+    },
+    {
+      "nome": "Marcelo",
+      "cargo": [
+        {
+          "type": "text",
+          "value": "Ex-diretor Nacional da Ambev e Labatt Breweries."
+        }
+      ],
+      "imagem": "/doni.jpg",
+      "sobrenome": "Camargo",
+      "corSobrenome": "#F9396F"
+    },
+    {
+      "nome": "Fabíola",
+      "cargo": [
+        {
+          "type": "text",
+          "value": "Cofundadora do Edubank e Ex-Diretora de Pessoas da Ambev."
+        }
+      ],
+      "imagem": "/doni.jpg",
+      "sobrenome": "Overrath",
+      "corSobrenome": "#F9396F"
+    },
+    {
+      "nome": "Tomás",
+      "cargo": [
+        {
+          "type": "text",
+          "value": "CEO e co-fundador da Track.co."
+        }
+      ],
+      "imagem": "/doni.jpg",
+      "sobrenome": "Duarte",
+      "corSobrenome": "#F9396F"
+    },
+    {
+      "nome": "Donizete",
+      "cargo": [
+        {
+          "type": "text",
+          "value": "Fundador da Tegbe e Especialista em Escala de E-commerce."
+        }
+      ],
+      "imagem": "/doni.jpg",
+      "sobrenome": "Caetano",
+      "corSobrenome": "#F9396F"
+    }
+  ]
+}
+
+---
+
+/api/tegbe-institucional/json/agendar-reuniao-marketing
+
+{
+  "hero": {
+    "tag": "Ficou com dúvida?",
+    "title": [
+      {
+        "type": "text",
+        "value": "Agende uma reunião"
+      }
+    ],
+    "button": {
+      "link": "/carreiras",
+      "label": "Agendar reunião",
+      "action": "link",
+      "target": "_blank",
+      "variant": "marketing"
+    },
+    "description": [
+      {
+        "type": "text",
+        "value": "Ainda restou alguma dúvida agende já uma reunião com um de nossos consultores."
+      }
+    ]
+  },
+  "imagem": {
+    "alt": "Equipe Tegbe",
+    "src": "/doni.jpg",
+    "imagem": "/doni.jpg"
+  },
+  "social": {
+    "tag": "Mantenha-se atualizado",
+    "items": [
+      {
+        "icon": "mdi:youtube",
+        "link": "#"
+      },
+      {
+        "icon": "mdi:facebook",
+        "link": "#"
+      },
+      {
+        "icon": "mdi:instagram",
+        "link": "#"
+      },
+      {
+        "icon": "mdi:linkedin",
+        "link": "#"
+      }
+    ],
+    "title": [
+      {
+        "type": "text",
+        "value": "Acompanhe nossas mídias"
+      }
+    ]
+  }
+}
+
+---
+
+/api/tegbe-institucional/json/inicio
+
+{
+  "logo": {
+    "alt": "Tegbe",
+    "src": "https://tegbe-cdn.b-cdn.net/uploads/1774578674491-logo.svg",
+    "width": 320,
+    "height": 150,
+    "imagem": "https://tegbe-cdn.b-cdn.net/uploads/1773882453318-logo.svg"
+  },
+  "theme": {
+    "accentColor": "#F1D95D",
+    "backgroundColor": "#0A0A0A"
+  },
+  "tagline": [
+    {
+      "type": "text",
+      "value": ""
+    }
+  ],
+  "backgroundText": [
+    {
+      "type": "text",
+      "value": "EXCELÊNCIA"
+    }
+  ]
+}
+
+---
+
+/api/tegbe-institucional/json/consultoria-oficial
+
+{
+  "badge": "Parceria Estratégica",
+  "title": [
+    {
+      "font": "bold",
+      "type": "text",
+      "value": "O selo que"
+    },
+    {
+      "type": "linebreak"
+    },
+    {
+      "font": "bold",
+      "type": "highlight",
+      "color": "#0071E3",
+      "serif": false,
+      "value": "destrava o seu lucro.",
+      "italic": false
+    }
+  ],
+  "button": {
+    "link": "",
+    "size": "lg",
+    "label": "Quero saber mais",
+    "action": "link",
+    "target": "_blank",
+    "variant": "secondary"
+  },
+  "imagens": {
+    "selo": {
+      "alt": "Selo de certificação",
+      "src": "https://oaaddtqd6pehgldz.public.blob.vercel-storage.com/1768155604924-Logo%20Consultoria%20Meli%2002.jpg",
+      "width": 120,
+      "height": 120,
+      "imagem": "https://oaaddtqd6pehgldz.public.blob.vercel-storage.com/1768155604924-Logo%20Consultoria%20Meli%2002.jpg"
+    },
+    "consultor": {
+      "alt": "Consultor especializado",
+      "src": "https://oaaddtqd6pehgldz.public.blob.vercel-storage.com/1768155511549-Design%20sem%20nome.jpg",
+      "fill": true,
+      "sizes": "(max-width: 768px) 100vw, 50vw",
+      "imagem": "https://oaaddtqd6pehgldz.public.blob.vercel-storage.com/1768155511549-Design%20sem%20nome.jpg"
+    }
+  },
+  "description": [
+    [
+      {
+        "size": 20,
+        "type": "text",
+        "color": "#4b5563",
+        "value": "Somos uma "
+      },
+      {
+        "size": 20,
+        "type": "bold",
+        "color": "#4b5563",
+        "value": "Consultoria Oficial Certificada "
+      },
+      {
+        "size": 20,
+        "type": "text",
+        "color": "#4b5563",
+        "value": "pelo Mercado Livre."
+      }
+    ],
+    [
+      {
+        "size": 18,
+        "type": "text",
+        "color": "#6b7280",
+        "value": "Vamos te ajudar a vender no maior marketplace da América Latina com a segurança de quem é certificado pela própria plataforma. Resolvemos sua operação de ponta a ponta, usando informações privilegiadas e estratégias validadas para escalar suas vendas com o profissionalismo que o seu lucro exige."
+      }
+    ]
+  ]
+}
+
+---
+
+/api/tegbe-institucional/json/imagem-ecommerce
+
+{
+  "imagem": {
+    "alt": "Equipe trabalhando em crescimento digital",
+    "src": "https://tegbe-cdn.b-cdn.net/uploads/1774578903930-logo.svg",
+    "fill": true,
+    "sizes": "100vw",
+    "quality": 90,
+    "priority": true,
+    "className": "object-center",
+    "imagem": "/images/home-hero.jpg"
+  }
+}
+
+---
+
+/api/tegbe-institucional/json/agendar-reuniao-ecommerce
+
+{
+  "hero": {
+    "tag": "Ficou com dúvida?",
+    "title": [
+      {
+        "type": "text",
+        "value": "Agende uma reunião"
+      }
+    ],
+    "button": {
+      "link": "/carreiras",
+      "label": "Agendar reunião",
+      "action": "link",
+      "target": "_blank",
+      "variant": "default"
+    },
+    "description": [
+      {
+        "type": "text",
+        "value": "Ainda restou alguma dúvida agende já uma reunião com um de nossos consultores."
+      }
+    ]
+  },
+  "imagem": {
+    "alt": "Equipe Tegbe",
+    "src": "https://tegbe-cdn.b-cdn.net/uploads/1773931975100-Sem-Imagem.png",
+    "imagem": "https://tegbe-cdn.b-cdn.net/uploads/1773931975100-Sem-Imagem.png"
+  },
+  "social": {
+    "tag": "Mantenha-se atualizado",
+    "items": [
+      {
+        "icon": "mdi:youtube",
+        "link": "#"
+      },
+      {
+        "icon": "mdi:facebook",
+        "link": "#"
+      },
+      {
+        "icon": "mdi:instagram",
+        "link": "#"
+      },
+      {
+        "icon": "mdi:linkedin",
+        "link": "#"
+      }
+    ],
+    "title": [
+      {
+        "type": "text",
+        "value": "Acompanhe nossas mídias"
+      }
+    ]
+  }
+}
+
+---
+
+/api/tegbe-institucional/json/clientes
+
+{
+  "badge": {
+    "icon": "lucide:trending-up",
+    "text": "Resultados reais de clientes"
+  },
+  "title": [
+    {
+      "type": "text",
+      "color": "white",
+      "value": "Empresas que decidiram"
+    },
+    {
+      "type": "linebreak"
+    },
+    {
+      "type": "highlight",
+      "color": "#FFCC00",
+      "value": "escalar com estrutura"
+    }
+  ],
+  "button": {
+    "icon": "lucide:arrow-right",
+    "link": "https://api.whatsapp.com/send?phone=5514991779502",
+    "size": "lg",
+    "label": "Quero escalar meu e-commerce",
+    "action": "link",
+    "target": "_blank",
+    "variant": "primary"
+  },
+  "testimonials": [
+    {
+      "id": 1,
+      "logo": "",
+      "name": "Gab Plásticos",
+      "tags": [
+        {
+          "type": "text",
+          "value": "E-commerce"
+        },
+        {
+          "type": "text",
+          "value": "Loja"
+        },
+        {
+          "type": "text",
+          "value": "Vendas"
+        }
+      ],
+      "metric": "",
+      "result": "do zero a 55k em 90 dias",
+      "description": "Loja em Garça/SP"
+    },
+    {
+      "id": 2,
+      "logo": "",
+      "name": "Tony Auto Parts",
+      "tags": [
+        {
+          "type": "text",
+          "value": "a"
+        }
+      ],
+      "metric": "",
+      "result": "do zero a 35k em 90 dias",
+      "description": "Loja em Garça"
+    },
+    {
+      "id": 3,
+      "logo": "",
+      "name": "Energy Econologia",
+      "tags": [
+        {
+          "type": "text",
+          "value": "b"
+        }
+      ],
+      "metric": "",
+      "result": "Vendendo no Mercado Livre a mais de 3 anos",
+      "description": "Loja em Garça SP"
+    },
+    {
+      "id": 4,
+      "logo": "",
+      "name": "FLC Autopeças",
+      "tags": [
+        {
+          "type": "text",
+          "value": "c"
+        }
+      ],
+      "metric": "",
+      "result": "do ZERO a 15k em 60 dias",
+      "description": "Loja em Marilia SP"
+    },
+    {
+      "id": 5,
+      "logo": "",
+      "name": "Café Appassionato",
+      "tags": [],
+      "metric": "",
+      "result": "Integramos a empresa que vende de forma solida a 3 anos",
+      "description": "Loja em Garça"
+    }
+  ]
+}
+
+---
+
+/api/tegbe-institucional/json/equipe
+
+{
+  "badge": "Método Validado Tegbe",
+  "title": [
+    {
+      "type": "text",
+      "value": "Por que vender com a "
+    },
+    {
+      "type": "highlight",
+      "color": "#FFC72C",
+      "value": "Tegbe"
+    },
+    {
+      "type": "text",
+      "value": " e não sozinho?"
+    }
+  ],
+  "button": {
+    "link": "https://api.whatsapp.com/send?phone=5514991779502",
+    "label": "Falar com um especialista",
+    "action": "link"
+  },
+  "subtitle": [
+    {
+      "size": 20,
+      "type": "text",
+      "color": "#9CA3AF",
+      "value": "Quem vende sozinho briga com o algoritmo; quem vende com a Tegbe"
+    },
+    {
+      "size": 20,
+      "type": "highlight",
+      "color": "#ffffff",
+      "serif": false,
+      "value": " domina as regras do jogo.",
+      "italic": false
+    },
+    {
+      "size": 20,
+      "type": "text",
+      "color": "#9CA3AF",
+      "value": " e domina o algoritmo do Mercado Livre."
+    }
+  ],
+  "buttonSubtitle": "O Plano de guerra para vender mais",
+  "ecommerce": {
+    "cta": {
+      "href": "https://wa.me/5514988281001",
+      "icon": "lucide:arrow-right",
+      "text": "FALAR COM UM ESPECIALISTA",
+      "form_id": "cmmezko6d000004vm0y8xlg9k",
+      "use_form": true
+    },
+    "badge": {
+      "text": "Método Validado Tegbe"
+    },
+    "title": {
+      "part1": "Por que vender com a ",
+      "part2": "Tegbe ",
+      "gradient": "",
+      "highlight": "e não sozinho?"
+    },
+    "subtitle": {
+      "text": "Quem vende sozinho briga com o algoritmo; quem vende com a Tegbe ",
+      "strong1": " e domina o algoritmo do Mercado Livre.",
+      "strong2": "",
+      "highlight": "domina as regras do jogo."
+    },
+    "ctaSubtitle": "O Plano de guerra para vender mais"
+  },
+  "marketing": {
+    "cta": {
+      "href": "",
+      "icon": "",
+      "text": "AGENDAR DIAGNÓSTICO",
+      "form_id": "cmmezko6d000004vm0y8xlg9k",
+      "use_form": true
+    },
+    "badge": {
+      "text": "Engenharia de Vendas"
+    },
+    "title": {
+      "part1": "Por que contratar a ",
+      "part2": "Tegbe ",
+      "gradient": "e não uma agência comum?",
+      "highlight": ""
+    },
+    "subtitle": {
+      "text": "Agências comuns entregam \"posts criativos\" e esperam que você venda. Nós instalamos um ",
+      "strong1": "Ecossistema de Receita ",
+      "strong2": "(Tráfego + CRM + IA) para eliminar a dependência da sorte.",
+      "highlight": ""
+    },
+    "ctaSubtitle": {
+      "text": "Agenda de Consultoria Liberada"
+    }
+  }
+}
+
+---
+
+/api/tegbe-institucional/json/hero-carrossel-ecommerce
+
+[
+  {
+    "id": 1,
+    "tag": "ASSESSORIA MERCADO LIVRE E SHOPEE",
+    "image": "https://tegbe-cdn.b-cdn.net/uploads/1776179920055-17.png",
+    "title": "Assessoria para Marketplaces",
+    "ctaLink": "https://wa.me/5514988281001",
+    "ctaText": "SAIBA MAIS",
+    "subtext": "Solução completa de ponta a ponta para acelarar seu ecommerce",
+    "description": "Escale sua operação no Online de uma vez por todas. Seja começar do zero ou alavancar sua performance."
+  },
+  {
+    "id": 2,
+    "tag": "AGENDA ABERTA - MARÇO",
+    "image": "https://tegbe-cdn.b-cdn.net/uploads/1777473041471-Captura-de-Tela-2026-03-13-a-s-12.10.10.png",
+    "title": "ENGENHARIA DE VENDAS",
+    "ctaLink": "https://wa.me/5514988281001",
+    "ctaText": "FALAR COM ESPECIALISTA",
+    "subtext": "Vagas limitadas para novos parceiros de consultoria este mês.",
+    "description": "Chega de 'tentar' vender online. Tenha um método prático e lucrativo."
+  }
+]
+
+---
+
+/api/tegbe-institucional/json/logos-ecommerce
+
+{
+  "values": [
+    {
+      "id": "logo-1773038559088-1",
+      "alt": "teste",
+      "name": "teste",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1773038548670-Mercado-Livre-logo.png",
+      "category": "teste",
+      "description": "teste"
+    },
+    {
+      "id": "logo-1773038593041-1",
+      "alt": "amazon",
+      "name": "amazon",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1773038580329-Amazon-logo.svg.png",
+      "category": "teste",
+      "description": "amazon"
+    },
+    {
+      "id": "logo-1773038611504-2",
+      "alt": "shopee",
+      "name": "shopee",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1773038601918-Shopee.svg.png",
+      "category": "teste",
+      "description": "shopee"
+    },
+    {
+      "id": "logo-1773038640088-3",
+      "alt": "tiktok",
+      "name": "tiktok",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1773038627060-tiktok-shop.png",
+      "category": "teste",
+      "description": "tiktok"
+    },
+    {
+      "id": "logo-1773038773879-4",
+      "alt": "magalu",
+      "name": "magalu",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1773038761032-magalu-logo-1.png",
+      "category": "teste",
+      "description": "magalu"
+    }
+  ]
+}
+
+---
+
+/api/tegbe-institucional/json/servicos-ecommerce
+
+{
+  "button": {
+    "link": "https://api.whatsapp.com/send?phone=5514991779502",
+    "label": "Quero Estruturar e Escalar Meu Negócio",
+    "action": "link",
+    "target": "_blank"
+  },
+  "header": {
+    "title": [
+      {
+        "type": "text",
+        "value": "Tudo o que faltava para você "
+      },
+      {
+        "type": "highlight",
+        "color": "#FFCC00",
+        "value": "escalar seu e-commerce"
+      }
+    ],
+    "preTitle": "As melhores soluções para seu e-commerce",
+    "subtitle": "Seremos seu parceiro nessa jornada de crescimento no e-commerce"
+  },
+  "services": [
+    {
+      "id": "setup-infra",
+      "step": "Passo 01",
+      "color": "#0a0a0a",
+      "image": "/dev/teste-1.png",
+      "title": "Criação de Anúncios",
+      "descColor": "#1d1d1d",
+      "titleColor": "#0a0a0a",
+      "description": "Anúncios que vendem de verdade. Nossa equipe faz o trabalho duro de criar imagens e textos que chamam a atenção e fazem o cliente clicar."
+    },
+    {
+      "id": "logistica",
+      "step": "Passo 02",
+      "color": "#0071E3",
+      "image": "/dev/teste-2.png",
+      "title": "Direcionamento Logístico",
+      "descColor": "#ececec",
+      "titleColor": "#e7e7e7",
+      "description": "Prepare sua operação para o volume. Não adianta ter anúncio bom se a logística trava."
+    },
+    {
+      "id": "growth-ads",
+      "step": "Passo 03",
+      "color": "#FF2D55",
+      "image": "/dev/teste-3.png",
+      "title": "Gerenciamento de Publicidade",
+      "descColor": "#86868B",
+      "titleColor": "#1D1D1F",
+      "description": "Gestão profissional do seu dinheiro. Cuidamos das suas campanhas com um único foco: colocar lucro no seu bolso."
+    },
+    {
+      "id": "treinamento",
+      "step": "Passo 04",
+      "color": "#AF52DE",
+      "image": "/dev/teste-3.png",
+      "title": "Treinamento Estratégico",
+      "descColor": "#86868B",
+      "titleColor": "#1D1D1F",
+      "description": "Nós ensinamos você a controlar o jogo. Garantindo que você tenha autonomia e visão clara do seu negócio."
+    },
+    {
+      "id": "venda-onde-quiser",
+      "step": "Passo 05",
+      "color": "#34C759",
+      "image": "/dev/teste-3.png",
+      "title": "Venda onde quiser",
+      "descColor": "#A1A1A6",
+      "titleColor": "#000000",
+      "description": "Sua marca nos maiores sites do Brasil. Colocamos seus anúncios para rodar com força no Mercado Livre, Shopee e Amazon."
+    }
+  ]
+}
+
+---
+
+/api/tegbe-institucional/json/plataformas-ecommerce
+
+{
+  "button": {
+    "link": "https://api.whatsapp.com/send?phone=5514991779502",
+    "label": "Quero Estruturar e Escalar Meu Negócio",
+    "action": "link",
+    "target": "_blank"
+  },
+  "header": {
+    "title": [
+      {
+        "type": "text",
+        "value": "Plataformas que utilizamos para "
+      },
+      {
+        "type": "highlight",
+        "color": "#FFCC00",
+        "value": "escalar seu negócio"
+      }
+    ],
+    "preTitle": "As melhores plataformas para seu e-commerce",
+    "colorTitle": "#fff"
+  },
+  "services": [
+    {
+      "id": "setup-infra",
+      "color": "#0a0a0a",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1775236059641-LOGOTIPO-MAVELLIUM--1-.png",
+      "title": "Meta Ads",
+      "descColor": "#1d1d1d",
+      "titleColor": "#0a0a0a",
+      "description": "Criamos e gerenciamos campanhas no Facebook e Instagram para alcançar seu público-alvo."
+    },
+    {
+      "id": "logistica",
+      "color": "#0071E3",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1775236063282-LOGOTIPO-MAVELLIUM--1-.png",
+      "title": "Google Ads",
+      "descColor": "#1d1d1d",
+      "titleColor": "#0a0a0a",
+      "description": "Anúncios no Google Search, Display e YouTube para capturar intenção de compra."
+    }
+  ]
+}
+
+---
+
+/api/tegbe-institucional/json/video-ecommerce
+
+{
+  "video": {
+    "type": "animation",
+    "badge": "Tegbe Performance",
+    "title": [
+      {
+        "type": "text",
+        "value": "Venda mais com nossas soluções digitais"
+      }
+    ],
+    "subtitle": [
+      {
+        "type": "text",
+        "value": "Estratégia, tecnologia e execução para escalar seu negócio"
+      }
+    ],
+    "videoSrc": "https://tegbe-cdn.b-cdn.net/uploads/1774020788960-Tegbe---Land.mp4"
+  }
+}
+
+---
+
+/api/tegbe-institucional/json/passos
+
+{
+  "button": {
+    "link": "https://api.whatsapp.com/send?phone=5514991779502",
+    "label": "Quero Estruturar e Escalar Meu Negócio",
+    "action": "link"
+  },
+  "values": [
+    {
+      "id": 1,
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1773038086716-Imagens-Site-3.png",
+      "title": "Preciso aprender",
+      "subtitle": "Do zero ao primeiro faturamento",
+      "description": "Para quem está começando do zero: nós ensinamos e acompanhamos sua jornada para que você domine o digital com segurança e suporte real."
+    },
+    {
+      "id": 2,
+      "image": "https://oaaddtqd6pehgldz.public.blob.vercel-storage.com/1768150865131-2.png",
+      "title": "Vou começar do ZERO",
+      "subtitle": "Comece do jeito certo",
+      "description": "Para quem busca velocidade e execução: nós fazemos por você, criando seus anúncios e gerindo seu tráfego para sua operação decolar de forma profissional e livre de erros comuns."
+    },
+    {
+      "id": 3,
+      "image": "https://oaaddtqd6pehgldz.public.blob.vercel-storage.com/1768150911088-3.png",
+      "title": "Estruturar meu negócio",
+      "subtitle": "Coloque sua operação em ordem",
+      "description": "Se suas campanhas estão gastando demais e os anúncios estão bagunçados, nós organizamos sua operação e ajustamos seus processos para que você recupere o controle e volte a crescer com clareza."
+    },
+    {
+      "id": 4,
+      "image": "https://oaaddtqd6pehgldz.public.blob.vercel-storage.com/1768150951167-4.png",
+      "title": "Gestão de Performance",
+      "subtitle": "Máxima eficiência e lucratividade",
+      "description": "Para operações sólidas que buscam escala agressiva, aplicamos inteligência avançada para reduzir seus custos, identificar novas oportunidades de mercado e maximizar sua lucratividade total."
+    }
+  ],
+  "subtype": [
+    {
+      "type": "text",
+      "value": "Não importa onde você está hoje. Nós temos o mapa para o seu próximo nível."
+    }
+  ],
+  "id": "fluxo-estagios-ecommerce",
+  "cta": {
+    "url": "/",
+    "text": "Falar com Consultor",
+    "form_id": "cmmha9zgp0003uovm00uqfovu",
+    "use_form": true,
+    "description": "Agenda aberta"
+  },
+  "type": "E-commerce"
+}
+
+---
+
+/api/tegbe-institucional/json/agencias-falham
+
+{
+  "body": [
+    {
+      "type": "text",
+      "value": "A maioria das agências foca apenas em tráfego e estética."
+    },
+    {
+      "type": "linebreak"
+    },
+    {
+      "type": "text",
+      "value": "Mas crescimento de verdade exige estratégia, posicionamento e execução consistente."
+    },
+    {
+      "type": "linebreak"
+    },
+    {
+      "type": "bold",
+      "value": "É aqui que a Tegbe faz diferente."
+    }
+  ],
+  "badge": "Marketing Estratégico",
+  "heading": [
+    {
+      "type": "text",
+      "value": "Por que tantas "
+    },
+    {
+      "type": "highlight",
+      "color": "#F9396F",
+      "value": "agências falham"
+    },
+    {
+      "type": "text",
+      "value": " em gerar resultados reais?"
+    }
+  ],
+  "content": {
+    "copy": {
+      "paragraph": "Nós transformamos investimento em marketing em crescimento previsível, com estratégia, método e foco em vendas.",
+      "strong_points": [
+        "Ecossistema de Receita",
+        "Tráfego + CRM + IA"
+      ]
+    },
+    "badge": {
+      "label": "Engenharia de Vendas",
+      "icon_pulse": "rose-500",
+      "text_style": "uppercase tracking-[0.2em]"
+    },
+    "headline": {
+      "highlight_text": "contratar",
+      "static_text_prefix": "Por que ",
+      "static_text_suffix": "a Tegbe?"
+    }
+  },
+  "styling": {
+    "background": {
+      "hex": "#020202",
+      "texture": "Grainy Noise (Opacity 10%)",
+      "border_top": "white/5"
+    },
+    "ambient_lights": [
+      {
+        "blur": "120px",
+        "color": "#E31B63",
+        "opacity": "10%",
+        "position": "top-right"
+      },
+      {
+        "blur": "100px",
+        "color": "#FF0F43",
+        "opacity": "5%",
+        "position": "bottom-left"
+      }
+    ],
+    "gradient_brand": "linear-gradient(to right, #FF0F43, #E31B63)"
+  },
+  "metadata": {
+    "category": "Section - Conversion Engineering",
+    "specialty": "Direct Response & Performance Copywriting",
+    "inspiration": "Minimalismo Apple / Potência Ferrari",
+    "animation_engine": "GSAP + ScrollTrigger"
+  },
+  "technical_config": {
+    "gsap_animations": {
+      "from": {
+        "y": 30,
+        "ease": "power3.out",
+        "opacity": 0,
+        "stagger": 0.2
+      },
+      "selector": ".reveal-text",
+      "trigger_start": "top 80%"
+    }
+  }
+}
+
+---
+
+/api/tegbe-institucional/json/video-marketing
+
+{
+  "video": {
+    "type": "hero",
+    "badge": "Tegbe Performance",
+    "title": [],
+    "subtitle": [],
+    "videoSrc": "https://tegbe-cdn.b-cdn.net/uploads/1774020788960-Tegbe---Land.mp4"
+  },
+  "content": {
+    "labels": {
+      "error": "Vídeo indisponível no momento.",
+      "loading": "Carregando Experiência..."
+    },
+    "headline": {
+      "line_1": "Resultado não acontece. ",
+      "line_2": {
+        "prefix": "É",
+        "suffix": ".",
+        "highlight": " CONSTRUIDO "
+      },
+      "subline": "SEREMOS SEU BRAÇO DIREITO NESSA JORNADA"
+    }
+  },
+  "metadata": {
+    "assets": {
+      "video_url": "https://tegbe-cdn.b-cdn.net/video-marketing/tegbe-institucional/1770507040850-mvl_qualifica_leads.webm",
+      "noise_texture": "https://oaaddtqd6pehgldz.public.blob.vercel-storage.com/1768148154583-branco.jpg"
+    },
+    "vision": "",
+    "component": ""
+  }
+}
+
+---
+
+/api/tegbe-institucional/json/marketing-inteligente
+
+{
+  "badge": [
+    {
+      "type": "text",
+      "value": "Marketing Inteligente"
+    }
+  ],
+  "stats": [
+    {
+      "label": [
+        {
+          "type": "text",
+          "value": "crescimento médio"
+        }
+      ],
+      "value": "+120%"
+    }
+  ],
+  "title": [
+    {
+      "type": "text",
+      "value": "Aumente suas vendas com estratégia"
+    }
+  ],
+  "button": {
+    "link": "/contato",
+    "label": "Falar com especialista",
+    "action": "link",
+    "variant": "marketing"
+  },
+  "description": [
+    {
+      "type": "text",
+      "value": "Criamos sistemas de marketing que escalam negócios."
+    }
+  ]
+}
+
+---
+
+/api/tegbe-institucional/json/parceiros
+
+{
+  "badge": [
+    {
+      "type": "text",
+      "value": "Parceiros Estratégicos"
+    }
+  ],
+  "title": [
+    {
+      "type": "text",
+      "value": "Trabalhamos com quem "
+    },
+    {
+      "type": "highlight",
+      "color": "#F9396F",
+      "value": "domina o mercado."
+    }
+  ],
+  "button": {
+    "link": "/contato",
+    "size": "lg",
+    "label": "Quero me tornar parceiro",
+    "action": "link",
+    "target": "_self",
+    "variant": "marketing"
+  },
+  "msgFinal": "Vagas limitadas para consultoria estratégica",
+  "parceiros": [
+    {
+      "id": 1,
+      "nome": "João Branco",
+      "cargo": "Ex-CMO do McDonald's",
+      "img_logo": "/dev/foto_logo_card.avif",
+      "img_nome": "/dev/foto_nome_card.avif",
+      "depoimento": [
+        {
+          "type": "text",
+          "value": "Top 10 profissionais de marketing no Brasil pela Forbes. Considerado CMO mais eficaz do país pela Scopen."
+        }
+      ],
+      "img_logo_alt": "McDonald's",
+      "img_nome_alt": "Ferrero",
+      "img_principal": "/dev/foto_card.avif",
+      "img_principal_alt": "João Branco"
+    },
+    {
+      "id": 1,
+      "nome": "Vinícius",
+      "cargo": "Fundador Mavellium",
+      "img_logo": "/dev/foto_logo_card.avif",
+      "img_nome": "/dev/foto_nome_card.avif",
+      "depoimento": [
+        {
+          "type": "text",
+          "value": "Top 10 profissionais de marketing no Brasil pela Forbes. Considerado CMO mais eficaz do país pela Scopen."
+        }
+      ],
+      "img_logo_alt": "McDonald's",
+      "img_nome_alt": "Ferrero",
+      "img_principal": "/dev/foto_card.avif",
+      "img_principal_alt": "João Branco"
+    }
+  ],
+  "description": [
+    {
+      "type": "text",
+      "value": "Unimos forças com especialistas que elevam o nível das empresas."
+    }
+  ]
+}
+
+---
+
+/api/tegbe-institucional/json/parceiros
+
+{
+  "badge": [
+    {
+      "type": "text",
+      "value": "Parceiros Estratégicos"
+    }
+  ],
+  "title": [
+    {
+      "type": "text",
+      "value": "Trabalhamos com quem "
+    },
+    {
+      "type": "highlight",
+      "color": "#F9396F",
+      "value": "domina o mercado."
+    }
+  ],
+  "button": {
+    "link": "/contato",
+    "size": "lg",
+    "label": "Quero me tornar parceiro",
+    "action": "link",
+    "target": "_self",
+    "variant": "marketing"
+  },
+  "msgFinal": "Vagas limitadas para consultoria estratégica",
+  "parceiros": [
+    {
+      "id": 1,
+      "nome": "João Branco",
+      "cargo": "Ex-CMO do McDonald's",
+      "img_logo": "/dev/foto_logo_card.avif",
+      "img_nome": "/dev/foto_nome_card.avif",
+      "depoimento": [
+        {
+          "type": "text",
+          "value": "Top 10 profissionais de marketing no Brasil pela Forbes. Considerado CMO mais eficaz do país pela Scopen."
+        }
+      ],
+      "img_logo_alt": "McDonald's",
+      "img_nome_alt": "Ferrero",
+      "img_principal": "/dev/foto_card.avif",
+      "img_principal_alt": "João Branco"
+    },
+    {
+      "id": 1,
+      "nome": "Vinícius",
+      "cargo": "Fundador Mavellium",
+      "img_logo": "/dev/foto_logo_card.avif",
+      "img_nome": "/dev/foto_nome_card.avif",
+      "depoimento": [
+        {
+          "type": "text",
+          "value": "Top 10 profissionais de marketing no Brasil pela Forbes. Considerado CMO mais eficaz do país pela Scopen."
+        }
+      ],
+      "img_logo_alt": "McDonald's",
+      "img_nome_alt": "Ferrero",
+      "img_principal": "/dev/foto_card.avif",
+      "img_principal_alt": "João Branco"
+    }
+  ],
+  "description": [
+    {
+      "type": "text",
+      "value": "Unimos forças com especialistas que elevam o nível das empresas."
+    }
+  ]
+}
+
+---
+
+/api/tegbe-institucional/json/solucoes
+
+{
+  "items": [
+    {
+      "id": "service-1",
+      "icon": "lucide:target",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1770689972071-1.png",
+      "title": [
+        {
+          "type": "text",
+          "value": "Gestão Estratégica"
+        }
+      ],
+      "description": [
+        {
+          "type": "text",
+          "value": "Planejamento e condução estratégica do marketing com foco no crescimento da empresa e no melhor aproveitamento do investimento."
+        }
+      ]
+    },
+    {
+      "id": "service-1769472907843",
+      "icon": "mdi:rocket-launch",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1770689977970-2.png",
+      "title": [
+        {
+          "type": "text",
+          "value": "Gestão de Mídia Paga"
+        }
+      ],
+      "description": [
+        {
+          "type": "text",
+          "value": "Gestão de campanhas de anúncios nas principais plataformas digitais para aumentar visibilidade, leads e vendas."
+        }
+      ]
+    },
+    {
+      "id": "service-1769472942396",
+      "icon": "mdi:check-decagram",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1770689985685-3.png",
+      "title": [
+        {
+          "type": "text",
+          "value": "Produção de Criativos"
+        }
+      ],
+      "description": [
+        {
+          "type": "text",
+          "value": "Desenvolvimento completo de criativos para anúncios, do planejamento à entrega final, com foco em conversão e resultado."
+        }
+      ]
+    },
+    {
+      "id": "service-1769473004799",
+      "icon": "lucide:message-square",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1770689993342-4.png",
+      "title": [
+        {
+          "type": "text",
+          "value": "Implementação de CRM"
+        }
+      ],
+      "description": [
+        {
+          "type": "text",
+          "value": "Estruturação e gestão do CRM para organizar o processo comercial e melhorar o relacionamento com clientes."
+        }
+      ]
+    },
+    {
+      "id": "service-1769473018835",
+      "icon": "lucide:zap",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1770690001074-5.png",
+      "title": [
+        {
+          "type": "text",
+          "value": "Agentes de IA"
+        }
+      ],
+      "description": [
+        {
+          "type": "text",
+          "value": "Criação de agentes de inteligência artificial para automatizar atendimentos e processos comerciais."
+        }
+      ]
+    },
+    {
+      "id": "service-1769473036771",
+      "icon": "mdi:open-in-new",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1770690006788-6.png",
+      "title": [
+        {
+          "type": "text",
+          "value": "Página de Conversão"
+        }
+      ],
+      "description": [
+        {
+          "type": "text",
+          "value": "Criação de páginas estratégicas com foco em engajamento e conversão."
+        }
+      ]
+    }
+  ],
+  "button": {
+    "link": "https://wa.me/5514988281001",
+    "label": "CONTRATAR AGORA",
+    "action": "link",
+    "variant": "marketing"
+  },
+  "header": {
+    "title": [
+      {
+        "type": "text",
+        "value": "Conheça nossas soluções"
+      }
+    ],
+    "subtitle": [
+      {
+        "type": "text",
+        "value": "Tudo que seu negócio precisa para vender mais"
+      }
+    ]
+  },
+  "service_router": {
+    "header": {
+      "desc": "Não somos generalistas. Somos especialistas em três verticais de alto impacto financeiro.",
+      "label": "Nossos Pilares",
+      "title": "Escolha sua Escala."
+    },
+    "services": [
+      {
+        "id": "service-01",
+        "href": "/ecommerce",
+        "icon": "solar:shop-2-bold-duotone",
+        "image": "",
+        "theme": {
+          "bg": "bg-amber-500",
+          "btn": "hover:bg-[#F59E0B]",
+          "color": "text-amber-500",
+          "border": "border-[#F59E0B]"
+        },
+        "title": "E-commerce",
+        "number": "01",
+        "buttonText": "Construir Máquina",
+        "description": "Sua loja validada com a segurança de uma Consultoria Oficial. Não entregamos apenas um site bonito, entregamos uma operação de vendas blindada contra falhas.",
+        "verticalTitle": "ESTRUTURA2 3"
+      },
+      {
+        "id": "service-02",
+        "href": "/marketing",
+        "icon": "solar:chart-2-bold-duotone",
+        "image": "",
+        "theme": {
+          "bg": "bg-[#EC4899]",
+          "btn": "hover:bg-[#EC4899]",
+          "color": "text-[#EC4899]",
+          "border": "border-[#EC4899]"
+        },
+        "title": "Growth & Ads",
+        "number": "02",
+        "buttonText": "Acelerar Vendas",
+        "description": "Engenharia de tráfego e CRM avançado. Transformamos cliques anônimos em receita recorrente usando inteligência de dados proprietária.",
+        "verticalTitle": "TRAÇÃO"
+      },
+      {
+        "id": "service-03",
+        "href": "/cursos",
+        "icon": "solar:diploma-verified-bold-duotone",
+        "image": "",
+        "theme": {
+          "bg": "bg-amber-500",
+          "btn": "hover:bg-[#F59E0B]",
+          "color": "text-amber-500",
+          "border": "border-[#F59E0B]"
+        },
+        "title": "Academy",
+        "number": "03",
+        "buttonText": "Dominar o Jogo",
+        "description": "O campo de batalha transformado em protocolo. Treine sua equipe interna com os processos exatos que usamos para gerar múltiplos 8 dígitos.",
+        "verticalTitle": "LEGADO"
+      }
+    ],
+    "animation_config": {
+      "mass": 1,
+      "damping": 25,
+      "stiffness": 100,
+      "transition_type": "spring"
+    }
+  }
+}
+
+---
+
+/api/tegbe-institucional/json/headline-formacoes
+
+{
+  "image": {
+    "alt": "Background Estratégico Tegbe",
+    "src": "https://tegbe-cdn.b-cdn.net/uploads/1774577399364-fundo-formacoes.avif"
+  },
+  "button": {
+    "icon": "solar:arrow-right-up-bold",
+    "link": "/contato",
+    "size": "lg",
+    "label": "Quero participar",
+    "action": "link",
+    "target": "_self",
+    "variant": "default"
+  },
+  "heading": [
+    {
+      "type": "text",
+      "color": "#fff",
+      "value": "Domine o jogo do "
+    },
+    {
+      "type": "highlight",
+      "color": "#FFD700",
+      "value": "crescimento",
+      "italic": true
+    },
+    {
+      "type": "linebreak"
+    },
+    {
+      "type": "text",
+      "color": "#fff",
+      "value": "com estratégia previsível."
+    }
+  ],
+  "backgroundImage": "/fundo_formacoes.jpg",
+  "foregroundImage": "/foto_fundo_doni-2.png"
+}
+
+---
+
+/api/tegbe-institucional/json/porque-aprender
+
+{
+  "badge": "E-commerce na prática",
+  "theme": {
+    "accentColor": "#FFD700",
+    "secondaryColor": "#B8860B"
+  },
+  "title": [
+    {
+      "type": "text",
+      "value": "Seu e-commerce está "
+    },
+    {
+      "type": "highlight",
+      "color": "#ffd700",
+      "value": "gerando lucro"
+    },
+    {
+      "type": "text",
+      "value": " ou queimando dinheiro?"
+    }
+  ],
+  "paragraphs": [
+    [
+      {
+        "type": "text",
+        "value": "Compreenda as ferramentas essenciais para construir um "
+      },
+      {
+        "type": "bold",
+        "value": "e-commerce lucrativo"
+      },
+      {
+        "type": "text",
+        "value": ", atrair seu cliente na era digital e acelerar o crescimento da sua empresa."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "value": "Chega de tentar sozinho, "
+      },
+      {
+        "type": "highlight",
+        "color": "#ffd700",
+        "value": "conheça o caminho para escalar seu e-commerce."
+      }
+    ]
+  ],
+  "button": {
+    "link": "/contato",
+    "label": "Começar agora",
+    "action": "link"
+  },
+  "features": [
+    {
+      "icon": "mdi:check-decagram",
+      "label": "Método Validado"
+    },
+    {
+      "icon": "mdi:trending-up",
+      "label": "Resultados Reais"
+    }
+  ],
+  "headline": {
+    "prefix": "Seu e-commerce está",
+    "suffix": "ou queimando dinheiro?",
+    "highlight": "gerando lucro"
+  },
+  "description": {
+    "paragraph1": {
+      "bold": "e-commerce lucrativo",
+      "text": "Compreenda as ferramentas essenciais para construir um e-commerce lucrativo, atrair seu cliente na era digital e acelerar o crescimento de sua empresa."
+    },
+    "paragraph2": {
+      "text": "Chega de tentar sozinho,",
+      "highlight": "conheça o caminho para escalar seu e-commerce."
+    }
+  }
+}
+
+---
+
+/api/tegbe-institucional/json/video-formacoes
+
+{
+  "video": {
+    "type": "animation",
+    "badge": "Metodologia Tegpro",
+    "title": [
+      {
+        "type": "text",
+        "value": "Como é a formação TegPRO na prática?"
+      }
+    ],
+    "subtitle": [],
+    "videoSrc": "https://tegbe-cdn.b-cdn.net/uploads/1774020788960-Tegbe---Land.mp4"
+  }
+}
+
+---
+
+/api/tegbe-institucional/json/formacoes
+
+{
+  "theme": {
+    "accentColor": "#FFD700",
+    "secondaryColor": "#FFA500"
+  },
+  "button": {
+    "link": "https://wa.me/5514988281001",
+    "label": "QUERO SABER MAIS",
+    "action": "link"
+  },
+  "header": {
+    "badge": "Método TegPro",
+    "title": [
+      {
+        "type": "text",
+        "value": "Tudo que precisa para alavancar seu E-commerce em 6 etapas:"
+      }
+    ],
+    "subtitle": [
+      {
+        "type": "text",
+        "value": "Aprenda de forma prática e teórica a como contruir um e-commerce lucrativo do zero."
+      }
+    ]
+  },
+  "modules": [
+    {
+      "id": "01",
+      "icon": "mdi:package-variant",
+      "tags": [
+        "Fundamentos",
+        "Visão Estratégica"
+      ],
+      "phase": "Fundamentos do E-commerce",
+      "title": [
+        {
+          "type": "text",
+          "value": "Conheça os maiores canais de vendas e seus diferenciais"
+        }
+      ],
+      "description": [
+        {
+          "type": "text",
+          "value": "Entenda como funciona o e-commerce, os modelos de negócio, os canais de venda e construa a base estratégica para crescer com segurança."
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "icon": "ph:target-bold",
+      "tags": [
+        "Criação",
+        "Conversão"
+      ],
+      "phase": "Criação de Anúncios",
+      "title": [
+        {
+          "type": "text",
+          "value": "Veja na prática como fazer anúncios de alta conversão."
+        }
+      ],
+      "description": [
+        {
+          "type": "text",
+          "value": "Aprenda a construir ofertas irresistíveis combinando título, imagens, descrição e diferenciais claros para eliminar objeções e aumentar a conversão."
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "icon": "heroicons:rocket-launch-solid",
+      "tags": [
+        "Publicidade",
+        "Produção de Conteúdo"
+      ],
+      "phase": "Marketing Estratégico",
+      "title": [
+        {
+          "type": "text",
+          "value": "Estratégias de marketing e publicidade ADS para escalar suas vendas."
+        }
+      ],
+      "description": [
+        {
+          "type": "text",
+          "value": "Descubra como atrair clientes certos, posicionar seus produtos e utilizar a publicidade digital para gerar vendas de forma previsível."
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "icon": "mdi:truck-delivery",
+      "tags": [
+        "Automação",
+        "Z-API"
+      ],
+      "phase": "Logística e Atendimento",
+      "title": [
+        {
+          "type": "text",
+          "value": "Atendimento, conversão e logística de envio."
+        }
+      ],
+      "description": [
+        {
+          "type": "text",
+          "value": "Aprenda a transformar atendimento e logística em vantagem competitiva, reduzindo problemas, aumentando avaliações positivas e gerando recompra."
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "icon": "mdi:trophy",
+      "tags": [
+        "Disciplina",
+        "Execução"
+      ],
+      "phase": "Mentalidade Empreendedora",
+      "title": [
+        {
+          "type": "text",
+          "value": "Disciplina, foco e visão de dono"
+        }
+      ],
+      "description": [
+        {
+          "type": "text",
+          "value": "Desenvolva a mentalidade certa para executar com consistência, tomar decisões estratégicas e sustentar o crescimento no e-commerce."
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "icon": "ph:star-bold",
+      "tags": [
+        "Estratégia",
+        "Plano de Ação"
+      ],
+      "phase": "Jornada do E-commerce",
+      "title": [
+        {
+          "type": "text",
+          "value": "Conheça cada fase da evolução de um e-commerce"
+        }
+      ],
+      "description": [
+        {
+          "type": "text",
+          "value": "Entenda cada fase do e-commerce, do início à escala, e construa um plano de ação claro para sair da teoria e gerar resultado real."
+        }
+      ]
+    }
+  ]
+}
+
+---
+
+/api/tegbe-institucional/json/cases-alunos
+
+{
+  "badge": "DEPOIMENTOS",
+  "titulo": "Depoimentos de quem viveu a experiência",
+  "showStats": true,
+  "subtitulo": "TEGPRO",
+  "textColor": "#FFFFFF",
+  "footerStats": [
+    {
+      "id": "1",
+      "label": "Alunos Formados",
+      "value": "+1.2k"
+    },
+    {
+      "id": "2",
+      "label": "Gerados (Alunos)",
+      "value": "R$ 45M+"
+    },
+    {
+      "id": "3",
+      "label": "Avaliação Média",
+      "value": "4.9/5"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "testimonial-1",
+      "src": "https://tegbe-cdn.b-cdn.net/uploads/1770688668190-Tegpro---Dp-Alcidio.webm",
+      "type": "video",
+      "poster": "",
+      "clientName": "Alcídeo",
+      "clientRole": "Aluno Tegpro",
+      "description": "Mudar Texto"
+    },
+    {
+      "id": "testimonial-2",
+      "src": "https://tegbe-cdn.b-cdn.net/uploads/1770687595356-Dp---Tegpro-Jo-o.webm",
+      "type": "video",
+      "poster": "",
+      "clientName": "João",
+      "clientRole": "Aluno Tegpro",
+      "description": "Muito legal, Doni tem um jeito bem simples de explicar e da muita atenção."
+    },
+    {
+      "id": "testimonial-3",
+      "src": "https://tegbe-cdn.b-cdn.net/uploads/1770684800694-Dp---Tegpro-Anelize.webm",
+      "type": "video",
+      "poster": "https://oaaddtqd6pehgldz.public.blob.vercel-storage.com/1768105859114-preto.jpg",
+      "clientName": "Anelize Raad",
+      "clientRole": "Aluna Tegpro",
+      "description": "Achei bem dinâmico, bem prático... ter contato com professor com outras pessoas faz a diferença."
+    },
+    {
+      "id": "testimonial-4",
+      "src": "https://tegbe-cdn.b-cdn.net/uploads/1770690263599-Tegpro---Dp-Sandra.webm",
+      "type": "video",
+      "poster": "",
+      "clientName": "Sandra",
+      "clientRole": "Aluna Tegpro",
+      "description": "Mudar Texto"
+    },
+    {
+      "id": "testimonial-5",
+      "src": "https://tegbe-cdn.b-cdn.net/uploads/1770688397221-Dp---Thamires-Tegpro.webm",
+      "type": "video",
+      "poster": "",
+      "clientName": "Thamires",
+      "clientRole": "Aluna Tegpro",
+      "description": "Mudar Texto"
+    },
+    {
+      "id": "testimonial-6",
+      "src": "https://tegbe-cdn.b-cdn.net/uploads/1770689583002-Tegpro---Dp-Aline.webm",
+      "type": "video",
+      "poster": "",
+      "clientName": "Aline",
+      "clientRole": "Aluna Tegpro",
+      "description": "Mudar Texto"
+    }
+  ],
+  "backgroundColor": "#020202"
+}
+
+---
+
+/api/tegbe-institucional/json/hero-carrossel-home
+
+[
+  {
+    "id": 1,
+    "tag": "ASSESSORIA MERCADO LIVRE E SHOPEE",
+    "image": "https://tegbe-cdn.b-cdn.net/uploads/1776176215989-17.png",
+    "title": "Enquanto você tenta sozinho, seus concorrentes faturam 3x mais!",
+    "ctaLink": "https://wa.me/5514988281001",
+    "ctaText": "SAIBA MAIS",
+    "subtext": "Solução completa de ponta a ponta para acelarar seu ecommerce",
+    "description": "Escale sua operação no Online de uma vez por todas. Seja começar do zero ou alavancar sua performance."
+  },
+  {
+    "id": 2,
+    "tag": "100% PRESENCIAL",
+    "image": "https://tegbe-cdn.b-cdn.net/uploads/1776176394113-Imagens-Site-3--1475-x-897-px-.png",
+    "title": "CURSO GESTÃO DE ECOMMERCE",
+    "ctaLink": "https://wa.me/5514988281001",
+    "ctaText": "SAIBA MAIS",
+    "subtext": "Vamos descomplicar de uma vez por todas as vendas na internet.",
+    "description": "O caminho para vender do ZERO ao avançado nos maiores canais de vendas online do Brasil e do Mundo."
+  }
+]
+
+---
+
+/api/tegbe-institucional/json/galeria-formacoes
+
+{
+  "data": [
+    {
+      "id": "gallery-0",
+      "alt": "Curso - Gestão de Ecommerce",
+      "span": "row-span-2",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1770685710797-3.jpg"
+    },
+    {
+      "id": "gallery-1767807085236",
+      "alt": "Curso - Gestão de Ecommerce",
+      "span": "row-span-1",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1770685725379-5.jpg"
+    },
+    {
+      "id": "gallery-1767807125849",
+      "alt": "Curso - Gestão de Ecommerce",
+      "span": "row-span-2",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1770685739791-10.jpg"
+    },
+    {
+      "id": "gallery-1767807194015",
+      "alt": "Curso - Gestão de Ecommerce",
+      "span": "row-span-3",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1773040715724-31.jpg"
+    },
+    {
+      "id": "gallery-1767807396820",
+      "alt": "Curso - Gestão de Ecommerce",
+      "span": "row-span-3",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1770685753833-4.jpg"
+    },
+    {
+      "id": "gallery-1767807463301",
+      "alt": "Curso - Gestão de Ecommerce",
+      "span": "row-span-2",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1770685768964-12.jpg"
+    },
+    {
+      "id": "gallery-1768106745813-7",
+      "alt": "Curso - Gestão de Ecommerce",
+      "span": "row-span-1",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1770685780592-8.jpg"
+    },
+    {
+      "id": "gallery-1768862740725-8",
+      "alt": "Curso - Gestão de Ecommerce",
+      "span": "row-span-1",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1770685788901-18.jpg"
+    },
+    {
+      "id": "gallery-1768862752794-9",
+      "alt": "Curso - Gestão de Ecommerce",
+      "span": "row-span-1",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1773040725354-32.jpg"
+    },
+    {
+      "id": "gallery-1767807515427",
+      "alt": "Curso - Gestão de Ecommerce",
+      "span": "row-span-1",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1770685800060-7.jpg"
+    },
+    {
+      "id": "image-1770685886747-10",
+      "alt": "Curso - Gestão de Ecommerce",
+      "span": "row-span-1",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1770685911956-17.jpg"
+    },
+    {
+      "id": "image-1770685887428-11",
+      "alt": "Curso - Gestão de Ecommerce",
+      "span": "row-span-1",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1770685930947-19.jpg"
+    },
+    {
+      "id": "image-1770685887821-12",
+      "alt": "Curso - Gestão de Ecommerce",
+      "span": "row-span-1",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1770685940593-22.jpg"
+    },
+    {
+      "id": "image-1770685888178-13",
+      "alt": "Curso - Gestão de Ecommerce",
+      "span": "row-span-1",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1770685947362-15.jpg"
+    },
+    {
+      "id": "image-1770685888560-14",
+      "alt": "Curso - Gestão de Ecommerce",
+      "span": "row-span-1",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1770685953626-16.jpg"
+    },
+    {
+      "id": "image-1770685888896-15",
+      "alt": "Curso - Gestão de Ecommerce",
+      "span": "row-span-1",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1770685963099-27.jpg"
+    },
+    {
+      "id": "image-1770685889460-16",
+      "alt": "Curso - Gestão de Ecommerce",
+      "span": "row-span-1",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1770685972630-25.jpg"
+    },
+    {
+      "id": "image-1770685889760-17",
+      "alt": "Curso - Gestão de Ecommerce",
+      "span": "row-span-1",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1770685980300-23.jpg"
+    },
+    {
+      "id": "image-1770685890137-18",
+      "alt": "Curso - Gestão de Ecommerce",
+      "span": "row-span-1",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1770685998360-1.jpg"
+    },
+    {
+      "id": "image-1770685890574-19",
+      "alt": "Curso - Gestão de Ecommerce",
+      "span": "row-span-1",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1770686012119-9.jpg"
+    },
+    {
+      "id": "image-1773040544844-20",
+      "alt": "",
+      "span": "row-span-1",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1773040556487-31.jpg"
+    }
+  ],
+  "textContent": {
+    "badge": [
+      {
+        "type": "text",
+        "value": "Comunidade TegPRO"
+      }
+    ],
+    "title": [
+      {
+        "type": "text",
+        "value": "Experiência Galeria Formações Presenciais"
+      }
+    ],
+    "button": {
+      "icon": "ph:plus-circle-fill",
+      "link": "#",
+      "label": "Ver Mais Fotos",
+      "action": "link",
+      "variant": "default"
+    },
+    "description": [
+      {
+        "type": "text",
+        "value": "Nosso objetivo é levar a melhor experiência de aprendizado para nosso alunos."
+      }
+    ]
+  }
+}
+
+---
+
+/api/tegbe-institucional/json/porque-fazer-o-curso
+
+{
+  "theme": {
+    "accentColor": "#FFD700",
+    "secondaryColor": "#B8860B"
+  },
+  "button": {
+    "label": "Inscreva-se já",
+    "action": "form",
+    "variant": "default",
+    "form_html": "\n      
+\n        
+\n          \n      
+\"cmmezko6d000004vm0y8xlg9k\"
+\n      
+\"Entre
+\n    \n          
+Entre em Contato 2
+Preencha os dados e falaremos com você em breve.
+
+Nome Completo *
+\"Seu
+E-mail *
+\"seu@email.com\"
+Enviar Mensagem
+Limpar
+\n        
+\n      
+"
+  },
+  "header": {
+    "title": [
+      {
+        "type": "text",
+        "value": "Esse curso é para mim?"
+      },
+      {
+        "type": "linebreak"
+      },
+      {
+        "bold": true,
+        "type": "highlight",
+        "color": "#f5df36",
+        "serif": false,
+        "value": "Seja começar do zero ou escalar seu negócio online. Sim, essa formação é para você!",
+        "italic": false
+      }
+    ],
+    "badgeIcon": "mdi:school",
+    "badgeText": "Do zero ao avançado!"
+  },
+  "visual": {
+    "imageAlt": "Plataforma de Alunos",
+    "imageSrc": "https://tegbe-cdn.b-cdn.net/uploads/1774302414065-Imagens-Site-3.jpg",
+    "floatingCard": {
+      "icon": "heroicons:user-group-solid",
+      "title": "Empresas de diferentes áres já evoluiram com a TegPro",
+      "subtitle": "Retenção de Alunos"
+    }
+  },
+  "content": {
+    "paragraphs": [
+      [
+        {
+          "type": "text",
+          "value": "A verdade é que ninguém nasce sabendo vender, mas no mercado atual, o 'achismo' custa caro."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Se você sente que está trabalhando muito e vendo pouco dinheiro no bolso, ou se "
+        },
+        {
+          "bold": true,
+          "type": "text",
+          "value": "tem medo de investir"
+        },
+        {
+          "type": "text",
+          "value": " e perder tudo por não saber por onde começar, você precisa de um método, não de sorte."
+        }
+      ]
+    ]
+  }
+}
+
+---
+
+/api/tegbe-institucional/json/localizacoes
+
+{
+  "_init": true,
+  "theme": {
+    "accentColor": "#FFFFFF"
+  },
+  "button": {
+    "icon": "ph:calendar-check-fill",
+    "size": "lg",
+    "label": "Aproveitar Oportunidade",
+    "action": "form",
+    "variant": "primary",
+    "form_html": "\n      
+\n        
+\n          
+\"cmmezko6d000004vm0y8xlg9k\"
+\n          
+\"Entre
+\n          
+\n            
+\n              
+Entre em Contato
+\n            
+\n            
+\n              Nome Completo\n              
+\"Seu
+\n            
+\n            
+\n              E-mail\n              
+\"seu@email.com\"
+\n            
+\n            
+\n              Enviar Mensagem\n            
+\n          
+\n        
+\n      
+"
+  },
+  "header": {
+    "badge": "Localização",
+    "title": {
+      "type": "text",
+      "value": "Onde as formações são realizadas?"
+    },
+    "subtitle": {
+      "type": "text",
+      "value": "Estrutura completa, preparada para oferecer uma ótima experiência de aprendizado e network."
+    }
+  },
+  "locations": [
+    {
+      "id": "rj-02",
+      "city": "Marília/SP - Hotel Momax",
+      "role": "Espaço de Eventos",
+      "images": [
+        "https://oaaddtqd6pehgldz.public.blob.vercel-storage.com/1769026802874-3.avif",
+        "https://oaaddtqd6pehgldz.public.blob.vercel-storage.com/1769026842362-4.avif",
+        "https://oaaddtqd6pehgldz.public.blob.vercel-storage.com/1769026844918-6.avif"
+      ],
+      "address": "R. Maranhão, 176 - Centro, Marília - SP, 17501-070",
+      "mapLink": "https://maps.app.goo.gl/SXtyoqRGNeC1yP4DA",
+      "features": [
+        "Auditório",
+        "Recepção",
+        "Hotel"
+      ],
+      "description": "Hotel bem localizado com toda a comodidade para reber os alunos TegPRO"
+    },
+    {
+      "id": "loc-1770686116668",
+      "city": "Bauru/SP - Biazi Plaza Hotel",
+      "role": "Espaço de Eventos",
+      "images": [
+        "https://tegbe-cdn.b-cdn.net/uploads/1770686799857-Biazi-plaza-hotel-fachada.jpg",
+        "https://tegbe-cdn.b-cdn.net/uploads/1770686818848-WhatsApp-Image-2026-02-09-at-22.25.1422.jpeg",
+        "https://tegbe-cdn.b-cdn.net/uploads/1770686829382-WhatsApp-Image-2026-02-09-at-22.25.14.jpeg"
+      ],
+      "address": "Av. Nações Unidas, 5-60 - Centro, Bauru - SP, 17010-150",
+      "mapLink": "https://maps.app.goo.gl/NEuoErwjwMcN1SuF9",
+      "features": [],
+      "description": "Hotel bem localizado com toda a comodidade para reber os alunos TegPRO"
+    },
+    {
+      "id": "sp-01",
+      "city": "Garça/SP - Sede Tegbe",
+      "role": "Matriz",
+      "images": [
+        "https://oaaddtqd6pehgldz.public.blob.vercel-storage.com/1769026621122-2.avif",
+        "https://oaaddtqd6pehgldz.public.blob.vercel-storage.com/1769026637759-1.avif",
+        "https://oaaddtqd6pehgldz.public.blob.vercel-storage.com/1769026692901-WhatsApp%20Image%202026-01-21%20at%2016.45.40.avif"
+      ],
+      "address": "Rua Santos Dumont, 133 - Ferrarópolis, Garça-SP",
+      "mapLink": "https://maps.app.goo.gl/AotkPB8zyr35wNGF8",
+      "features": [
+        "Operação",
+        "Estúdio",
+        "Sala de Cursos",
+        "Sala de Reunião"
+      ],
+      "description": "Sede Tegbe na cidade de Garça/SP."
+    }
+  ],
+  "cta": {
+    "link": "htts://wa.me/5514988281001",
+    "text": "Aproveitar Oportunidade",
+    "form_id": "cmmezko6d000004vm0y8xlg9k",
+    "use_form": true
+  }
+}
+
+---
+
+/api/tegbe-institucional/json/preco-formacoes
+
+{
+  "ativo": false,
+  "plans": [
+    {
+      "id": "starter",
+      "name": "Start",
+      "price": "997",
+      "button": {
+        "link": "#",
+        "size": "pill",
+        "label": "Começar Agora",
+        "action": "link",
+        "variant": "outline"
+      },
+      "period": "/ano",
+      "currency": "R$",
+      "features": [
+        {
+          "text": "Acesso ao Curso Completo",
+          "included": true
+        },
+        {
+          "text": "Suporte por E-mail",
+          "included": true
+        },
+        {
+          "text": "Acesso por 1 Ano",
+          "included": true
+        },
+        {
+          "text": "Acesso à Comunidade Elite",
+          "included": false
+        },
+        {
+          "text": "Calls Mensais de Tira-Dúvidas",
+          "included": false
+        }
+      ],
+      "highlight": false,
+      "coverImage": {
+        "alt": "Fundamentos do e-commerce",
+        "src": "https://tegbe-cdn.b-cdn.net/uploads/1770685710797-3.jpg"
+      },
+      "description": "Para quem quer dar o primeiro passo com segurança.",
+      "installments": "12x de R$ 99,70"
+    },
+    {
+      "id": "pro",
+      "name": "TegPro Black",
+      "badge": "MAIS ESCOLHIDO",
+      "price": "1.997",
+      "button": {
+        "icon": "ph:lightning-fill",
+        "link": "#",
+        "size": "pill",
+        "label": "Garantir Acesso Black",
+        "action": "link",
+        "variant": "gradient"
+      },
+      "period": "/vitalício",
+      "currency": "R$",
+      "features": [
+        {
+          "text": "Acesso ao Curso Completo",
+          "included": true
+        },
+        {
+          "text": "Acesso Vitalício",
+          "included": true
+        },
+        {
+          "text": "Comunidade Elite (Networking)",
+          "included": true
+        },
+        {
+          "text": "Calls Mensais de Tira-Dúvidas",
+          "included": true
+        },
+        {
+          "text": "Pack de Templates (Ads + Copy)",
+          "included": true
+        }
+      ],
+      "highlight": true,
+      "coverImage": {
+        "alt": "Alta performance e networking premium",
+        "src": "https://tegbe-cdn.b-cdn.net/uploads/1770685710797-3.jpg"
+      },
+      "description": "O ecossistema completo para quem não aceita jogar pequeno.",
+      "installments": "12x de R$ 199,70"
+    },
+    {
+      "id": "mentoria",
+      "name": "Mentoria Individual",
+      "price": "5.000",
+      "button": {
+        "size": "pill",
+        "label": "Aplicar para Mentoria",
+        "action": "form",
+        "variant": "outline",
+        "form_html": "
+Formulário de Aplicação
+Carregando questionário de perfil...
+
+"
+      },
+      "period": "",
+      "currency": "R$",
+      "features": [
+        {
+          "text": "Acesso TegPro Black",
+          "included": true
+        },
+        {
+          "text": "4 Encontros de Diagnóstico",
+          "included": true
+        },
+        {
+          "text": "Análise de Campanhas ao Vivo",
+          "included": true
+        },
+        {
+          "text": "Acesso direto ao WhatsApp",
+          "included": true
+        },
+        {
+          "text": "Plano de Ação Personalizado",
+          "included": true
+        }
+      ],
+      "highlight": false,
+      "coverImage": {
+        "alt": "Estratégia individual e liderança",
+        "src": "https://tegbe-cdn.b-cdn.net/uploads/1770685710797-3.jpg"
+      },
+      "description": "Acompanhamento direto com o time sênior da Tegbe.",
+      "installments": "Aplicação Necessária"
+    }
+  ],
+  "header": {
+    "badge": "Investimento Estratégico",
+    "title": "Escolha seu Nível de Acesso",
+    "subtitle": "O valor de uma única venda feita com nosso método já paga o seu acesso anual."
+  },
+  "guarantee": {
+    "icon": "ph:shield-check-fill",
+    "text": "Entre, assista, aplique. Se achar que não é para você, devolvemos 100% do valor. O risco é todo nosso.",
+    "title": "Garantia Blindada de 7 Dias"
+  },
+  "_init": true
+}
+
+---
+
+/api/tegbe-institucional/json/comparacao
+
+{
+  "button": {
+    "icon": "ph:arrow-right-bold",
+    "link": "/checkout",
+    "size": "pill",
+    "label": "Começar Agora",
+    "action": "link",
+    "target": "_self",
+    "variant": "default"
+  },
+  "header": {
+    "badge": "Comparação Justa",
+    "title": [
+      {
+        "type": "text",
+        "value": "Por que a "
+      },
+      {
+        "type": "highlight",
+        "color": "#FFD700",
+        "value": "TegPro"
+      },
+      {
+        "type": "text",
+        "value": " é superior"
+      }
+    ],
+    "subtitle": [
+      {
+        "type": "text",
+        "value": "Veja a diferença real entre nossa solução e o que o mercado oferece hoje."
+      }
+    ]
+  },
+  "columns": {
+    "us": "TegPro",
+    "usImage": {
+      "alt": "Dashboard TegPro",
+      "src": "https://tegbe-cdn.b-cdn.net/uploads/1770685710797-3.jpg"
+    },
+    "competitor": "Concorrência",
+    "competitorImage": {
+      "alt": "Interface Concorrente Genérica",
+      "src": "https://tegbe-cdn.b-cdn.net/uploads/1770685710797-3.jpg"
+    }
+  },
+  "features": [
+    {
+      "us": "WhatsApp + Videochamadas",
+      "label": "Suporte Personalizado",
+      "competitor": "Email apenas"
+    },
+    {
+      "us": "Mensal",
+      "label": "Atualizações",
+      "competitor": "Semestral"
+    },
+    {
+      "us": "R$ Alterar Informação/mês",
+      "label": "Preço",
+      "competitor": "R$ Alterar Informação/mês"
+    }
+  ]
+}
+
+---
+
+/api/tegbe-institucional/json/faq-formacoes
+
+{
+  "type": "faq",
+  "header": {
+    "badge": "Dúvidas Frequentes",
+    "title": [
+      {
+        "type": "text",
+        "value": "Perguntas "
+      },
+      {
+        "type": "highlight",
+        "color": "#FFD700",
+        "value": "Frequentes"
+      }
+    ],
+    "subtitle": [
+      {
+        "type": "text",
+        "value": "Encontre aqui respostas para as principais dúvidas sobre nossos programas e metodologia."
+      }
+    ]
+  },
+  "subtype": "curso",
+  "questions": [
+    {
+      "answer": [
+        {
+          "type": "text",
+          "value": "Sim! O método foi desenhado para te levar pela mão, desde a escolha do nicho lucrativo até à primeira venda. Não precisas de ter experiência prévia, apenas vontade de construir um negócio real seguindo um "
+        },
+        {
+          "type": "highlight",
+          "color": "#FFD700",
+          "value": "passo a passo validado."
+        }
+      ],
+      "question": [
+        {
+          "type": "text",
+          "value": "O curso serve para quem está começando do "
+        },
+        {
+          "type": "bold",
+          "value": "zero?"
+        }
+      ]
+    },
+    {
+      "answer": [
+        {
+          "type": "text",
+          "value": "Com certeza. Grande parte dos nossos alunos já faturam, mas estão presos no operacional. O foco do "
+        },
+        {
+          "type": "bold",
+          "value": "TegPRO"
+        },
+        {
+          "type": "text",
+          "value": " é profissionalizar a tua gestão e implementar estratégias de escala."
+        }
+      ],
+      "question": [
+        {
+          "type": "text",
+          "value": "Já vendo online, o curso vai ajudar-me a crescer?"
+        }
+      ]
+    },
+    {
+      "answer": [
+        {
+          "type": "text",
+          "value": "Sim, o suporte é um dos nossos pilares. "
+        },
+        {
+          "type": "bold",
+          "value": "Não estarás sozinho."
+        },
+        {
+          "type": "text",
+          "value": " Temos uma equipa pronta para te ajudar a ultrapassar qualquer obstáculo técnico."
+        }
+      ],
+      "question": [
+        {
+          "type": "text",
+          "value": "Terei suporte para tirar dúvidas durante o curso?"
+        }
+      ]
+    },
+    {
+      "answer": [
+        {
+          "type": "bold",
+          "value": "Não."
+        },
+        {
+          "type": "text",
+          "value": " Na aula 01, ensinamos-te a validar produtos antes de investires pesado. O objetivo é que sejas inteligente com o teu capital."
+        }
+      ],
+      "question": [
+        {
+          "type": "text",
+          "value": "Preciso de investir muito dinheiro em estoque logo no início?"
+        }
+      ]
+    },
+    {
+      "answer": [
+        {
+          "type": "text",
+          "value": "Embora o foco no "
+        },
+        {
+          "type": "highlight",
+          "color": "#FFD700",
+          "value": "Mercado Livre"
+        },
+        {
+          "type": "text",
+          "value": " seja forte, o método é um ecossistema completo para Lojas Próprias, Amazon e Shopee."
+        }
+      ],
+      "question": [
+        {
+          "type": "text",
+          "value": "O método ensina a vender apenas no Mercado Livre?"
+        }
+      ]
+    },
+    {
+      "answer": [
+        {
+          "type": "text",
+          "value": "O resultado depende da tua execução, mas o método foi criado para ser aplicado "
+        },
+        {
+          "type": "italic",
+          "value": "enquanto aprende."
+        }
+      ],
+      "question": [
+        {
+          "type": "text",
+          "value": "Quanto tempo demora para eu ver os primeiros resultados?"
+        }
+      ]
+    },
+    {
+      "answer": [
+        {
+          "type": "text",
+          "value": "Não é obrigatório para assistir, mas ter um computador "
+        },
+        {
+          "type": "bold",
+          "value": "melhora muito"
+        },
+        {
+          "type": "text",
+          "value": " a sua experiência para aplicar configurações técnicas e SEO em tempo real."
+        }
+      ],
+      "question": [
+        {
+          "type": "text",
+          "value": "Preciso ter um computador para fazer o curso?"
+        }
+      ]
+    }
+  ]
+}
+
+---
+
+/api/tegbe-institucional/json/solucoes-home
+
+{
+  "header": {
+    "badge": "Soluções completas para o seu negócio",
+    "title": [
+      {
+        "type": "text",
+        "value": "Cresça no "
+      },
+      {
+        "type": "highlight",
+        "value": "Digital",
+        "className": "text-primary"
+      },
+      {
+        "type": "text",
+        "value": " com estratégia"
+      }
+    ],
+    "subtitle": [
+      {
+        "type": "text",
+        "value": "Escolha a área que deseja explorar e descubra como podemos transformar seus resultados."
+      }
+    ],
+    "preTitle": "E-COMMERCE"
+  },
+  "services": [
+    {
+      "id": "ecommerce",
+      "step": "01",
+      "color": "#3B82F6",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1776174385224-8.png",
+      "title": "E-commerce",
+      "description": "Venda nos maiores marketplaces do Brasil"
+    },
+    {
+      "id": "marketing",
+      "step": "02",
+      "color": "#F59E0B",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1776174397333-9.png",
+      "title": "Marketing",
+      "description": "Domine as redes sociais e conquiste clientes"
+    },
+    {
+      "id": "formacoes",
+      "step": "03",
+      "color": "#10B981",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1776174424235-C-pia-de-Design-sem-nome--1-.png",
+      "title": "Formações",
+      "description": "Aprenda com especialistas"
+    },
+    {
+      "id": "ferramentas",
+      "step": "04",
+      "color": "#8B5CF6",
+      "image": "https://tegbe-cdn.b-cdn.net/uploads/1776174418408-11.png",
+      "title": "Ferramentas",
+      "description": "Tecnologia para escalar seu negócio"
+    }
+  ],
+  "cards": [
+    {
+      "id": "ecommerce",
+      "icon": "ecommerce",
+      "title": "E-commerce",
+      "gradient": "from-blue-600 to-indigo-700",
+      "description": "Venda nos maiores marketplaces do Brasil"
+    },
+    {
+      "id": "marketing",
+      "icon": "marketing",
+      "title": "Marketing",
+      "gradient": "from-amber-500 to-orange-600",
+      "description": "Domine as redes sociais e conquiste clientes"
+    },
+    {
+      "id": "formacoes",
+      "icon": "formacoes",
+      "title": "Formações",
+      "gradient": "from-emerald-500 to-teal-600",
+      "description": "Aprenda presencialmente com especialistas"
+    },
+    {
+      "id": "ferramentas",
+      "icon": "ferramentas",
+      "title": "Ferramentas",
+      "gradient": "from-violet-500 to-purple-700",
+      "description": "Tecnologia para alavancar suas vendas"
+    }
+  ],
+  "button": {
+    "link": "#",
+    "label": "Comece a vender agora",
+    "action": "link"
+  },
+  "marketplaces": [
+    {
+      "name": "Mercado Livre",
+      "color": "#FFE600",
+      "initials": "ML",
+      "textColor": "#333"
+    },
+    {
+      "name": "Shopee",
+      "color": "#EE4D2D",
+      "initials": "SH",
+      "textColor": "#fff"
+    },
+    {
+      "name": "Amazon",
+      "color": "#FF9900",
+      "initials": "AZ",
+      "textColor": "#fff"
+    },
+    {
+      "name": "Magalu",
+      "color": "#0086FF",
+      "initials": "MG",
+      "textColor": "#fff"
+    }
+  ]
+}
+
+---
+
+/api/tegbe-institucional/json/redes-sociais
+
+{
+  "button": {
+    "link": "/contato",
+    "label": "Criar minha estratégia agora",
+    "action": "link",
+    "target": "_self",
+    "variant": "marketing"
+  },
+  "header": {
+    "title": [
+      {
+        "type": "text",
+        "value": "Domine a sua presença nas "
+      },
+      {
+        "type": "highlight",
+        "value": "Redes Sociais",
+        "className": "text-primary font-semibold"
+      }
+    ],
+    "preTitle": "MARKETING DIGITAL",
+    "subtitle": [
+      {
+        "type": "text",
+        "value": "Estratégias de alta conversão desenhadas para transformar seguidores em ativos reais para o seu negócio."
+      }
+    ]
+  },
+  "socials": [
+    {
+      "name": "Instagram",
+      "gradient": "from-[#833ab4] via-[#fd1d1d] to-[#fcb045]"
+    },
+    {
+      "name": "TikTok",
+      "gradient": "from-[#000000] to-[#ff0050]"
+    },
+    {
+      "name": "Facebook",
+      "gradient": "from-[#1877F2] to-[#0047AB]"
+    },
+    {
+      "name": "YouTube",
+      "gradient": "from-[#FF0000] to-[#282828]"
+    },
+    {
+      "name": "LinkedIn",
+      "gradient": "from-[#0A66C2] to-[#004182]"
+    },
+    {
+      "name": "Pinterest",
+      "gradient": "from-[#E60023] to-[#BD081C]"
+    },
+    {
+      "name": "WhatsApp",
+      "gradient": "from-[#25D366] to-[#075E54]"
+    },
+    {
+      "name": "Twitter/X",
+      "gradient": "from-[#000000] to-[#262626]"
+    }
+  ],
+  "videoFile": {
+    "alt": "Vídeo Estratégia de Marketing",
+    "videoSrc": "https://tegbe-cdn.b-cdn.net/uploads/1774020788960-Tegbe---Land.mp4",
+    "url": "https://youtu.be/cRVGxc9vSjI?si=Sk5l2rKV7Qb3nmQJ"
+  }
+}
+
+---
+
+/api/tegbe-institucional/json/marketplaces
+
+{
+  "button": {
+    "link": "https://wa.me/5514988281001",
+    "label": "Agendar demonstração",
+    "action": "link",
+    "target": "_self",
+    "variant": "default"
+  },
+  "header": {
+    "title": [
+      {
+        "type": "text",
+        "value": "Hub de Integração com "
+      },
+      {
+        "type": "highlight",
+        "value": "Marketplaces",
+        "className": "text-white font-bold"
+      }
+    ],
+    "preTitle": "ECOSSISTEMA",
+    "subtitle": [
+      {
+        "type": "text",
+        "value": "Venda nos maiores canais do Brasil com sincronização em tempo real de estoque e preços."
+      }
+    ]
+  },
+  "marketplaces": [
+    {
+      "src": "https://tegbe-cdn.b-cdn.net/uploads/1774800820480-Imagens-de-Marketplaces--1-.png",
+      "name": "Mercado Livre",
+      "color": "#FFE600"
+    },
+    {
+      "src": "https://tegbe-cdn.b-cdn.net/uploads/1774800960874-Imagens-de-Marketplaces--4-.png",
+      "name": "Amazon",
+      "color": "#FF9900"
+    },
+    {
+      "src": "https://tegbe-cdn.b-cdn.net/uploads/1774801118728-Imagens-de-Marketplaces--5-.png",
+      "name": "Shopee",
+      "color": "#EE4D2D"
+    },
+    {
+      "src": "https://tegbe-cdn.b-cdn.net/uploads/1774961786402-C-pia-de-Design-sem-nome.png",
+      "name": "TikTok Shop",
+      "color": "#FFE600"
+    }
+  ]
+}
+
+---
+
+/api/tegbe-institucional/json/formacoes-home
+
+{
+  "formacoes": {
+    "cta": {
+      "link": "#",
+      "label": "Falar com consultor"
+    },
+    "header": {
+      "badge": "Formações Exclusivas",
+      "title": "Aprenda com Especialistas",
+      "description": "Cursos práticos e intensivos desenhados para você dominar o mercado digital. Networking de alto nível garantido."
+    },
+    "courses": [
+      {
+        "alt": "Laptop mostrando painel de controle de e-commerce",
+        "tag": "Presencial",
+        "link": "/curso/gestao-ecommerce",
+        "image": "https://tegbe-cdn.b-cdn.net/uploads/1777505950623-glowl-as-the-how-fast-i-catched-the-reference-eagle-meme-v0-40851js59umg1--1-.webp",
+        "title": "Gestão de E-commerce",
+        "accent": "from-blue-500/20",
+        "ctaLabel": "Saber mais sobre gestão",
+        "description": "Aprenda a estruturar, operar e gerir lojas online de forma profissional e altamente escalável."
+      },
+      {
+        "alt": "Gráficos de marketing e analytics",
+        "tag": "Masterclass",
+        "link": "/curso/marketing-avancado",
+        "image": "",
+        "title": "Marketing Digital Avançado",
+        "accent": "from-emerald-500/20",
+        "ctaLabel": "Ver cronograma",
+        "description": "Domine as estratégias de tráfego pago, funis de conversão e aquisição orgânica de clientes."
+      },
+      {
+        "alt": "Caixas de entrega prontas para envio",
+        "tag": "Presencial",
+        "link": "/curso/marketplaces",
+        "image": "",
+        "title": "Vendas em Marketplaces",
+        "accent": "from-amber-500/20",
+        "ctaLabel": "Garantir minha vaga",
+        "description": "Técnicas validadas para posicionar produtos e se destacar no Mercado Livre, Amazon e Shopee."
+      },
+      {
+        "alt": "Câmera fotográfica profissional em estúdio",
+        "tag": "Workshop",
+        "link": "/curso/fotografia-produto",
+        "image": "",
+        "title": "Fotografia de Produto",
+        "accent": "from-purple-500/20",
+        "ctaLabel": "Ver materiais necessários",
+        "description": "Crie imagens que convertem. Da iluminação básica à edição profissional voltada para conversão."
+      }
+    ]
+  }
+}
+
+---
+
+/api/tegbe-institucional/json/ferramentas
+
+{
+  "ferramentas": {
+    "cta": {
+      "link": "#",
+      "label": "Explorar Ferramentas"
+    },
+    "tools": [
+      {
+        "icon": "lucide:bot",
+        "name": [
+          {
+            "type": "text",
+            "value": "Inteligência Artificial"
+          }
+        ],
+        "shadow": "shadow-violet-500/20",
+        "gradient": "from-violet-500 to-purple-600",
+        "description": [
+          {
+            "type": "text",
+            "value": "Automação inteligente para atendimento e análise de dados em tempo real."
+          }
+        ]
+      },
+      {
+        "icon": "lucide:trending-up",
+        "name": [
+          {
+            "type": "text",
+            "value": "CRM de Vendas"
+          }
+        ],
+        "shadow": "shadow-blue-500/20",
+        "gradient": "from-blue-500 to-cyan-500",
+        "description": [
+          {
+            "type": "text",
+            "value": "Gerencie leads e clientes de forma organizada, acompanhando cada etapa do funil."
+          }
+        ]
+      },
+      {
+        "icon": "lucide:monitor-check",
+        "name": [
+          {
+            "type": "text",
+            "value": "Páginas de Vendas"
+          }
+        ],
+        "shadow": "shadow-emerald-500/20",
+        "gradient": "from-emerald-500 to-teal-500",
+        "description": [
+          {
+            "type": "text",
+            "value": "Landing pages de altíssima conversão, prontas para vender e escalar sua operação."
+          }
+        ]
+      },
+      {
+        "icon": "mdi:chart-line",
+        "name": [
+          {
+            "type": "text",
+            "value": "Analytics Avançado"
+          }
+        ],
+        "shadow": "shadow-amber-500/20",
+        "gradient": "from-amber-500 to-orange-500",
+        "description": [
+          {
+            "type": "text",
+            "value": "Dashboards completos e intuitivos para você acompanhar cada métrica do seu negócio."
+          }
+        ]
+      },
+      {
+        "icon": "mdi:email",
+        "name": [
+          {
+            "type": "text",
+            "value": "E-mail Marketing"
+          }
+        ],
+        "shadow": "shadow-rose-500/20",
+        "gradient": "from-rose-500 to-pink-500",
+        "description": [
+          {
+            "type": "text",
+            "value": "Crie campanhas segmentadas e automatizadas que geram resultados e vendas reais."
+          }
+        ]
+      },
+      {
+        "icon": "lucide:settings",
+        "name": [
+          {
+            "type": "text",
+            "value": "Integrações"
+          }
+        ],
+        "shadow": "shadow-indigo-500/20",
+        "gradient": "from-indigo-500 to-blue-600",
+        "description": [
+          {
+            "type": "text",
+            "value": "Conecte todas as suas ferramentas e centralize sua operação em um único lugar."
+          }
+        ]
+      }
+    ],
+    "header": {
+      "badge": [
+        {
+          "type": "text",
+          "value": "Ferramentas"
+        }
+      ],
+      "title": [
+        {
+          "type": "text",
+          "value": "Tecnologia para Escalar"
+        }
+      ],
+      "description": [
+        {
+          "type": "text",
+          "value": "Soluções que trabalham por si enquanto você foca no crescimento estratégico do seu negócio."
+        }
+      ]
+    }
+  }
+}
+
+---
+
+/api/tegbe-institucional/json/cta-duvidas
+
+{
+  "ctaDuvidas": {
+    "title": [
+      {
+        "type": "text",
+        "value": "Está em dúvida"
+      },
+      {
+        "type": "linebreak"
+      },
+      {
+        "type": "text",
+        "value": "sobre qual"
+      },
+      {
+        "type": "linebreak"
+      },
+      {
+        "type": "text",
+        "value": "plano escolher?"
+      }
+    ],
+    "button": {
+      "link": "#",
+      "label": "Fale com um Especialista"
+    },
+    "description": [
+      {
+        "type": "text",
+        "value": "O nosso time de especialistas (ou assistente com IA) está pronto para ajudar você a escolher o plano ideal para o seu projeto."
+      }
+    ]
+  }
+}
+
+---
+
+/api/tegbe-institucional/json/faq-home
+
+{
+  "faq": {
+    "header": {
+      "tag": [
+        {
+          "type": "text",
+          "value": "Clarificação Estratégica"
+        }
+      ],
+      "title": [
+        {
+          "type": "text",
+          "value": "Dúvidas de quem joga sério."
+        }
+      ],
+      "subtitle": [
+        {
+          "type": "text",
+          "value": "Sem letras miúdas. Transparência radical antes do aperto de mão."
+        }
+      ],
+      "tag_icon": "solar:question-circle-linear"
+    },
+    "questions_and_answers": [
+      {
+        "id": "item-1768016589891-ibpr9ryxu",
+        "order": 0,
+        "answer": [
+          {
+            "type": "text",
+            "value": "Trabalhamos com escalas diferentes. Para a Consultoria e Agência (Marketing), recomendamos que você já tenha um produto validado e orçamento para tráfego (mínimo R$ 2k/mês). Se você está começando do absoluto zero, indicamos iniciar pelo TegPro Academy para validar sua oferta sem queimar caixa."
+          }
+        ],
+        "question": [
+          {
+            "type": "text",
+            "value": "Preciso ter um faturamento mínimo para contratar?"
+          }
+        ]
+      },
+      {
+        "id": 1768017036276,
+        "order": 1,
+        "answer": [
+          {
+            "type": "text",
+            "value": "Não vendemos milagres, vendemos engenharia. Em média, nossos clientes de E-commerce veem a maturação das campanhas entre 45 a 60 dias (período de aprendizado do algoritmo). Porém, com a implementação do CRM e CRO, melhorias na conversão costumam ser notadas já nas primeiras semanas."
+          }
+        ],
+        "question": [
+          {
+            "type": "text",
+            "value": "Em quanto tempo vejo o ROI?"
+          }
+        ]
+      },
+      {
+        "id": 1768094973700,
+        "order": 2,
+        "answer": [
+          {
+            "type": "text",
+            "value": "Somos agnósticos de nicho, mas especialistas em modelo de negócio. Se você vende produtos físicos (E-commerce) ou serviços de alto ticket (Clínicas, Escritórios, B2B), nosso protocolo funciona. Não atendemos: Dropshipping genérico ou PLR de baixa qualidade."
+          }
+        ],
+        "question": [
+          {
+            "type": "text",
+            "value": "Vocês atendem qual nicho?"
+          }
+        ]
+      },
+      {
+        "id": 1768094997200,
+        "order": 3,
+        "answer": [
+          {
+            "type": "text",
+            "value": "A agência comum quer seus 'likes' e foca em métricas de vaidade. A Tegbe foca no seu LTV (Lifetime Value) e Lucro Líquido. Somos parceiros de negócio. Se você não lucra, a gente não renova. Simples assim."
+          }
+        ],
+        "question": [
+          {
+            "type": "text",
+            "value": "Qual a diferença entre a Tegbe e uma agência comum?"
+          }
+        ]
+      }
+    ]
+  },
+  "faq_section": {
+    "config": {
+      "theme": "Minimalist White",
+      "animation": "Framer Motion AnimatePresence",
+      "interaction": "Accordion Solo (One open at a time)"
+    },
+    "header": {
+      "tag": "Clarificação Estratégica",
+      "title": "Dúvidas de quem joga sério.",
+      "subtitle": "Sem letras miúdas. Transparência radical antes do aperto de mão.",
+      "tag_icon": "solar:question-circle-linear"
+    },
+    "questions_and_answers": [
+      {
+        "id": "item-1768016589891-ibpr9ryxu",
+        "order": 0,
+        "answer": "Trabalhamos com escalas diferentes. Para a Consultoria e Agência (Marketing), recomendamos que você já tenha um produto validado e orçamento para tráfego (mínimo R$ 2k/mês). Se você está começando do absoluto zero, indicamos iniciar pelo TegPro Academy para validar sua oferta sem queimar caixa.",
+        "question": "Preciso ter um faturamento mínimo para contratar?"
+      },
+      {
+        "id": 1768017036276,
+        "answer": "Não vendemos milagres, vendemos engenharia. Em média, nossos clientes de E-commerce veem a maturação das campanhas entre 45 a 60 dias (período de aprendizado do algoritmo). Porém, com a implementação do CRM e CRO, melhorias na conversão costumam ser notadas já nas primeiras semanas.",
+        "question": "Em quanto tempo vejo o ROI?"
+      },
+      {
+        "id": 1768094973700,
+        "answer": "Somos agnósticos de nicho, mas especialistas em modelo de negócio. Se você vende produtos físicos (E-commerce) ou serviços de alto ticket (Clínicas, Escritórios, B2B), nosso protocolo funciona. Não atendemos: Dropshipping genérico ou PLR de baixa qualidade.",
+        "question": "Vocês atendem qual nicho?"
+      },
+      {
+        "id": 1768094997200,
+        "answer": "A agência comum quer seus 'likes' e foca em métricas de vaidade. A Tegbe foca no seu LTV (Lifetime Value) e Lucro Líquido. Somos parceiros de negócio. Se você não lucra, a gente não renova. Simples assim.",
+        "question": "Qual a diferença entre a Tegbe e uma agência comum?"
+      }
+    ]
+  }
+}
+
+---
+
+/api/tegbe-institucional/json/duvida-cta
+
+{
+  "title": [
+    {
+      "type": "text",
+      "value": "Está em dúvida"
+    },
+    {
+      "type": "linebreak"
+    },
+    {
+      "type": "text",
+      "value": "sobre qual"
+    },
+    {
+      "type": "linebreak"
+    },
+    {
+      "type": "text",
+      "value": "plano escolher?"
+    }
+  ],
+  "button": {
+    "link": "#",
+    "label": "Fale com um Especialista"
+  },
+  "description": [
+    {
+      "type": "text",
+      "value": "O nosso time de especialistas (ou assistente com IA) está pronto para ajudar você a escolher o plano ideal para o seu projeto."
+    }
+  ]
+}
+
+---
+
+/api/itc-tegbe/json/meta-sobre
+
+{
+  "footer": [
+    {
+      "type": "text",
+      "value": "resultados gerados até agora pela"
+    },
+    {
+      "type": "bold",
+      "value": "#geraçãotegbea"
+    }
+  ],
+  "header": {
+    "title": [
+      {
+        "type": "text",
+        "value": "Qual é a principal "
+      },
+      {
+        "type": "highlight",
+        "color": "#FFC72C",
+        "value": "meta"
+      },
+      {
+        "type": "text",
+        "value": " da Tegbe?"
+      }
+    ],
+    "subtitle": [
+      {
+        "size": 18,
+        "type": "text",
+        "value": "Gerar "
+      },
+      {
+        "size": 18,
+        "type": "bold",
+        "value": "R$ 100 milhões em novas receitas"
+      },
+      {
+        "size": 18,
+        "type": "text",
+        "value": " através dos nossos parceiros até 2030."
+      }
+    ]
+  },
+  "progress": {
+    "max": 5000,
+    "target": 1500,
+    "current": 1500
+  }
+}
+
+---
+
+/api/tegbe-institucional/json/home-blog
+
+{
+  "blog texto": {
+    "id": "1",
+    "label": "Blog",
+    "titulo": "Conteúdo que gera resultado",
+    "descricao": "Dicas, estratégias e tendências do mundo do e-commerce e marketing digital para você vender mais.",
+    "textoBotao": "Ver todos os artigos"
+  },
+  "_init": true
+}
+
+---
+
+/api/tegbe-institucional/json/blog-hero
+
+{
+  "conteudo": {
+    "badge": "Blog Tegbe",
+    "title": "Insights de",
+    "description": "Estratégias, cases e tendências para escalar  suas vendas nos principais marketplaces.",
+    "titleHighlight": "E-commerce"
+  }
+}

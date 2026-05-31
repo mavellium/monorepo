@@ -1,0 +1,1554 @@
+{
+    "name": "Home",
+    "slug": "home",
+    "schema": {
+        "inicio": {
+            "label": "Início / Header Global",
+            "fields": {
+                "logo": {
+                    "type": "object",
+                    "label": "Logo",
+                    "fields": {
+                        "alt": {
+                            "type": "text",
+                            "label": "Alt"
+                        },
+                        "src": {
+                            "type": "text",
+                            "label": "URL do logo (SVG)"
+                        },
+                        "width": {
+                            "type": "number",
+                            "label": "Largura"
+                        },
+                        "height": {
+                            "type": "number",
+                            "label": "Altura"
+                        },
+                        "imagem": {
+                            "type": "text",
+                            "label": "URL alternativa do logo"
+                        }
+                    }
+                },
+                "theme": {
+                    "type": "object",
+                    "label": "Tema",
+                    "fields": {
+                        "accentColor": {
+                            "type": "color",
+                            "label": "Cor de destaque"
+                        },
+                        "backgroundColor": {
+                            "type": "color",
+                            "label": "Cor de fundo"
+                        }
+                    }
+                },
+                "tagline": {
+                    "type": "richtext",
+                    "label": "Tagline"
+                },
+                "backgroundText": {
+                    "type": "richtext",
+                    "label": "Texto de fundo (decorativo)"
+                }
+            }
+        },
+        "clientes": {
+            "label": "Clientes / Depoimentos",
+            "fields": {
+                "badge": {
+                    "type": "object",
+                    "label": "Badge",
+                    "fields": {
+                        "icon": {
+                            "type": "icon",
+                            "label": "Ícone"
+                        },
+                        "text": {
+                            "type": "text",
+                            "label": "Texto"
+                        }
+                    }
+                },
+                "title": {
+                    "type": "richtext",
+                    "label": "Título"
+                },
+                "button": {
+                    "type": "object",
+                    "label": "Botão",
+                    "fields": {
+                        "icon": {
+                            "type": "icon",
+                            "label": "Ícone"
+                        },
+                        "link": {
+                            "type": "text",
+                            "label": "Link"
+                        },
+                        "size": {
+                            "type": "text",
+                            "label": "Tamanho"
+                        },
+                        "label": {
+                            "type": "text",
+                            "label": "Texto"
+                        },
+                        "action": {
+                            "type": "text",
+                            "label": "Ação"
+                        },
+                        "target": {
+                            "type": "text",
+                            "label": "Target"
+                        },
+                        "variant": {
+                            "type": "text",
+                            "label": "Variante visual"
+                        }
+                    }
+                },
+                "testimonials": {
+                    "type": "array",
+                    "label": "Depoimentos",
+                    "itemFields": {
+                        "id": {
+                            "type": "number",
+                            "label": "ID"
+                        },
+                        "logo": {
+                            "type": "text",
+                            "label": "URL do logo"
+                        },
+                        "name": {
+                            "type": "text",
+                            "label": "Nome do cliente"
+                        },
+                        "tags": {
+                            "type": "richtext",
+                            "label": "Tags"
+                        },
+                        "metric": {
+                            "type": "text",
+                            "label": "Métrica (ex: +200%)"
+                        },
+                        "result": {
+                            "type": "text",
+                            "label": "Resultado"
+                        },
+                        "description": {
+                            "type": "textarea",
+                            "label": "Descrição / Cidade"
+                        }
+                    }
+                }
+            }
+        },
+        "faq-home": {
+            "label": "FAQ (Home)",
+            "fields": {
+                "faq": {
+                    "type": "object",
+                    "label": "FAQ com rich-text",
+                    "fields": {
+                        "header": {
+                            "type": "object",
+                            "label": "Cabeçalho",
+                            "fields": {
+                                "tag": {
+                                    "type": "richtext",
+                                    "label": "Tag"
+                                },
+                                "title": {
+                                    "type": "richtext",
+                                    "label": "Título"
+                                },
+                                "subtitle": {
+                                    "type": "richtext",
+                                    "label": "Subtítulo"
+                                },
+                                "tag_icon": {
+                                    "type": "icon",
+                                    "label": "Ícone da tag"
+                                }
+                            }
+                        },
+                        "questions_and_answers": {
+                            "type": "array",
+                            "label": "Perguntas e Respostas",
+                            "itemFields": {
+                                "id": {
+                                    "type": "text",
+                                    "label": "ID"
+                                },
+                                "order": {
+                                    "type": "number",
+                                    "label": "Ordem"
+                                },
+                                "answer": {
+                                    "type": "richtext",
+                                    "label": "Resposta"
+                                },
+                                "question": {
+                                    "type": "richtext",
+                                    "label": "Pergunta"
+                                }
+                            }
+                        }
+                    }
+                },
+                "faq_section": {
+                    "type": "object",
+                    "label": "FAQ simplificado (strings planas)",
+                    "fields": {
+                        "config": {
+                            "type": "object",
+                            "label": "Configuração",
+                            "fields": {
+                                "theme": {
+                                    "type": "text",
+                                    "label": "Tema visual"
+                                },
+                                "animation": {
+                                    "type": "text",
+                                    "label": "Animação"
+                                },
+                                "interaction": {
+                                    "type": "text",
+                                    "label": "Modo de interação"
+                                }
+                            }
+                        },
+                        "header": {
+                            "type": "object",
+                            "label": "Cabeçalho",
+                            "fields": {
+                                "tag": {
+                                    "type": "text",
+                                    "label": "Tag"
+                                },
+                                "title": {
+                                    "type": "text",
+                                    "label": "Título"
+                                },
+                                "subtitle": {
+                                    "type": "text",
+                                    "label": "Subtítulo"
+                                },
+                                "tag_icon": {
+                                    "type": "icon",
+                                    "label": "Ícone da tag"
+                                }
+                            }
+                        },
+                        "questions_and_answers": {
+                            "type": "array",
+                            "label": "Perguntas e Respostas",
+                            "itemFields": {
+                                "id": {
+                                    "type": "text",
+                                    "label": "ID"
+                                },
+                                "order": {
+                                    "type": "number",
+                                    "label": "Ordem"
+                                },
+                                "answer": {
+                                    "type": "textarea",
+                                    "label": "Resposta"
+                                },
+                                "question": {
+                                    "type": "text",
+                                    "label": "Pergunta"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "parceiros": {
+            "label": "Parceiros Estratégicos",
+            "fields": {
+                "badge": {
+                    "type": "richtext",
+                    "label": "Badge"
+                },
+                "title": {
+                    "type": "richtext",
+                    "label": "Título"
+                },
+                "button": {
+                    "type": "object",
+                    "label": "Botão",
+                    "fields": {
+                        "link": {
+                            "type": "text",
+                            "label": "Link"
+                        },
+                        "size": {
+                            "type": "text",
+                            "label": "Tamanho"
+                        },
+                        "label": {
+                            "type": "text",
+                            "label": "Texto"
+                        },
+                        "action": {
+                            "type": "text",
+                            "label": "Ação"
+                        },
+                        "target": {
+                            "type": "text",
+                            "label": "Target"
+                        },
+                        "variant": {
+                            "type": "text",
+                            "label": "Variante visual"
+                        }
+                    }
+                },
+                "msgFinal": {
+                    "type": "text",
+                    "label": "Mensagem final (ex: Vagas limitadas)"
+                },
+                "parceiros": {
+                    "type": "array",
+                    "label": "Parceiros",
+                    "itemFields": {
+                        "id": {
+                            "type": "number",
+                            "label": "ID"
+                        },
+                        "nome": {
+                            "type": "text",
+                            "label": "Nome"
+                        },
+                        "cargo": {
+                            "type": "text",
+                            "label": "Cargo / Empresa"
+                        },
+                        "img_logo": {
+                            "type": "text",
+                            "label": "URL logo da empresa"
+                        },
+                        "img_nome": {
+                            "type": "text",
+                            "label": "URL imagem nome"
+                        },
+                        "depoimento": {
+                            "type": "richtext",
+                            "label": "Depoimento"
+                        },
+                        "img_logo_alt": {
+                            "type": "text",
+                            "label": "Alt logo empresa"
+                        },
+                        "img_nome_alt": {
+                            "type": "text",
+                            "label": "Alt imagem nome"
+                        },
+                        "img_principal": {
+                            "type": "text",
+                            "label": "URL foto principal"
+                        },
+                        "img_principal_alt": {
+                            "type": "text",
+                            "label": "Alt foto principal"
+                        }
+                    }
+                },
+                "description": {
+                    "type": "richtext",
+                    "label": "Descrição"
+                }
+            }
+        },
+        "duvida-cta": {
+            "label": "Dúvida CTA",
+            "fields": {
+                "title": {
+                    "type": "richtext",
+                    "label": "Título"
+                },
+                "button": {
+                    "type": "object",
+                    "label": "Botão",
+                    "fields": {
+                        "link": {
+                            "type": "text",
+                            "label": "Link"
+                        },
+                        "label": {
+                            "type": "text",
+                            "label": "Texto"
+                        }
+                    }
+                },
+                "description": {
+                    "type": "richtext",
+                    "label": "Descrição"
+                }
+            }
+        },
+        "cta-duvidas": {
+            "label": "CTA Dúvidas",
+            "fields": {
+                "ctaDuvidas": {
+                    "type": "object",
+                    "label": "Bloco CTA",
+                    "fields": {
+                        "title": {
+                            "type": "richtext",
+                            "label": "Título"
+                        },
+                        "button": {
+                            "type": "object",
+                            "label": "Botão",
+                            "fields": {
+                                "link": {
+                                    "type": "text",
+                                    "label": "Link"
+                                },
+                                "label": {
+                                    "type": "text",
+                                    "label": "Texto"
+                                }
+                            }
+                        },
+                        "description": {
+                            "type": "richtext",
+                            "label": "Descrição"
+                        }
+                    }
+                }
+            }
+        },
+        "marketplaces": {
+            "label": "Hub de Marketplaces",
+            "fields": {
+                "button": {
+                    "type": "object",
+                    "label": "Botão",
+                    "fields": {
+                        "link": {
+                            "type": "text",
+                            "label": "Link"
+                        },
+                        "label": {
+                            "type": "text",
+                            "label": "Texto"
+                        },
+                        "action": {
+                            "type": "text",
+                            "label": "Ação"
+                        },
+                        "target": {
+                            "type": "text",
+                            "label": "Target (_self | _blank)"
+                        },
+                        "variant": {
+                            "type": "text",
+                            "label": "Variante visual"
+                        }
+                    }
+                },
+                "header": {
+                    "type": "object",
+                    "label": "Cabeçalho",
+                    "fields": {
+                        "title": {
+                            "type": "richtext",
+                            "label": "Título"
+                        },
+                        "preTitle": {
+                            "type": "text",
+                            "label": "Pré-título"
+                        },
+                        "subtitle": {
+                            "type": "richtext",
+                            "label": "Subtítulo"
+                        }
+                    }
+                },
+                "marketplaces": {
+                    "type": "array",
+                    "label": "Marketplaces",
+                    "itemFields": {
+                        "src": {
+                            "type": "text",
+                            "label": "URL da imagem do logo"
+                        },
+                        "name": {
+                            "type": "text",
+                            "label": "Nome"
+                        },
+                        "color": {
+                            "type": "color",
+                            "label": "Cor da marca"
+                        }
+                    }
+                }
+            }
+        },
+        "redes-sociais": {
+            "label": "Redes Sociais",
+            "fields": {
+                "button": {
+                    "type": "object",
+                    "label": "Botão",
+                    "fields": {
+                        "link": {
+                            "type": "text",
+                            "label": "Link"
+                        },
+                        "label": {
+                            "type": "text",
+                            "label": "Texto"
+                        },
+                        "action": {
+                            "type": "text",
+                            "label": "Ação"
+                        },
+                        "target": {
+                            "type": "text",
+                            "label": "Target"
+                        },
+                        "variant": {
+                            "type": "text",
+                            "label": "Variante visual"
+                        }
+                    }
+                },
+                "header": {
+                    "type": "object",
+                    "label": "Cabeçalho",
+                    "fields": {
+                        "title": {
+                            "type": "richtext",
+                            "label": "Título"
+                        },
+                        "preTitle": {
+                            "type": "text",
+                            "label": "Pré-título"
+                        },
+                        "subtitle": {
+                            "type": "richtext",
+                            "label": "Subtítulo"
+                        }
+                    }
+                },
+                "socials": {
+                    "type": "array",
+                    "label": "Redes sociais",
+                    "itemFields": {
+                        "name": {
+                            "type": "text",
+                            "label": "Nome da rede"
+                        },
+                        "gradient": {
+                            "type": "text",
+                            "label": "Gradiente Tailwind"
+                        }
+                    }
+                },
+                "videoFile": {
+                    "type": "object",
+                    "label": "Vídeo",
+                    "fields": {
+                        "alt": {
+                            "type": "text",
+                            "label": "Alt do vídeo"
+                        },
+                        "url": {
+                            "type": "text",
+                            "label": "URL do YouTube"
+                        },
+                        "videoSrc": {
+                            "type": "text",
+                            "label": "URL do arquivo de vídeo"
+                        }
+                    }
+                }
+            }
+        },
+        "solucoes-home": {
+            "label": "Soluções (Home)",
+            "fields": {
+                "cards": {
+                    "type": "array",
+                    "label": "Cards de soluções",
+                    "itemFields": {
+                        "id": {
+                            "type": "text",
+                            "label": "ID"
+                        },
+                        "icon": {
+                            "type": "text",
+                            "label": "Ícone (nome interno)"
+                        },
+                        "title": {
+                            "type": "text",
+                            "label": "Título"
+                        },
+                        "gradient": {
+                            "type": "text",
+                            "label": "Classe de gradiente Tailwind"
+                        },
+                        "description": {
+                            "type": "textarea",
+                            "label": "Descrição"
+                        }
+                    }
+                },
+                "button": {
+                    "type": "object",
+                    "label": "Botão",
+                    "fields": {
+                        "link": {
+                            "type": "text",
+                            "label": "Link"
+                        },
+                        "label": {
+                            "type": "text",
+                            "label": "Texto"
+                        },
+                        "action": {
+                            "type": "text",
+                            "label": "Ação (link | scroll)"
+                        }
+                    }
+                },
+                "header": {
+                    "type": "object",
+                    "label": "Cabeçalho",
+                    "fields": {
+                        "badge": {
+                            "type": "text",
+                            "label": "Badge"
+                        },
+                        "title": {
+                            "type": "richtext",
+                            "label": "Título"
+                        },
+                        "preTitle": {
+                            "type": "text",
+                            "label": "Pré-título"
+                        },
+                        "subtitle": {
+                            "type": "richtext",
+                            "label": "Subtítulo"
+                        }
+                    }
+                },
+                "services": {
+                    "type": "array",
+                    "label": "Serviços (lista lateral)",
+                    "itemFields": {
+                        "id": {
+                            "type": "text",
+                            "label": "ID (ecommerce | marketing | formacoes | ferramentas)"
+                        },
+                        "step": {
+                            "type": "text",
+                            "label": "Número (01, 02...)"
+                        },
+                        "color": {
+                            "type": "color",
+                            "label": "Cor"
+                        },
+                        "image": {
+                            "type": "text",
+                            "label": "URL da imagem"
+                        },
+                        "title": {
+                            "type": "text",
+                            "label": "Título"
+                        },
+                        "description": {
+                            "type": "textarea",
+                            "label": "Descrição"
+                        }
+                    }
+                },
+                "marketplaces": {
+                    "type": "array",
+                    "label": "Marketplaces (logos)",
+                    "itemFields": {
+                        "name": {
+                            "type": "text",
+                            "label": "Nome"
+                        },
+                        "color": {
+                            "type": "color",
+                            "label": "Cor"
+                        },
+                        "initials": {
+                            "type": "text",
+                            "label": "Iniciais"
+                        },
+                        "textColor": {
+                            "type": "color",
+                            "label": "Cor do texto"
+                        }
+                    }
+                }
+            }
+        },
+        "formacoes-home": {
+            "label": "Formações (Home)",
+            "fields": {
+                "formacoes": {
+                    "type": "object",
+                    "label": "Seção de Formações",
+                    "fields": {
+                        "cta": {
+                            "type": "object",
+                            "label": "CTA",
+                            "fields": {
+                                "link": {
+                                    "type": "text",
+                                    "label": "Link"
+                                },
+                                "label": {
+                                    "type": "text",
+                                    "label": "Texto"
+                                }
+                            }
+                        },
+                        "header": {
+                            "type": "object",
+                            "label": "Cabeçalho",
+                            "fields": {
+                                "badge": {
+                                    "type": "text",
+                                    "label": "Badge"
+                                },
+                                "title": {
+                                    "type": "text",
+                                    "label": "Título"
+                                },
+                                "description": {
+                                    "type": "textarea",
+                                    "label": "Descrição"
+                                }
+                            }
+                        },
+                        "courses": {
+                            "type": "array",
+                            "label": "Formações",
+                            "itemFields": {
+                                "alt": {
+                                    "type": "text",
+                                    "label": "Alt da imagem"
+                                },
+                                "tag": {
+                                    "type": "text",
+                                    "label": "Tag (Presencial | Masterclass | Workshop)"
+                                },
+                                "link": {
+                                    "type": "text",
+                                    "label": "Link do curso"
+                                },
+                                "image": {
+                                    "type": "text",
+                                    "label": "URL da imagem"
+                                },
+                                "title": {
+                                    "type": "text",
+                                    "label": "Título"
+                                },
+                                "accent": {
+                                    "type": "text",
+                                    "label": "Classe de cor de acento Tailwind"
+                                },
+                                "ctaLabel": {
+                                    "type": "text",
+                                    "label": "Texto do CTA"
+                                },
+                                "description": {
+                                    "type": "textarea",
+                                    "label": "Descrição"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "hero-carrossel-home": {
+            "label": "Hero Carrossel (Home)",
+            "fields": {
+                "items": {
+                    "type": "array",
+                    "label": "Slides",
+                    "itemFields": {
+                        "id": {
+                            "type": "number",
+                            "label": "ID"
+                        },
+                        "tag": {
+                            "type": "text",
+                            "label": "Tag (ex: ASSESSORIA MERCADO LIVRE)"
+                        },
+                        "image": {
+                            "type": "text",
+                            "label": "URL da imagem"
+                        },
+                        "title": {
+                            "type": "text",
+                            "label": "Título"
+                        },
+                        "ctaLink": {
+                            "type": "text",
+                            "label": "Link do CTA"
+                        },
+                        "ctaText": {
+                            "type": "text",
+                            "label": "Texto do CTA"
+                        },
+                        "subtext": {
+                            "type": "text",
+                            "label": "Subtexto"
+                        },
+                        "description": {
+                            "type": "textarea",
+                            "label": "Descrição"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "content": {
+        "inicio": {
+            "logo": {
+                "alt": "Tegbe",
+                "src": "https://tegbe-cdn.b-cdn.net/uploads/1774578674491-logo.svg",
+                "width": 320,
+                "height": 150,
+                "imagem": "https://tegbe-cdn.b-cdn.net/uploads/1773882453318-logo.svg"
+            },
+            "theme": {
+                "accentColor": "#F1D95D",
+                "backgroundColor": "#0A0A0A"
+            },
+            "tagline": [
+                {
+                    "type": "text",
+                    "value": ""
+                }
+            ],
+            "backgroundText": [
+                {
+                    "type": "text",
+                    "value": "EXCELÊNCIA"
+                }
+            ]
+        },
+        "clientes": {
+            "badge": {
+                "icon": "lucide:trending-up",
+                "text": "Resultados reais de clientes"
+            },
+            "title": [
+                {
+                    "type": "text",
+                    "color": "white",
+                    "value": "Empresas que decidiram"
+                },
+                {
+                    "type": "linebreak"
+                },
+                {
+                    "type": "highlight",
+                    "color": "#FFCC00",
+                    "value": "escalar com estrutura"
+                }
+            ],
+            "button": {
+                "icon": "lucide:arrow-right",
+                "link": "https://api.whatsapp.com/send?phone=5514991779502",
+                "size": "lg",
+                "label": "Quero escalar meu e-commerce",
+                "action": "link",
+                "target": "_blank",
+                "variant": "primary"
+            },
+            "testimonials": [
+                {
+                    "id": 1,
+                    "logo": "",
+                    "name": "Gab Plásticos",
+                    "tags": [
+                        {
+                            "type": "text",
+                            "value": "E-commerce"
+                        },
+                        {
+                            "type": "text",
+                            "value": "Loja"
+                        },
+                        {
+                            "type": "text",
+                            "value": "Vendas"
+                        }
+                    ],
+                    "metric": "",
+                    "result": "do zero a 55k em 90 dias",
+                    "description": "Loja em Garça/SP"
+                },
+                {
+                    "id": 2,
+                    "logo": "",
+                    "name": "Tony Auto Parts",
+                    "tags": [
+                        {
+                            "type": "text",
+                            "value": "a"
+                        }
+                    ],
+                    "metric": "",
+                    "result": "do zero a 35k em 90 dias",
+                    "description": "Loja em Garça"
+                },
+                {
+                    "id": 3,
+                    "logo": "",
+                    "name": "Energy Econologia",
+                    "tags": [
+                        {
+                            "type": "text",
+                            "value": "b"
+                        }
+                    ],
+                    "metric": "",
+                    "result": "Vendendo no Mercado Livre a mais de 3 anos",
+                    "description": "Loja em Garça SP"
+                },
+                {
+                    "id": 4,
+                    "logo": "",
+                    "name": "FLC Autopeças",
+                    "tags": [
+                        {
+                            "type": "text",
+                            "value": "c"
+                        }
+                    ],
+                    "metric": "",
+                    "result": "do ZERO a 15k em 60 dias",
+                    "description": "Loja em Marilia SP"
+                },
+                {
+                    "id": 5,
+                    "logo": "",
+                    "name": "Café Appassionato",
+                    "tags": [],
+                    "metric": "",
+                    "result": "Integramos a empresa que vende de forma solida a 3 anos",
+                    "description": "Loja em Garça"
+                }
+            ]
+        },
+        "faq-home": {
+            "faq": {
+                "header": {
+                    "tag": [
+                        {
+                            "type": "text",
+                            "value": "Clarificação Estratégica"
+                        }
+                    ],
+                    "title": [
+                        {
+                            "type": "text",
+                            "value": "Dúvidas de quem joga sério."
+                        }
+                    ],
+                    "subtitle": [
+                        {
+                            "type": "text",
+                            "value": "Sem letras miúdas. Transparência radical antes do aperto de mão."
+                        }
+                    ],
+                    "tag_icon": "solar:question-circle-linear"
+                },
+                "questions_and_answers": [
+                    {
+                        "id": "item-1768016589891-ibpr9ryxu",
+                        "order": 0,
+                        "answer": [
+                            {
+                                "type": "text",
+                                "value": "Trabalhamos com escalas diferentes. Para a Consultoria e Agência (Marketing), recomendamos que você já tenha um produto validado e orçamento para tráfego (mínimo R$ 2k/mês). Se você está começando do absoluto zero, indicamos iniciar pelo TegPro Academy para validar sua oferta sem queimar caixa."
+                            }
+                        ],
+                        "question": [
+                            {
+                                "type": "text",
+                                "value": "Preciso ter um faturamento mínimo para contratar?"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1768017036276,
+                        "order": 1,
+                        "answer": [
+                            {
+                                "type": "text",
+                                "value": "Não vendemos milagres, vendemos engenharia. Em média, nossos clientes de E-commerce veem a maturação das campanhas entre 45 a 60 dias (período de aprendizado do algoritmo). Porém, com a implementação do CRM e CRO, melhorias na conversão costumam ser notadas já nas primeiras semanas."
+                            }
+                        ],
+                        "question": [
+                            {
+                                "type": "text",
+                                "value": "Em quanto tempo vejo o ROI?"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1768094973700,
+                        "order": 2,
+                        "answer": [
+                            {
+                                "type": "text",
+                                "value": "Somos agnósticos de nicho, mas especialistas em modelo de negócio. Se você vende produtos físicos (E-commerce) ou serviços de alto ticket (Clínicas, Escritórios, B2B), nosso protocolo funciona. Não atendemos: Dropshipping genérico ou PLR de baixa qualidade."
+                            }
+                        ],
+                        "question": [
+                            {
+                                "type": "text",
+                                "value": "Vocês atendem qual nicho?"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1768094997200,
+                        "order": 3,
+                        "answer": [
+                            {
+                                "type": "text",
+                                "value": "A agência comum quer seus 'likes' e foca em métricas de vaidade. A Tegbe foca no seu LTV (Lifetime Value) e Lucro Líquido. Somos parceiros de negócio. Se você não lucra, a gente não renova. Simples assim."
+                            }
+                        ],
+                        "question": [
+                            {
+                                "type": "text",
+                                "value": "Qual a diferença entre a Tegbe e uma agência comum?"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "faq_section": {
+                "config": {
+                    "theme": "Minimalist White",
+                    "animation": "Framer Motion AnimatePresence",
+                    "interaction": "Accordion Solo (One open at a time)"
+                },
+                "header": {
+                    "tag": "Clarificação Estratégica",
+                    "title": "Dúvidas de quem joga sério.",
+                    "subtitle": "Sem letras miúdas. Transparência radical antes do aperto de mão.",
+                    "tag_icon": "solar:question-circle-linear"
+                },
+                "questions_and_answers": [
+                    {
+                        "id": "item-1768016589891-ibpr9ryxu",
+                        "order": 0,
+                        "answer": "Trabalhamos com escalas diferentes. Para a Consultoria e Agência (Marketing), recomendamos que você já tenha um produto validado e orçamento para tráfego (mínimo R$ 2k/mês). Se você está começando do absoluto zero, indicamos iniciar pelo TegPro Academy para validar sua oferta sem queimar caixa.",
+                        "question": "Preciso ter um faturamento mínimo para contratar?"
+                    },
+                    {
+                        "id": 1768017036276,
+                        "answer": "Não vendemos milagres, vendemos engenharia. Em média, nossos clientes de E-commerce veem a maturação das campanhas entre 45 a 60 dias (período de aprendizado do algoritmo). Porém, com a implementação do CRM e CRO, melhorias na conversão costumam ser notadas já nas primeiras semanas.",
+                        "question": "Em quanto tempo vejo o ROI?"
+                    },
+                    {
+                        "id": 1768094973700,
+                        "answer": "Somos agnósticos de nicho, mas especialistas em modelo de negócio. Se você vende produtos físicos (E-commerce) ou serviços de alto ticket (Clínicas, Escritórios, B2B), nosso protocolo funciona. Não atendemos: Dropshipping genérico ou PLR de baixa qualidade.",
+                        "question": "Vocês atendem qual nicho?"
+                    },
+                    {
+                        "id": 1768094997200,
+                        "answer": "A agência comum quer seus 'likes' e foca em métricas de vaidade. A Tegbe foca no seu LTV (Lifetime Value) e Lucro Líquido. Somos parceiros de negócio. Se você não lucra, a gente não renova. Simples assim.",
+                        "question": "Qual a diferença entre a Tegbe e uma agência comum?"
+                    }
+                ]
+            }
+        },
+        "parceiros": {
+            "badge": [
+                {
+                    "type": "text",
+                    "value": "Parceiros Estratégicos"
+                }
+            ],
+            "title": [
+                {
+                    "type": "text",
+                    "value": "Trabalhamos com quem "
+                },
+                {
+                    "type": "highlight",
+                    "color": "#F9396F",
+                    "value": "domina o mercado."
+                }
+            ],
+            "button": {
+                "link": "/contato",
+                "size": "lg",
+                "label": "Quero me tornar parceiro",
+                "action": "link",
+                "target": "_self",
+                "variant": "marketing"
+            },
+            "msgFinal": "Vagas limitadas para consultoria estratégica",
+            "parceiros": [
+                {
+                    "id": 1,
+                    "nome": "João Branco",
+                    "cargo": "Ex-CMO do McDonald's",
+                    "img_logo": "/dev/foto_logo_card.avif",
+                    "img_nome": "/dev/foto_nome_card.avif",
+                    "depoimento": [
+                        {
+                            "type": "text",
+                            "value": "Top 10 profissionais de marketing no Brasil pela Forbes. Considerado CMO mais eficaz do país pela Scopen."
+                        }
+                    ],
+                    "img_logo_alt": "McDonald's",
+                    "img_nome_alt": "Ferrero",
+                    "img_principal": "/dev/foto_card.avif",
+                    "img_principal_alt": "João Branco"
+                },
+                {
+                    "id": 2,
+                    "nome": "Vinícius",
+                    "cargo": "Fundador Mavellium",
+                    "img_logo": "/dev/foto_logo_card.avif",
+                    "img_nome": "/dev/foto_nome_card.avif",
+                    "depoimento": [
+                        {
+                            "type": "text",
+                            "value": "Top 10 profissionais de marketing no Brasil pela Forbes. Considerado CMO mais eficaz do país pela Scopen."
+                        }
+                    ],
+                    "img_logo_alt": "McDonald's",
+                    "img_nome_alt": "Ferrero",
+                    "img_principal": "/dev/foto_card.avif",
+                    "img_principal_alt": "João Branco"
+                }
+            ],
+            "description": [
+                {
+                    "type": "text",
+                    "value": "Unimos forças com especialistas que elevam o nível das empresas."
+                }
+            ]
+        },
+        "duvida-cta": {
+            "title": [
+                {
+                    "type": "text",
+                    "value": "Está em dúvida"
+                },
+                {
+                    "type": "linebreak"
+                },
+                {
+                    "type": "text",
+                    "value": "sobre qual"
+                },
+                {
+                    "type": "linebreak"
+                },
+                {
+                    "type": "text",
+                    "value": "plano escolher?"
+                }
+            ],
+            "button": {
+                "link": "#",
+                "label": "Fale com um Especialista"
+            },
+            "description": [
+                {
+                    "type": "text",
+                    "value": "O nosso time de especialistas (ou assistente com IA) está pronto para ajudar você a escolher o plano ideal para o seu projeto."
+                }
+            ]
+        },
+        "cta-duvidas": {
+            "ctaDuvidas": {
+                "title": [
+                    {
+                        "type": "text",
+                        "value": "Está em dúvida"
+                    },
+                    {
+                        "type": "linebreak"
+                    },
+                    {
+                        "type": "text",
+                        "value": "sobre qual"
+                    },
+                    {
+                        "type": "linebreak"
+                    },
+                    {
+                        "type": "text",
+                        "value": "plano escolher?"
+                    }
+                ],
+                "button": {
+                    "link": "#",
+                    "label": "Fale com um Especialista"
+                },
+                "description": [
+                    {
+                        "type": "text",
+                        "value": "O nosso time de especialistas (ou assistente com IA) está pronto para ajudar você a escolher o plano ideal para o seu projeto."
+                    }
+                ]
+            }
+        },
+        "marketplaces": {
+            "button": {
+                "link": "https://wa.me/5514988281001",
+                "label": "Agendar demonstração",
+                "action": "link",
+                "target": "_self",
+                "variant": "default"
+            },
+            "header": {
+                "title": [
+                    {
+                        "type": "text",
+                        "value": "Hub de Integração com "
+                    },
+                    {
+                        "type": "highlight",
+                        "value": "Marketplaces",
+                        "className": "text-white font-bold"
+                    }
+                ],
+                "preTitle": "ECOSSISTEMA",
+                "subtitle": [
+                    {
+                        "type": "text",
+                        "value": "Venda nos maiores canais do Brasil com sincronização em tempo real de estoque e preços."
+                    }
+                ]
+            },
+            "marketplaces": [
+                {
+                    "src": "https://tegbe-cdn.b-cdn.net/uploads/1774800820480-Imagens-de-Marketplaces--1-.png",
+                    "name": "Mercado Livre",
+                    "color": "#FFE600"
+                },
+                {
+                    "src": "https://tegbe-cdn.b-cdn.net/uploads/1774800960874-Imagens-de-Marketplaces--4-.png",
+                    "name": "Amazon",
+                    "color": "#FF9900"
+                },
+                {
+                    "src": "https://tegbe-cdn.b-cdn.net/uploads/1774801118728-Imagens-de-Marketplaces--5-.png",
+                    "name": "Shopee",
+                    "color": "#EE4D2D"
+                },
+                {
+                    "src": "https://tegbe-cdn.b-cdn.net/uploads/1774961786402-C-pia-de-Design-sem-nome.png",
+                    "name": "TikTok Shop",
+                    "color": "#FFE600"
+                }
+            ]
+        },
+        "redes-sociais": {
+            "button": {
+                "link": "/contato",
+                "label": "Criar minha estratégia agora",
+                "action": "link",
+                "target": "_self",
+                "variant": "marketing"
+            },
+            "header": {
+                "title": [
+                    {
+                        "type": "text",
+                        "value": "Domine a sua presença nas "
+                    },
+                    {
+                        "type": "highlight",
+                        "value": "Redes Sociais",
+                        "className": "text-primary font-semibold"
+                    }
+                ],
+                "preTitle": "MARKETING DIGITAL",
+                "subtitle": [
+                    {
+                        "type": "text",
+                        "value": "Estratégias de alta conversão desenhadas para transformar seguidores em ativos reais para o seu negócio."
+                    }
+                ]
+            },
+            "socials": [
+                {
+                    "name": "Instagram",
+                    "gradient": "from-[#833ab4] via-[#fd1d1d] to-[#fcb045]"
+                },
+                {
+                    "name": "TikTok",
+                    "gradient": "from-[#000000] to-[#ff0050]"
+                },
+                {
+                    "name": "Facebook",
+                    "gradient": "from-[#1877F2] to-[#0047AB]"
+                },
+                {
+                    "name": "YouTube",
+                    "gradient": "from-[#FF0000] to-[#282828]"
+                },
+                {
+                    "name": "LinkedIn",
+                    "gradient": "from-[#0A66C2] to-[#004182]"
+                },
+                {
+                    "name": "Pinterest",
+                    "gradient": "from-[#E60023] to-[#BD081C]"
+                },
+                {
+                    "name": "WhatsApp",
+                    "gradient": "from-[#25D366] to-[#075E54]"
+                },
+                {
+                    "name": "Twitter/X",
+                    "gradient": "from-[#000000] to-[#262626]"
+                }
+            ],
+            "videoFile": {
+                "alt": "Vídeo Estratégia de Marketing",
+                "url": "https://youtu.be/cRVGxc9vSjI?si=Sk5l2rKV7Qb3nmQJ",
+                "videoSrc": "https://tegbe-cdn.b-cdn.net/uploads/1774020788960-Tegbe---Land.mp4"
+            }
+        },
+        "solucoes-home": {
+            "cards": [
+                {
+                    "id": "ecommerce",
+                    "icon": "ecommerce",
+                    "title": "E-commerce",
+                    "gradient": "from-blue-600 to-indigo-700",
+                    "description": "Venda nos maiores marketplaces do Brasil"
+                },
+                {
+                    "id": "marketing",
+                    "icon": "marketing",
+                    "title": "Marketing",
+                    "gradient": "from-amber-500 to-orange-600",
+                    "description": "Domine as redes sociais e conquiste clientes"
+                },
+                {
+                    "id": "formacoes",
+                    "icon": "formacoes",
+                    "title": "Formações",
+                    "gradient": "from-emerald-500 to-teal-600",
+                    "description": "Aprenda presencialmente com especialistas"
+                },
+                {
+                    "id": "ferramentas",
+                    "icon": "ferramentas",
+                    "title": "Ferramentas",
+                    "gradient": "from-violet-500 to-purple-700",
+                    "description": "Tecnologia para alavancar suas vendas"
+                }
+            ],
+            "button": {
+                "link": "#",
+                "label": "Comece a vender agora",
+                "action": "link"
+            },
+            "header": {
+                "badge": "Soluções completas para o seu negócio",
+                "title": [
+                    {
+                        "type": "text",
+                        "value": "Cresça no "
+                    },
+                    {
+                        "type": "highlight",
+                        "value": "Digital",
+                        "className": "text-primary"
+                    },
+                    {
+                        "type": "text",
+                        "value": " com estratégia"
+                    }
+                ],
+                "preTitle": "E-COMMERCE",
+                "subtitle": [
+                    {
+                        "type": "text",
+                        "value": "Escolha a área que deseja explorar e descubra como podemos transformar seus resultados."
+                    }
+                ]
+            },
+            "services": [
+                {
+                    "id": "ecommerce",
+                    "step": "01",
+                    "color": "#3B82F6",
+                    "image": "https://tegbe-cdn.b-cdn.net/uploads/1776174385224-8.png",
+                    "title": "E-commerce",
+                    "description": "Venda nos maiores marketplaces do Brasil"
+                },
+                {
+                    "id": "marketing",
+                    "step": "02",
+                    "color": "#F59E0B",
+                    "image": "https://tegbe-cdn.b-cdn.net/uploads/1776174397333-9.png",
+                    "title": "Marketing",
+                    "description": "Domine as redes sociais e conquiste clientes"
+                },
+                {
+                    "id": "formacoes",
+                    "step": "03",
+                    "color": "#10B981",
+                    "image": "https://tegbe-cdn.b-cdn.net/uploads/1776174424235-C-pia-de-Design-sem-nome--1-.png",
+                    "title": "Formações",
+                    "description": "Aprenda com especialistas"
+                },
+                {
+                    "id": "ferramentas",
+                    "step": "04",
+                    "color": "#8B5CF6",
+                    "image": "https://tegbe-cdn.b-cdn.net/uploads/1776174418408-11.png",
+                    "title": "Ferramentas",
+                    "description": "Tecnologia para escalar seu negócio"
+                }
+            ],
+            "marketplaces": [
+                {
+                    "name": "Mercado Livre",
+                    "color": "#FFE600",
+                    "initials": "ML",
+                    "textColor": "#333"
+                },
+                {
+                    "name": "Shopee",
+                    "color": "#EE4D2D",
+                    "initials": "SH",
+                    "textColor": "#fff"
+                },
+                {
+                    "name": "Amazon",
+                    "color": "#FF9900",
+                    "initials": "AZ",
+                    "textColor": "#fff"
+                },
+                {
+                    "name": "Magalu",
+                    "color": "#0086FF",
+                    "initials": "MG",
+                    "textColor": "#fff"
+                }
+            ]
+        },
+        "formacoes-home": {
+            "formacoes": {
+                "cta": {
+                    "link": "#",
+                    "label": "Falar com consultor"
+                },
+                "header": {
+                    "badge": "Formações Exclusivas",
+                    "title": "Aprenda com Especialistas",
+                    "description": "Cursos práticos e intensivos desenhados para você dominar o mercado digital. Networking de alto nível garantido."
+                },
+                "courses": [
+                    {
+                        "alt": "Laptop mostrando painel de controle de e-commerce",
+                        "tag": "Presencial",
+                        "link": "/curso/gestao-ecommerce",
+                        "image": "https://tegbe-cdn.b-cdn.net/uploads/1777505950623-glowl-as-the-how-fast-i-catched-the-reference-eagle-meme-v0-40851js59umg1--1-.webp",
+                        "title": "Gestão de E-commerce",
+                        "accent": "from-blue-500/20",
+                        "ctaLabel": "Saber mais sobre gestão",
+                        "description": "Aprenda a estruturar, operar e gerir lojas online de forma profissional e altamente escalável."
+                    },
+                    {
+                        "alt": "Gráficos de marketing e analytics",
+                        "tag": "Masterclass",
+                        "link": "/curso/marketing-avancado",
+                        "image": "",
+                        "title": "Marketing Digital Avançado",
+                        "accent": "from-emerald-500/20",
+                        "ctaLabel": "Ver cronograma",
+                        "description": "Domine as estratégias de tráfego pago, funis de conversão e aquisição orgânica de clientes."
+                    },
+                    {
+                        "alt": "Caixas de entrega prontas para envio",
+                        "tag": "Presencial",
+                        "link": "/curso/marketplaces",
+                        "image": "",
+                        "title": "Vendas em Marketplaces",
+                        "accent": "from-amber-500/20",
+                        "ctaLabel": "Garantir minha vaga",
+                        "description": "Técnicas validadas para posicionar produtos e se destacar no Mercado Livre, Amazon e Shopee."
+                    },
+                    {
+                        "alt": "Câmera fotográfica profissional em estúdio",
+                        "tag": "Workshop",
+                        "link": "/curso/fotografia-produto",
+                        "image": "",
+                        "title": "Fotografia de Produto",
+                        "accent": "from-purple-500/20",
+                        "ctaLabel": "Ver materiais necessários",
+                        "description": "Crie imagens que convertem. Da iluminação básica à edição profissional voltada para conversão."
+                    }
+                ]
+            }
+        },
+        "hero-carrossel-home": {
+            "items": [
+                {
+                    "id": 1,
+                    "tag": "ASSESSORIA MERCADO LIVRE E SHOPEE",
+                    "image": "https://tegbe-cdn.b-cdn.net/uploads/1776176215989-17.png",
+                    "title": "Enquanto você tenta sozinho, seus concorrentes faturam 3x mais!",
+                    "ctaLink": "https://wa.me/5514988281001",
+                    "ctaText": "SAIBA MAIS",
+                    "subtext": "Solução completa de ponta a ponta para acelarar seu ecommerce",
+                    "description": "Escale sua operação no Online de uma vez por todas. Seja começar do zero ou alavancar sua performance."
+                },
+                {
+                    "id": 2,
+                    "tag": "100% PRESENCIAL",
+                    "image": "https://tegbe-cdn.b-cdn.net/uploads/1776176394113-Imagens-Site-3--1475-x-897-px-.png",
+                    "title": "CURSO GESTÃO DE ECOMMERCE",
+                    "ctaLink": "https://wa.me/5514988281001",
+                    "ctaText": "SAIBA MAIS",
+                    "subtext": "Vamos descomplicar de uma vez por todas as vendas na internet.",
+                    "description": "O caminho para vender do ZERO ao avançado nos maiores canais de vendas online do Brasil e do Mundo."
+                },
+                {
+                    "id": 0,
+                    "tag": "Teste",
+                    "image": "",
+                    "title": "aa",
+                    "ctaLink": "",
+                    "ctaText": "asd",
+                    "subtext": "asdasd",
+                    "description": "dasda"
+                }
+            ]
+        }
+    }
+}
+
+
+
+

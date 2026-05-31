@@ -1,0 +1,54 @@
+{
+  "slug": "sobre",
+  "name": "Sobre (ITC)",
+  "schema": {
+    "meta-sobre": {
+      "label": "Meta Tegbe",
+      "fields": {
+        "footer": { "type": "richtext", "label": "Rodapé" },
+        "header": {
+          "type": "object",
+          "label": "Cabeçalho",
+          "fields": {
+            "title": { "type": "richtext", "label": "Título" },
+            "subtitle": { "type": "richtext", "label": "Subtítulo" }
+          }
+        },
+        "progress": {
+          "type": "object",
+          "label": "Progresso",
+          "fields": {
+            "max": { "type": "number", "label": "Máximo" },
+            "target": { "type": "number", "label": "Meta" },
+            "current": { "type": "number", "label": "Atual" }
+          }
+        }
+      }
+    }
+  },
+  "content": {
+    "meta-sobre": {
+      "footer": [
+        { "type": "text", "value": "resultados gerados até agora pela" },
+        { "type": "bold", "value": "#geraçãotegbea" }
+      ],
+      "header": {
+        "title": [
+          { "type": "text", "value": "Qual é a principal " },
+          { "type": "highlight", "color": "#FFC72C", "value": "meta" },
+          { "type": "text", "value": " da Tegbe?" }
+        ],
+        "subtitle": [
+          { "size": 18, "type": "text", "value": "Gerar " },
+          { "size": 18, "type": "bold", "value": "R$ 100 milhões em novas receitas" },
+          { "size": 18, "type": "text", "value": " através dos nossos parceiros até 2030." }
+        ]
+      },
+      "progress": {
+        "max": 5000,
+        "target": 1500,
+        "current": 1500
+      }
+    }
+  }
+}

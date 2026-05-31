@@ -1,0 +1,430 @@
+{
+  "slug": "home",
+  "name": "Home",
+  "schema": {
+    "faq-mavellium": {
+      "label": "FAQ",
+      "fields": {
+        "items": {
+          "type": "array",
+          "label": "Perguntas",
+          "itemFields": {
+            "image": {
+              "type": "text",
+              "label": "URL da imagem"
+            },
+            "answer": {
+              "type": "textarea",
+              "label": "Resposta"
+            },
+            "category": {
+              "type": "text",
+              "label": "Categoria"
+            },
+            "question": {
+              "type": "text",
+              "label": "Pergunta"
+            }
+          }
+        }
+      }
+    },
+    "sobre-mavellium": {
+      "label": "Quem Somos",
+      "fields": {
+        "services": {
+          "type": "array",
+          "label": "Abas de serviço",
+          "itemFields": {
+            "id": {
+              "type": "text",
+              "label": "ID (01, 02...)"
+            },
+            "tag": {
+              "type": "text",
+              "label": "Tag (ex: A Empresa)"
+            },
+            "image": {
+              "type": "text",
+              "label": "URL da imagem"
+            },
+            "title": {
+              "type": "text",
+              "label": "Título"
+            },
+            "description": {
+              "type": "textarea",
+              "label": "Descrição"
+            }
+          }
+        }
+      }
+    },
+    "solucoes-mavellium": {
+      "label": "Soluções",
+      "fields": {
+        "cards": {
+          "type": "array",
+          "label": "Cards",
+          "itemFields": {
+            "id": {
+              "type": "text",
+              "label": "ID: sites-inteligentes | landing-pages | automacao-ia"
+            },
+            "image": {
+              "type": "text",
+              "label": "URL da imagem"
+            },
+            "imageAlt": {
+              "type": "text",
+              "label": "Alt da imagem"
+            },
+            "buttonText": {
+              "type": "text",
+              "label": "Texto do botão"
+            },
+            "frontTitle": {
+              "type": "text",
+              "label": "Título (frente)"
+            },
+            "backDescription": {
+              "type": "textarea",
+              "label": "Descrição (verso)"
+            },
+            "frontDescription": {
+              "type": "textarea",
+              "label": "Descrição (frente)"
+            }
+          }
+        },
+        "description": {
+          "type": "textarea",
+          "label": "Descrição da seção"
+        }
+      }
+    },
+    "cta-final-mavellium": {
+      "label": "CTA Final",
+      "fields": {
+        "text": {
+          "type": "object",
+          "label": "Textos",
+          "fields": {
+            "headline": {
+              "type": "text",
+              "label": "Headline"
+            },
+            "highlight": {
+              "type": "text",
+              "label": "Destaque (verde)"
+            },
+            "description": {
+              "type": "textarea",
+              "label": "Descrição"
+            }
+          }
+        },
+        "theme": {
+          "type": "object",
+          "label": "Tema",
+          "fields": {
+            "bg_color": {
+              "type": "text",
+              "label": "Cor de fundo (hex)"
+            },
+            "button_bg": {
+              "type": "text",
+              "label": "Cor do botão"
+            },
+            "gradient_end": {
+              "type": "text",
+              "label": "Gradiente fim"
+            },
+            "gradient_start": {
+              "type": "text",
+              "label": "Gradiente início"
+            }
+          }
+        },
+        "calls_to_action": {
+          "type": "object",
+          "label": "CTAs",
+          "fields": {
+            "primary": {
+              "type": "object",
+              "label": "Primário",
+              "fields": {
+                "href": {
+                  "type": "text",
+                  "label": "Link"
+                },
+                "icon": {
+                  "type": "text",
+                  "label": "Ícone (iconify)"
+                },
+                "label": {
+                  "type": "text",
+                  "label": "Texto"
+                }
+              }
+            },
+            "secondary": {
+              "type": "object",
+              "label": "Secundário",
+              "fields": {
+                "href": {
+                  "type": "text",
+                  "label": "Link"
+                },
+                "icon": {
+                  "type": "text",
+                  "label": "Ícone (iconify)"
+                },
+                "label": {
+                  "type": "text",
+                  "label": "Texto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "manifesto-mavellium": {
+      "label": "Manifesto",
+      "fields": {
+        "src": {
+          "type": "text",
+          "label": "URL da imagem principal"
+        },
+        "date": {
+          "type": "text",
+          "label": "Subtítulo / data"
+        },
+        "about": {
+          "type": "object",
+          "label": "Conteúdo",
+          "fields": {
+            "overview": {
+              "type": "textarea",
+              "label": "Parágrafo 1"
+            },
+            "conclusion": {
+              "type": "textarea",
+              "label": "Parágrafo 2"
+            }
+          }
+        },
+        "title": {
+          "type": "text",
+          "label": "Título"
+        },
+        "background": {
+          "type": "text",
+          "label": "URL da imagem de fundo"
+        },
+        "scrollToExpand": {
+          "type": "text",
+          "label": "Texto de scroll"
+        }
+      }
+    },
+    "hero-section-mavellium": {
+      "label": "Hero",
+      "fields": {
+        "slides": {
+          "type": "array",
+          "label": "Slides",
+          "itemFields": {
+            "id": {
+              "type": "text",
+              "label": "ID"
+            },
+            "primaryButtonLink": {
+              "type": "text",
+              "label": "Link do botão primário"
+            },
+            "primaryButtonText": {
+              "type": "text",
+              "label": "Texto do botão primário"
+            },
+            "headline": {
+              "type": "text",
+              "label": "Headline"
+            },
+            "mediaUrl": {
+              "type": "text",
+              "label": "URL da mídia (vídeo/imagem)"
+            },
+            "mediaType": {
+              "type": "text",
+              "label": "Tipo: video | image"
+            },
+            "description": {
+              "type": "textarea",
+              "label": "Descrição / subheadline"
+            },
+            "secondaryButtonLink": {
+              "type": "text",
+              "label": "Link do botão secundário"
+            },
+            "secondaryButtonText": {
+              "type": "text",
+              "label": "Texto do botão secundário"
+            },
+            "headlineHighlight": {
+              "type": "text",
+              "label": "Destaque da headline"
+            }
+          }
+        }
+      }
+    }
+  },
+  "content": {
+    "faq-mavellium": {
+      "items": [
+        {
+          "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=600&auto=format&fit=crop",
+          "answer": "Operamos com total transparência através de 5 fases críticas: Imersão Semântica e Briefing, Análise de Viabilidade Técnica, Estruturação de Dados, Engenharia de Código e Auditoria de Indexação para IA.",
+          "category": "Metodologia",
+          "question": "Como funciona o desenvolvimento técnico do meu projeto?"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1551288049-bbbda540d3b9?q=80&w=600&auto=format&fit=crop",
+          "answer": "Significa que o código possui mapeamento de dados estruturados avançados (Schema Markup). Isso permite que inteligências como ChatGPT, Gemini e Perplexity leiam, contextualizem e recomendem a sua empresa diretamente nas respostas geradas para os utilizadores.",
+          "category": "Tecnologia",
+          "question": "O que significa ter um site otimizado para Inteligência Artificial?"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=600&auto=format&fit=crop",
+          "answer": "Não. Desenvolvemos infraestruturas personalizadas e limpas do zero. Priorizamos a velocidade de carregamento absoluta e a organização lógica do código para garantir a máxima autoridade algorítmica.",
+          "category": "Customização",
+          "question": "Os sites utilizam templates ou estruturas genéricas?"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=600&auto=format&fit=crop",
+          "answer": "Oferecemos uma parceria de evolução contínua. Asseguramos manutenções críticas de segurança, otimização de performance e atualização dos esquemas de dados conforme os principais modelos de LLM evoluem.",
+          "category": "Evolução",
+          "question": "Como funciona o suporte técnico após o lançamento?"
+        }
+      ]
+    },
+    "sobre-mavellium": {
+      "services": [
+        {
+          "id": "01",
+          "tag": "Engenharia Web",
+          "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1200",
+          "title": "Arquitetura Semântica Avançada",
+          "description": "Sediados no polo tecnológico de Garça-SP, construímos plataformas estritamente alinhadas com os padrões de dados estruturados e prontos para indexação de LLMs."
+        },
+        {
+          "id": "02",
+          "tag": "Expertise",
+          "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200",
+          "title": "Foco Técnico em IA e Dados",
+          "description": "A nossa estrutura elimina intermediários. Cada departamento estratégico é liderado por engenheiros focados em performance algorítmica e inteligência artificial."
+        },
+        {
+          "id": "03",
+          "tag": "Execução",
+          "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200",
+          "title": "Desenvolvimento Nativo e Seguro",
+          "description": "Do planeamento técnico e injeção de JSON-LD ao código final, o seu ecossistema digital é construído por especialistas em RAG e SEO semântico de última geração."
+        },
+        {
+          "id": "04",
+          "tag": "Resultados",
+          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200",
+          "title": "Sistemas Inteligentes À Medida",
+          "description": "Desenhamos aplicações cirúrgicas adaptadas à realidade do seu negócio, garantindo velocidade extrema e visibilidade total na nova era das pesquisas generativas."
+        }
+      ]
+    },
+    "solucoes-mavellium": {
+      "cards": [
+        {
+          "id": "sites-inteligentes",
+          "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop",
+          "imageAlt": "Sites Semânticos Prontos para IA",
+          "buttonText": "Construir Autoridade",
+          "frontTitle": "Sites Semânticos",
+          "backDescription": "A sede digital da sua empresa. Um ecossistema veloz e mapeado com JSON-LD para transmitir credibilidade a humanos e ser o principal nó de resposta para assistentes de IA.",
+          "frontDescription": "Estruturas de alta performance preparadas para os novos motores de busca."
+        },
+        {
+          "id": "landing-pages",
+          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop",
+          "imageAlt": "Landing Pages de Alta Conversão",
+          "buttonText": "Acelerar Vendas",
+          "frontTitle": "Alta Conversão",
+          "backDescription": "Código ultrarrápido e livre de distrações. Maximize o retorno dos seus anúncios pagos com arquiteturas focadas estritamente na experiência do utilizador e conversão imediata.",
+          "frontDescription": "Páginas cirúrgicas desenhadas para transformar tráfego em receita ativa."
+        },
+        {
+          "id": "automacao-ia",
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop",
+          "imageAlt": "Automação e Agentes Autónomos integrados",
+          "buttonText": "Operar 24/7",
+          "frontTitle": "Agentes & IA",
+          "backDescription": "Agentes autónomos customizados para qualificar leads, integrar bases de conhecimento corporativas e otimizar processos de atendimento com operação ininterrupta 24/7.",
+          "frontDescription": "A revolução da eficiência operacional integrada nos seus sistemas."
+        }
+      ],
+      "description": "Aceleramos a transição da sua empresa para a economia da inteligência artificial através de três frentes de engenharia digital."
+    },
+    "cta-final-mavellium": {
+      "text": {
+        "headline": "Pronto para posicionar a sua empresa",
+        "highlight": "na era da IA?",
+        "description": "Cada operação possui desafios e maturidade técnica específicos. Agende uma reunião estratégica com os nossos engenheiros para desenharmos a infraestrutura ideal para a escala do seu negócio."
+      },
+      "theme": {
+        "bg_color": "#ffffff",
+        "button_bg": "#09090b",
+        "gradient_end": "#009b4d",
+        "gradient_start": "#00D26A"
+      },
+      "calls_to_action": {
+        "primary": {
+          "href": "https://wa.me/5514998001008?text=Ol%C3%A1%21+Gostaria+de+agendar+uma+conversa+com+um+especialista+para+estruturar+a+arquitetura+tecnol%C3%B3gica+da+minha+empresa.",
+          "icon": "mdi:whatsapp",
+          "label": "Agendar Reunião Técnica"
+        },
+        "secondary": {
+          "href": "#solucoes",
+          "icon": "mdi:arrow-up",
+          "label": "Rever Soluções Semânticas"
+        }
+      }
+    },
+    "manifesto-mavellium": {
+      "src": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop",
+      "date": "Manifesto Mavellium",
+      "about": {
+        "overview": "Acreditamos que a tecnologia não deve ser apenas uma montra estática, mas o maior motor de receita e escala do seu negócio. As pesquisas na internet deixaram de ser apenas uma lista de links azuis; hoje, os utilizadores recebem respostas consolidadas por inteligências artificiais.",
+        "conclusion": "O nosso compromisso é com a engenharia digital cirúrgica. Não entregamos código genérico ou templates obsoletos; construímos as fundações semânticas indispensáveis para que a sua empresa lidere o mercado de amanhã."
+      },
+      "title": "A Era da Pesquisa Mudou",
+      "background": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop",
+      "scrollToExpand": "Role para descobrir o novo padrão"
+    },
+    "hero-section-mavellium": {
+      "slides": [
+        {
+          "id": "1",
+          "headline": "A arquitetura digital que as IAs ",
+          "mediaUrl": "",
+          "mediaType": "video",
+          "description": "Desenvolvemos sites semânticos, landing pages de alta conversão e agentes autónomos. Estruturamos a infraestrutura de dados do seu negócio para dominar os motores de busca e os novos modelos de linguagem (LLMs).",
+          "headlineHighlight": "recomendam e os seus clientes compram.",
+          "primaryButtonLink": "https://wa.me/5514998001008?text=Ol%C3%A1%21+Gostaria+de+adequar+a+infraestrutura+do+meu+site+para+motores+de+IA.",
+          "primaryButtonText": "Falar com um Engenheiro",
+          "secondaryButtonLink": "/portfolio",
+          "secondaryButtonText": "Ver Infraestruturas"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1465 @@
+{
+  "name": "Sobre",
+  "slug": "sobre",
+  "schema": {
+    "name": "Sobre / Quem Somos",
+    "slug": "sobre",
+    "schema": {
+      "equipe": {
+        "label": "Equipe / Por que a Tegbe",
+        "fields": {
+          "badge": {
+            "type": "text",
+            "label": "Badge"
+          },
+          "title": {
+            "type": "richtext",
+            "label": "Título"
+          },
+          "button": {
+            "type": "object",
+            "label": "Botão principal",
+            "fields": {
+              "link": {
+                "type": "text",
+                "label": "Link"
+              },
+              "label": {
+                "type": "text",
+                "label": "Texto"
+              },
+              "action": {
+                "type": "text",
+                "label": "Ação"
+              }
+            }
+          },
+          "subtitle": {
+            "type": "richtext",
+            "label": "Subtítulo (com tamanho/cor)"
+          },
+          "ecommerce": {
+            "type": "object",
+            "label": "Bloco E-commerce",
+            "fields": {
+              "cta": {
+                "type": "object",
+                "label": "CTA",
+                "fields": {
+                  "href": {
+                    "type": "text",
+                    "label": "Link"
+                  },
+                  "icon": {
+                    "type": "icon",
+                    "label": "Ícone"
+                  },
+                  "text": {
+                    "type": "text",
+                    "label": "Texto"
+                  },
+                  "form_id": {
+                    "type": "text",
+                    "label": "ID do formulário"
+                  },
+                  "use_form": {
+                    "type": "boolean",
+                    "label": "Usar formulário?"
+                  }
+                }
+              },
+              "badge": {
+                "type": "object",
+                "label": "Badge",
+                "fields": {
+                  "text": {
+                    "type": "text",
+                    "label": "Texto"
+                  }
+                }
+              },
+              "title": {
+                "type": "object",
+                "label": "Título",
+                "fields": {
+                  "part1": {
+                    "type": "text",
+                    "label": "Parte 1"
+                  },
+                  "part2": {
+                    "type": "text",
+                    "label": "Parte 2 (destaque)"
+                  },
+                  "gradient": {
+                    "type": "text",
+                    "label": "Gradiente"
+                  },
+                  "highlight": {
+                    "type": "text",
+                    "label": "Highlight"
+                  }
+                }
+              },
+              "subtitle": {
+                "type": "object",
+                "label": "Subtítulo",
+                "fields": {
+                  "text": {
+                    "type": "textarea",
+                    "label": "Texto"
+                  },
+                  "strong1": {
+                    "type": "text",
+                    "label": "Destaque 1"
+                  },
+                  "strong2": {
+                    "type": "text",
+                    "label": "Destaque 2"
+                  },
+                  "highlight": {
+                    "type": "text",
+                    "label": "Highlight"
+                  }
+                }
+              },
+              "ctaSubtitle": {
+                "type": "text",
+                "label": "Subtítulo do CTA"
+              }
+            }
+          },
+          "marketing": {
+            "type": "object",
+            "label": "Bloco Marketing",
+            "fields": {
+              "cta": {
+                "type": "object",
+                "label": "CTA",
+                "fields": {
+                  "href": {
+                    "type": "text",
+                    "label": "Link"
+                  },
+                  "icon": {
+                    "type": "icon",
+                    "label": "Ícone"
+                  },
+                  "text": {
+                    "type": "text",
+                    "label": "Texto"
+                  },
+                  "form_id": {
+                    "type": "text",
+                    "label": "ID do formulário"
+                  },
+                  "use_form": {
+                    "type": "boolean",
+                    "label": "Usar formulário?"
+                  }
+                }
+              },
+              "badge": {
+                "type": "object",
+                "label": "Badge",
+                "fields": {
+                  "text": {
+                    "type": "text",
+                    "label": "Texto"
+                  }
+                }
+              },
+              "title": {
+                "type": "object",
+                "label": "Título",
+                "fields": {
+                  "part1": {
+                    "type": "text",
+                    "label": "Parte 1"
+                  },
+                  "part2": {
+                    "type": "text",
+                    "label": "Parte 2 (destaque)"
+                  },
+                  "gradient": {
+                    "type": "text",
+                    "label": "Gradiente"
+                  },
+                  "highlight": {
+                    "type": "text",
+                    "label": "Highlight"
+                  }
+                }
+              },
+              "subtitle": {
+                "type": "object",
+                "label": "Subtítulo",
+                "fields": {
+                  "text": {
+                    "type": "textarea",
+                    "label": "Texto"
+                  },
+                  "strong1": {
+                    "type": "text",
+                    "label": "Destaque 1"
+                  },
+                  "strong2": {
+                    "type": "text",
+                    "label": "Destaque 2"
+                  },
+                  "highlight": {
+                    "type": "text",
+                    "label": "Highlight"
+                  }
+                }
+              },
+              "ctaSubtitle": {
+                "type": "object",
+                "label": "Subtítulo do CTA",
+                "fields": {
+                  "text": {
+                    "type": "text",
+                    "label": "Texto"
+                  }
+                }
+              }
+            }
+          },
+          "buttonSubtitle": {
+            "type": "text",
+            "label": "Subtítulo do botão"
+          }
+        }
+      },
+      "inicio": {
+        "label": "Hero / Headline",
+        "fields": {
+          "logo": {
+            "type": "object",
+            "label": "Logo",
+            "fields": {
+              "alt": {
+                "type": "text",
+                "label": "Alt"
+              },
+              "src": {
+                "type": "text",
+                "label": "URL (src)"
+              },
+              "width": {
+                "type": "number",
+                "label": "Largura"
+              },
+              "height": {
+                "type": "number",
+                "label": "Altura"
+              },
+              "imagem": {
+                "type": "text",
+                "label": "URL alternativa"
+              }
+            }
+          },
+          "theme": {
+            "type": "object",
+            "label": "Tema",
+            "fields": {
+              "accentColor": {
+                "type": "color",
+                "label": "Cor de destaque"
+              },
+              "backgroundColor": {
+                "type": "color",
+                "label": "Cor de fundo"
+              }
+            }
+          },
+          "tagline": {
+            "type": "richtext",
+            "label": "Tagline"
+          },
+          "backgroundText": {
+            "type": "richtext",
+            "label": "Texto de fundo"
+          }
+        }
+      },
+      "passos": {
+        "label": "Passos / Estágios E-commerce",
+        "fields": {
+          "id": {
+            "type": "text",
+            "label": "ID do bloco"
+          },
+          "cta": {
+            "type": "object",
+            "label": "CTA secundário",
+            "fields": {
+              "url": {
+                "type": "text",
+                "label": "URL"
+              },
+              "text": {
+                "type": "text",
+                "label": "Texto"
+              },
+              "form_id": {
+                "type": "text",
+                "label": "ID do formulário"
+              },
+              "use_form": {
+                "type": "boolean",
+                "label": "Usar formulário?"
+              },
+              "description": {
+                "type": "text",
+                "label": "Descrição (ex: Agenda aberta)"
+              }
+            }
+          },
+          "type": {
+            "type": "text",
+            "label": "Tipo (E-commerce | Marketing)"
+          },
+          "button": {
+            "type": "object",
+            "label": "Botão",
+            "fields": {
+              "link": {
+                "type": "text",
+                "label": "Link"
+              },
+              "label": {
+                "type": "text",
+                "label": "Texto"
+              },
+              "action": {
+                "type": "text",
+                "label": "Ação"
+              }
+            }
+          },
+          "values": {
+            "type": "array",
+            "label": "Etapas",
+            "itemFields": {
+              "id": {
+                "type": "number",
+                "label": "ID"
+              },
+              "image": {
+                "type": "text",
+                "label": "URL da imagem"
+              },
+              "title": {
+                "type": "text",
+                "label": "Título"
+              },
+              "subtitle": {
+                "type": "text",
+                "label": "Subtítulo"
+              },
+              "description": {
+                "type": "textarea",
+                "label": "Descrição"
+              }
+            }
+          },
+          "subtype": {
+            "type": "richtext",
+            "label": "Frase de apoio"
+          }
+        }
+      },
+      "quem-somos": {
+        "label": "Quem Somos",
+        "fields": {
+          "button": {
+            "type": "object",
+            "label": "Botão",
+            "fields": {
+              "link": {
+                "type": "text",
+                "label": "Link"
+              },
+              "label": {
+                "type": "text",
+                "label": "Texto"
+              },
+              "action": {
+                "type": "text",
+                "label": "Ação (URL ou rota)"
+              },
+              "target": {
+                "type": "text",
+                "label": "Target (_blank | _self)"
+              }
+            }
+          },
+          "header": {
+            "type": "object",
+            "label": "Cabeçalho",
+            "fields": {
+              "title": {
+                "type": "richtext",
+                "label": "Título"
+              },
+              "subtitle": {
+                "type": "richtext",
+                "label": "Subtítulo (parágrafos)"
+              }
+            }
+          },
+          "founder": {
+            "type": "object",
+            "label": "Fundador",
+            "fields": {
+              "name": {
+                "type": "richtext",
+                "label": "Nome"
+              },
+              "role": {
+                "type": "richtext",
+                "label": "Cargo / Descrição"
+              },
+              "image": {
+                "type": "text",
+                "label": "URL da foto"
+              },
+              "socials": {
+                "type": "array",
+                "label": "Redes sociais",
+                "itemFields": {
+                  "icon": {
+                    "type": "icon",
+                    "label": "Ícone"
+                  },
+                  "link": {
+                    "type": "text",
+                    "label": "Link"
+                  }
+                }
+              },
+              "companies": {
+                "type": "array",
+                "label": "Empresas / Marketplaces",
+                "itemFields": {
+                  "logo": {
+                    "type": "icon",
+                    "label": "Ícone do logo"
+                  },
+                  "name": {
+                    "type": "text",
+                    "label": "Nome"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "localizacao": {
+        "label": "Localização",
+        "fields": {
+          "items": {
+            "type": "array",
+            "label": "Fotos / Locais",
+            "itemFields": {
+              "id": {
+                "type": "text",
+                "label": "ID"
+              },
+              "alt": {
+                "type": "text",
+                "label": "Alt da imagem"
+              },
+              "image": {
+                "type": "text",
+                "label": "URL da imagem"
+              },
+              "title": {
+                "type": "richtext",
+                "label": "Título"
+              },
+              "button": {
+                "type": "object",
+                "label": "Botão",
+                "fields": {
+                  "link": {
+                    "type": "text",
+                    "label": "Link"
+                  },
+                  "label": {
+                    "type": "text",
+                    "label": "Texto"
+                  },
+                  "action": {
+                    "type": "text",
+                    "label": "Ação"
+                  },
+                  "target": {
+                    "type": "text",
+                    "label": "Target"
+                  }
+                }
+              },
+              "description": {
+                "type": "richtext",
+                "label": "Descrição"
+              }
+            }
+          }
+        }
+      },
+      "o-que-somos": {
+        "label": "O Que Somos",
+        "fields": {
+          "header": {
+            "type": "object",
+            "label": "Cabeçalho",
+            "fields": {
+              "title": {
+                "type": "richtext",
+                "label": "Título"
+              }
+            }
+          },
+          "paragraphs": {
+            "type": "richtext",
+            "label": "Parágrafos (array de arrays rich-text)"
+          }
+        }
+      },
+      "meta-alunos": {
+        "label": "Meta de Alunos (contador)",
+        "fields": {
+          "footer": { "type": "richtext", "label": "Rodapé do contador" },
+          "header": {
+            "type": "object",
+            "label": "Cabeçalho",
+            "fields": {
+              "title": { "type": "richtext", "label": "Título" },
+              "subtitle": { "type": "richtext", "label": "Subtítulo" }
+            }
+          },
+          "progress": {
+            "type": "object",
+            "label": "Progresso",
+            "fields": {
+              "max": { "type": "number", "label": "Máximo" },
+              "target": { "type": "number", "label": "Meta" },
+              "current": { "type": "number", "label": "Atual" }
+            }
+          }
+        }
+      },
+      "trabalhar-conosco": {
+        "label": "Trabalhar Conosco",
+        "fields": {
+          "hero": {
+            "type": "object",
+            "label": "Hero",
+            "fields": {
+              "tag": {
+                "type": "text",
+                "label": "Tag"
+              },
+              "image": {
+                "type": "object",
+                "label": "Imagem (nova)",
+                "fields": {
+                  "alt": {
+                    "type": "text",
+                    "label": "Alt"
+                  },
+                  "src": {
+                    "type": "text",
+                    "label": "URL"
+                  },
+                  "imagem": {
+                    "type": "text",
+                    "label": "URL alternativa"
+                  }
+                }
+              },
+              "title": {
+                "type": "richtext",
+                "label": "Título"
+              },
+              "button": {
+                "type": "object",
+                "label": "Botão",
+                "fields": {
+                  "link": {
+                    "type": "text",
+                    "label": "Link"
+                  },
+                  "label": {
+                    "type": "text",
+                    "label": "Texto"
+                  },
+                  "action": {
+                    "type": "text",
+                    "label": "Ação"
+                  },
+                  "target": {
+                    "type": "text",
+                    "label": "Target"
+                  }
+                }
+              },
+              "imagem": {
+                "type": "object",
+                "label": "Imagem (legado)",
+                "fields": {
+                  "alt": {
+                    "type": "text",
+                    "label": "Alt"
+                  },
+                  "imagem": {
+                    "type": "text",
+                    "label": "URL"
+                  }
+                }
+              },
+              "description": {
+                "type": "richtext",
+                "label": "Descrição"
+              }
+            }
+          },
+          "imagem": {
+            "type": "object",
+            "label": "Foto da equipe",
+            "fields": {
+              "alt": {
+                "type": "text",
+                "label": "Alt"
+              },
+              "src": {
+                "type": "text",
+                "label": "URL (src)"
+              },
+              "width": {
+                "type": "number",
+                "label": "Largura"
+              },
+              "height": {
+                "type": "number",
+                "label": "Altura"
+              },
+              "imagem": {
+                "type": "text",
+                "label": "URL alternativa"
+              }
+            }
+          },
+          "social": {
+            "type": "object",
+            "label": "Redes Sociais",
+            "fields": {
+              "tag": {
+                "type": "text",
+                "label": "Tag"
+              },
+              "items": {
+                "type": "array",
+                "label": "Links sociais",
+                "itemFields": {
+                  "icon": {
+                    "type": "icon",
+                    "label": "Ícone"
+                  },
+                  "link": {
+                    "type": "text",
+                    "label": "URL"
+                  }
+                }
+              },
+              "title": {
+                "type": "richtext",
+                "label": "Título"
+              }
+            }
+          }
+        }
+      },
+      "consultoria-oficial": {
+        "label": "Consultoria Oficial Mercado Livre",
+        "fields": {
+          "badge": {
+            "type": "text",
+            "label": "Badge"
+          },
+          "title": {
+            "type": "richtext",
+            "label": "Título"
+          },
+          "button": {
+            "type": "object",
+            "label": "Botão",
+            "fields": {
+              "link": {
+                "type": "text",
+                "label": "Link"
+              },
+              "size": {
+                "type": "text",
+                "label": "Tamanho"
+              },
+              "label": {
+                "type": "text",
+                "label": "Texto"
+              },
+              "action": {
+                "type": "text",
+                "label": "Ação"
+              },
+              "target": {
+                "type": "text",
+                "label": "Target"
+              },
+              "variant": {
+                "type": "text",
+                "label": "Variante visual"
+              }
+            }
+          },
+          "imagens": {
+            "type": "object",
+            "label": "Imagens",
+            "fields": {
+              "selo": {
+                "type": "object",
+                "label": "Selo de certificação",
+                "fields": {
+                  "alt": {
+                    "type": "text",
+                    "label": "Alt"
+                  },
+                  "src": {
+                    "type": "text",
+                    "label": "URL"
+                  },
+                  "width": {
+                    "type": "number",
+                    "label": "Largura"
+                  },
+                  "height": {
+                    "type": "number",
+                    "label": "Altura"
+                  },
+                  "imagem": {
+                    "type": "text",
+                    "label": "URL alternativa"
+                  }
+                }
+              },
+              "consultor": {
+                "type": "object",
+                "label": "Foto do consultor",
+                "fields": {
+                  "alt": {
+                    "type": "text",
+                    "label": "Alt"
+                  },
+                  "src": {
+                    "type": "text",
+                    "label": "URL"
+                  },
+                  "fill": {
+                    "type": "boolean",
+                    "label": "Fill (next/image)"
+                  },
+                  "sizes": {
+                    "type": "text",
+                    "label": "Sizes (responsivo)"
+                  },
+                  "imagem": {
+                    "type": "text",
+                    "label": "URL alternativa"
+                  }
+                }
+              }
+            }
+          },
+          "description": {
+            "type": "richtext",
+            "label": "Descrição (array de parágrafos rich-text)"
+          }
+        }
+      },
+      "carrossel-de-especialistas": {
+        "label": "Carrossel de Especialistas",
+        "fields": {
+          "_init": {
+            "type": "boolean",
+            "label": "Inicializar animação"
+          },
+          "header": {
+            "type": "object",
+            "label": "Cabeçalho",
+            "fields": {
+              "title": {
+                "type": "richtext",
+                "label": "Título"
+              }
+            }
+          },
+          "especialistas": {
+            "type": "array",
+            "label": "Especialistas",
+            "itemFields": {
+              "nome": {
+                "type": "text",
+                "label": "Nome"
+              },
+              "cargo": {
+                "type": "richtext",
+                "label": "Cargo / Descrição"
+              },
+              "imagem": {
+                "type": "text",
+                "label": "URL da foto"
+              },
+              "sobrenome": {
+                "type": "text",
+                "label": "Sobrenome"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "content": {
+    "equipe": {
+      "badge": "Método Validado Tegbe",
+      "title": [
+        {
+          "type": "text",
+          "value": "Por que vender com a "
+        },
+        {
+          "type": "highlight",
+          "color": "#FFC72C",
+          "value": "Tegbe"
+        },
+        {
+          "type": "text",
+          "value": " e não sozinho?"
+        }
+      ],
+      "button": {
+        "link": "https://api.whatsapp.com/send?phone=5514991779502",
+        "label": "Falar com um especialista",
+        "action": "link"
+      },
+      "subtitle": [
+        {
+          "size": 20,
+          "type": "text",
+          "color": "#9CA3AF",
+          "value": "Quem vende sozinho briga com o algoritmo; quem vende com a Tegbe"
+        },
+        {
+          "size": 20,
+          "type": "highlight",
+          "color": "#ffffff",
+          "serif": false,
+          "value": " domina as regras do jogo.",
+          "italic": false
+        },
+        {
+          "size": 20,
+          "type": "text",
+          "color": "#9CA3AF",
+          "value": " e domina o algoritmo do Mercado Livre."
+        }
+      ],
+      "ecommerce": {
+        "cta": {
+          "href": "https://wa.me/5514988281001",
+          "icon": "lucide:arrow-right",
+          "text": "FALAR COM UM ESPECIALISTA",
+          "form_id": "cmmezko6d000004vm0y8xlg9k",
+          "use_form": true
+        },
+        "badge": {
+          "text": "Método Validado Tegbe"
+        },
+        "title": {
+          "part1": "Por que vender com a ",
+          "part2": "Tegbe ",
+          "gradient": "",
+          "highlight": "e não sozinho?"
+        },
+        "subtitle": {
+          "text": "Quem vende sozinho briga com o algoritmo; quem vende com a Tegbe ",
+          "strong1": " e domina o algoritmo do Mercado Livre.",
+          "strong2": "",
+          "highlight": "domina as regras do jogo."
+        },
+        "ctaSubtitle": "O Plano de guerra para vender mais"
+      },
+      "marketing": {
+        "cta": {
+          "href": "",
+          "icon": "",
+          "text": "AGENDAR DIAGNÓSTICO",
+          "form_id": "cmmezko6d000004vm0y8xlg9k",
+          "use_form": true
+        },
+        "badge": {
+          "text": "Engenharia de Vendas"
+        },
+        "title": {
+          "part1": "Por que contratar a ",
+          "part2": "Tegbe ",
+          "gradient": "e não uma agência comum?",
+          "highlight": ""
+        },
+        "subtitle": {
+          "text": "Agências comuns entregam \"posts criativos\" e esperam que você venda. Nós instalamos um ",
+          "strong1": "Ecossistema de Receita ",
+          "strong2": "(Tráfego + CRM + IA) para eliminar a dependência da sorte.",
+          "highlight": ""
+        },
+        "ctaSubtitle": {
+          "text": "Agenda de Consultoria Liberada"
+        }
+      },
+      "buttonSubtitle": "O Plano de guerra para vender mais"
+    },
+    "inicio": {
+      "logo": {
+        "alt": "Tegbe",
+        "src": "https://tegbe-cdn.b-cdn.net/uploads/1774578674491-logo.svg",
+        "width": 320,
+        "height": 150,
+        "imagem": "https://tegbe-cdn.b-cdn.net/uploads/1773882453318-logo.svg"
+      },
+      "theme": {
+        "accentColor": "#F1D95D",
+        "backgroundColor": "#0A0A0A"
+      },
+      "tagline": [
+        {
+          "type": "text",
+          "value": ""
+        }
+      ],
+      "backgroundText": [
+        {
+          "type": "text",
+          "value": "EXCELÊNCIA"
+        }
+      ]
+    },
+    "passos": {
+      "id": "fluxo-estagios-ecommerce",
+      "cta": {
+        "url": "/",
+        "text": "Falar com Consultor",
+        "form_id": "cmmha9zgp0003uovm00uqfovu",
+        "use_form": true,
+        "description": "Agenda aberta"
+      },
+      "type": "E-commerce",
+      "button": {
+        "link": "https://api.whatsapp.com/send?phone=5514991779502",
+        "label": "Quero Estruturar e Escalar Meu Negócio",
+        "action": "link"
+      },
+      "values": [
+        {
+          "id": 1,
+          "image": "https://tegbe-cdn.b-cdn.net/uploads/1773038086716-Imagens-Site-3.png",
+          "title": "Preciso aprender",
+          "subtitle": "Do zero ao primeiro faturamento",
+          "description": "Para quem está começando do zero: nós ensinamos e acompanhamos sua jornada para que você domine o digital com segurança e suporte real."
+        },
+        {
+          "id": 2,
+          "image": "https://oaaddtqd6pehgldz.public.blob.vercel-storage.com/1768150865131-2.png",
+          "title": "Vou começar do ZERO",
+          "subtitle": "Comece do jeito certo",
+          "description": "Para quem busca velocidade e execução: nós fazemos por você, criando seus anúncios e gerindo seu tráfego para sua operação decolar de forma profissional e livre de erros comuns."
+        },
+        {
+          "id": 3,
+          "image": "https://oaaddtqd6pehgldz.public.blob.vercel-storage.com/1768150911088-3.png",
+          "title": "Estruturar meu negócio",
+          "subtitle": "Coloque sua operação em ordem",
+          "description": "Se suas campanhas estão gastando demais e os anúncios estão bagunçados, nós organizamos sua operação e ajustamos seus processos para que você recupere o controle e volte a crescer com clareza."
+        },
+        {
+          "id": 4,
+          "image": "https://oaaddtqd6pehgldz.public.blob.vercel-storage.com/1768150951167-4.png",
+          "title": "Gestão de Performance",
+          "subtitle": "Máxima eficiência e lucratividade",
+          "description": "Para operações sólidas que buscam escala agressiva, aplicamos inteligência avançada para reduzir seus custos, identificar novas oportunidades de mercado e maximizar sua lucratividade total."
+        }
+      ],
+      "subtype": [
+        {
+          "type": "text",
+          "value": "Não importa onde você está hoje. Nós temos o mapa para o seu próximo nível."
+        }
+      ]
+    },
+    "quem-somos": {
+      "button": {
+        "link": "carreiras",
+        "label": "Conhecer o Método",
+        "action": "https://wa.me/5514988281001",
+        "target": "_blank"
+      },
+      "header": {
+        "title": [
+          {
+            "type": "text",
+            "value": "Onde a parceria"
+          },
+          {
+            "type": "linebreak"
+          },
+          {
+            "type": "text",
+            "value": "constrói "
+          },
+          {
+            "type": "highlight",
+            "color": "#FFC72C",
+            "value": "resultado"
+          }
+        ],
+        "subtitle": [
+          {
+            "type": "text",
+            "value": "A Tegbe nasce em dezembro de 2022, em Garça (SP), com uma convicção inegociável: no e-commerce, ninguém escala o topo sozinho. Surgimos para ser mais do que uma consultoria; nascemos para ser o parceiro estratégico que entra no jogo para vencer junto."
+          },
+          {
+            "type": "text",
+            "value": "Nossa fundação foi motivada por uma falha clara no mercado: empresas com excelente potencial, mas travadas por falta de um método prático. Percebemos que o empresário não precisava de mais relatórios teóricos, mas de um aliado que soubesse desenhar canais de vendas e, mais importante, soubesse como fazê-los funcionar no dia a dia."
+          },
+          {
+            "type": "text",
+            "value": "Com o tempo, essa relação de confiança com nossos parceiros nos fez evoluir. Entendemos que o nosso papel é atuar como um braço de vendas dentro do negócio, auxiliando no desenvolvimento de canais de forma estruturada. O que começou como um suporte operacional transformou-se em uma estrutura capaz de orientar decisões de alto nível, sustentar o crescimento e ampliar o impacto de quem faz o Brasil avançar."
+          },
+          {
+            "type": "text",
+            "value": "Na Tegbe, a sua meta é a nossa bússola. Não entregamos apenas uma solução de vendas; entregamos a presença estratégica e a prática necessária para transformar cada canal em uma máquina de escala e lucro."
+          }
+        ]
+      },
+      "founder": {
+        "name": [
+          {
+            "type": "text",
+            "value": "Donizete Caetano"
+          }
+        ],
+        "role": [
+          {
+            "type": "text",
+            "value": "Fundador da Tegbe • Consultor Mercado Livre"
+          }
+        ],
+        "image": "https://tegbe-cdn.b-cdn.net/uploads/1776177129319-Sem-marketing.png",
+        "socials": [
+          {
+            "icon": "ph:instagram-logo",
+            "link": "#"
+          },
+          {
+            "icon": "ph:linkedin-logo",
+            "link": "#"
+          }
+        ],
+        "companies": [
+          {
+            "logo": "simple-icons:mercadopago",
+            "name": "Mercado Livre"
+          },
+          {
+            "logo": "simple-icons:amazon",
+            "name": "Amazon"
+          },
+          {
+            "logo": "simple-icons:shopee",
+            "name": "Shopee"
+          }
+        ]
+      }
+    },
+    "localizacao": {
+      "items": [
+        {
+          "id": "1",
+          "alt": "Escritório Tegbe em Garça",
+          "image": "https://tegbe-cdn.b-cdn.net/uploads/1776179352941-WhatsApp-Image-2026-01-21-at-16.45.40ttt.jpeg",
+          "title": [
+            {
+              "type": "text",
+              "value": "Escritório em Garça, São Paulo."
+            }
+          ],
+          "button": {
+            "link": "https://maps.app.goo.gl/vPoKscAn58iodWEP7",
+            "label": "Ver sede no Google Maps",
+            "action": "link",
+            "target": "_blank"
+          },
+          "description": [
+            {
+              "type": "text",
+              "value": "É daqui que coordenamos projetos, estratégias e operações digitais que impactam empresas em todo o Brasil. Nossa estrutura é enxuta, estratégica e totalmente conectada."
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "alt": "Ambiente de trabalho da equipe",
+          "image": "https://tegbe-cdn.b-cdn.net/uploads/1776179374538-WhatsApp-Image-2026-01-21-at-16.45.40eee.jpeg",
+          "title": [
+            {
+              "type": "text",
+              "value": "Garça, São Paulo."
+            }
+          ],
+          "button": {
+            "link": "https://maps.app.goo.gl/vPoKscAn58iodWEP7",
+            "label": "Ver sede no Google Maps",
+            "action": "link",
+            "target": "_blank"
+          },
+          "description": [
+            {
+              "type": "text",
+              "value": "Aqui funciona o coração operacional da Tegbe. Um espaço moderno e funcional onde estratégia, criatividade e performance se encontram para entregar soluções digitais de impacto em todo o Brasil."
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "alt": "Time trabalhando em projetos digitais",
+          "image": "https://tegbe-cdn.b-cdn.net/uploads/1776179389455-WhatsApp-Image-2026-01-21-at-16.45.39.jpeg",
+          "title": [
+            {
+              "type": "text",
+              "value": "Nosso QG estratégico fica em Garça, São Paulo."
+            }
+          ],
+          "button": {
+            "link": "https://maps.app.goo.gl/vPoKscAn58iodWEP7",
+            "label": "Ver sede no Google Maps",
+            "action": "link",
+            "target": "_blank"
+          },
+          "description": [
+            {
+              "type": "text",
+              "value": "É daqui que coordenamos projetos, estratégias e operações digitais que impactam empresas em todo o Brasil. Nossa estrutura é enxuta, estratégica e totalmente conectada."
+            }
+          ]
+        }
+      ]
+    },
+    "o-que-somos": {
+      "header": {
+        "title": [
+          {
+            "type": "text",
+            "value": "Somos uma alavanca de "
+          },
+          {
+            "type": "highlight",
+            "color": "#F1D95D",
+            "value": "negócios e pessoas"
+          }
+        ]
+      },
+      "paragraphs": [
+        [
+          {
+            "type": "text",
+            "value": "Transformamos tráfego em vendas, estratégia em margem e conhecimento em resultados diários."
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "value": "Aqui unimos "
+          },
+          {
+            "type": "highlight",
+            "color": "#F1D95D",
+            "serif": false,
+            "value": "marketing de performance, gestão de marketplaces, criativos que convertem e educação prática para times reais",
+            "italic": false
+          },
+          {
+            "type": "text",
+            "value": " — tudo para gerar faturamento consistente e crescimento que se mantém."
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "value": "Porque no e-commerce brasileiro "
+          },
+          {
+            "bold": true,
+            "type": "highlight",
+            "color": "#F1D95D",
+            "serif": false,
+            "value": "o objetivo não é só vender mais.",
+            "italic": false
+          },
+          {
+            "type": "text",
+            "value": " É construir algo que te dê liberdade e legado. Nós entregamos as ferramentas — e o caminho para chegar lá."
+          }
+        ]
+      ]
+    },
+    "meta-alunos": {
+      "footer": [
+        { "type": "text", "value": "resultados gerados até agora pela" },
+        { "type": "bold", "value": "#geraçãotegbea" }
+      ],
+      "header": {
+        "title": [
+          { "type": "text", "value": "Qual é a principal " },
+          { "type": "highlight", "color": "#FFC72C", "value": "meta" },
+          { "type": "text", "value": " da Tegbe?" }
+        ],
+        "subtitle": [
+          { "size": 18, "type": "text", "value": "Gerar " },
+          { "size": 18, "type": "bold", "value": "R$ 100 milhões em novas receitas" },
+          { "size": 18, "type": "text", "value": " através dos nossos parceiros até 2030." }
+        ]
+      },
+      "progress": {
+        "max": 5000,
+        "target": 1500,
+        "current": 1500
+      }
+    },
+    "trabalhar-conosco": {
+      "hero": {
+        "tag": "Quer construir sua carreira na Tegbe?",
+        "image": {
+          "alt": "Equipe Tegbe",
+          "src": "/doni.jpg",
+          "imagem": "/doni.jpg"
+        },
+        "title": [
+          {
+            "type": "text",
+            "value": "Trabalhe conosco"
+          }
+        ],
+        "button": {
+          "link": "/carreiras",
+          "label": "Conheça nossas vagas",
+          "action": "link",
+          "target": "_blank"
+        },
+        "imagem": {
+          "alt": "Equipe Tegbe",
+          "imagem": "/doni.jpg"
+        },
+        "description": [
+          {
+            "type": "text",
+            "value": "Se você quer crescer junto com quem constrói negócios que realmente importam, conheça nossas oportunidades."
+          }
+        ]
+      },
+      "imagem": {
+        "alt": "Tegbe",
+        "src": "https://tegbe-cdn.b-cdn.net/uploads/1776179182932-Imagens-Site-3--1475-x-897-px---2-.png",
+        "width": 320,
+        "height": 150,
+        "imagem": "https://tegbe-cdn.b-cdn.net/uploads/1774301081001-Foto-Equipe-Tegbe.jpeg"
+      },
+      "social": {
+        "tag": "Mantenha-se atualizado",
+        "items": [
+          {
+            "icon": "mdi:youtube",
+            "link": ""
+          },
+          {
+            "icon": "mdi:facebook",
+            "link": ""
+          },
+          {
+            "icon": "mdi:instagram",
+            "link": ""
+          },
+          {
+            "icon": "mdi:linkedin",
+            "link": ""
+          }
+        ],
+        "title": [
+          {
+            "type": "text",
+            "value": "Acompanhe nossas mídias"
+          }
+        ]
+      }
+    },
+    "consultoria-oficial": {
+      "badge": "Parceria Estratégica",
+      "title": [
+        {
+          "font": "bold",
+          "type": "text",
+          "value": "O selo que"
+        },
+        {
+          "type": "linebreak"
+        },
+        {
+          "font": "bold",
+          "type": "highlight",
+          "color": "#0071E3",
+          "serif": false,
+          "value": "destrava o seu lucro.",
+          "italic": false
+        }
+      ],
+      "button": {
+        "link": "",
+        "size": "lg",
+        "label": "Quero saber mais",
+        "action": "link",
+        "target": "_blank",
+        "variant": "secondary"
+      },
+      "imagens": {
+        "selo": {
+          "alt": "Selo de certificação",
+          "src": "https://oaaddtqd6pehgldz.public.blob.vercel-storage.com/1768155604924-Logo%20Consultoria%20Meli%2002.jpg",
+          "width": 120,
+          "height": 120,
+          "imagem": "https://oaaddtqd6pehgldz.public.blob.vercel-storage.com/1768155604924-Logo%20Consultoria%20Meli%2002.jpg"
+        },
+        "consultor": {
+          "alt": "Consultor especializado",
+          "src": "https://oaaddtqd6pehgldz.public.blob.vercel-storage.com/1768155511549-Design%20sem%20nome.jpg",
+          "fill": true,
+          "sizes": "(max-width: 768px) 100vw, 50vw",
+          "imagem": "https://oaaddtqd6pehgldz.public.blob.vercel-storage.com/1768155511549-Design%20sem%20nome.jpg"
+        }
+      },
+      "description": [
+        [
+          {
+            "size": 20,
+            "type": "text",
+            "color": "#4b5563",
+            "value": "Somos uma "
+          },
+          {
+            "size": 20,
+            "type": "bold",
+            "color": "#4b5563",
+            "value": "Consultoria Oficial Certificada "
+          },
+          {
+            "size": 20,
+            "type": "text",
+            "color": "#4b5563",
+            "value": "pelo Mercado Livre."
+          }
+        ],
+        [
+          {
+            "size": 18,
+            "type": "text",
+            "color": "#6b7280",
+            "value": "Vamos te ajudar a vender no maior marketplace da América Latina com a segurança de quem é certificado pela própria plataforma. Resolvemos sua operação de ponta a ponta, usando informações privilegiadas e estratégias validadas para escalar suas vendas com o profissionalismo que o seu lucro exige."
+          }
+        ]
+      ]
+    },
+    "carrossel-de-especialistas": {
+      "_init": true,
+      "header": {
+        "title": [
+          {
+            "type": "text",
+            "value": "E nesse processo reunimos vários "
+          },
+          {
+            "type": "highlight",
+            "color": "#F1D95D",
+            "value": "especialistas"
+          }
+        ]
+      },
+      "especialistas": [
+        {
+          "nome": "Rafael",
+          "cargo": [
+            {
+              "type": "text",
+              "value": "Fundador da Viver de AI, professor de IA na ESPM e mentor do TEGBE."
+            }
+          ],
+          "imagem": "/doni.jpg",
+          "sobrenome": "Milagre"
+        },
+        {
+          "nome": "Marcelo",
+          "cargo": [
+            {
+              "type": "text",
+              "value": "Ex-diretor Nacional da Ambev e Labatt Breweries."
+            }
+          ],
+          "imagem": "/doni.jpg",
+          "sobrenome": "Camargo"
+        },
+        {
+          "nome": "Fabíola",
+          "cargo": [
+            {
+              "type": "text",
+              "value": "Cofundadora do Edubank e Ex-Diretora de Pessoas da Ambev."
+            }
+          ],
+          "imagem": "/doni.jpg",
+          "sobrenome": "Overrath"
+        },
+        {
+          "nome": "Tomás",
+          "cargo": [
+            {
+              "type": "text",
+              "value": "CEO e co-fundador da Track.co."
+            }
+          ],
+          "imagem": "/doni.jpg",
+          "sobrenome": "Duarte"
+        },
+        {
+          "nome": "Donizete",
+          "cargo": [
+            {
+              "type": "text",
+              "value": "Fundador da Tegbe e Especialista em Escala de E-commerce."
+            }
+          ],
+          "imagem": "/doni.jpg",
+          "sobrenome": "Caetano"
+        }
+      ]
+    }
+  },
+  "updatedAt": "2026-05-28T00:00:00.000Z"
+}

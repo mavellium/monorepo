@@ -1,0 +1,5 @@
+packages:
+  - 'institucional-mavellium'
+  - 'packages/*'
+  - 'janus-sdk'
+  - 'ga4-dashboard'

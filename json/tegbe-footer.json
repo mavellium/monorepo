@@ -1,0 +1,172 @@
+{
+  "name": "Footer",
+  "slug": "footer",
+  "schema": {
+    "name": "Footer",
+    "slug": "footer",
+    "schema": {
+      "content": {
+        "label": "Conteúdo por Variante",
+        "fields": {
+          "sobre":     { "type": "object", "label": "Sobre"      },
+          "cursos":    { "type": "object", "label": "Cursos"     },
+          "ecommerce": { "type": "object", "label": "E-commerce" },
+          "marketing": { "type": "object", "label": "Marketing"  }
+        }
+      },
+      "general": {
+        "label": "Dados Gerais",
+        "fields": {
+          "cnpj":    { "type": "text",     "label": "CNPJ"              },
+          "logo":    { "type": "text",     "label": "URL do logo"       },
+          "phone":   { "type": "text",     "label": "Telefone exibido"  },
+          "address":  { "type": "textarea", "label": "Endereço (aceita \\n)" },
+          "mapsLink": { "type": "text",     "label": "Link do Google Maps"  },
+          "socials": {
+            "type": "object",
+            "label": "Redes Sociais",
+            "fields": {
+              "youtube":   { "type": "text", "label": "URL YouTube"   },
+              "linkedin":  { "type": "text", "label": "URL LinkedIn"  },
+              "instagram": { "type": "text", "label": "URL Instagram" }
+            }
+          },
+          "whatsappLink": { "type": "text", "label": "Link WhatsApp" }
+        }
+      },
+      "variants": {
+        "label": "Temas por Variante (design controlado localmente no componente)",
+        "fields": {
+          "sobre":     { "type": "object", "label": "Sobre (neutro)"         },
+          "cursos":    { "type": "object", "label": "Cursos (neutro)"        },
+          "ecommerce": { "type": "object", "label": "E-commerce (neutro)"    },
+          "marketing": { "type": "object", "label": "Marketing (rosa/vermelho)" }
+        }
+      },
+      "navigation": {
+        "type": "array",
+        "label": "Links de Navegação",
+        "itemFields": {
+          "href": { "type": "text", "label": "URL"  },
+          "name": { "type": "text", "label": "Nome" }
+        }
+      }
+    }
+  },
+  "content": {
+    "content": {
+      "sobre": {
+        "desc": "Uma equipe de especialistas apaixonados por resultados reais, construindo junto com nossos clientes o caminho para o crescimento.",
+        "email": "contato@tegbe.com.br",
+        "links": [
+          "Nossa História",
+          "Equipe",
+          "Cases de Sucesso",
+          "Cultura e Valores",
+          "Trabalhe Conosco"
+        ],
+        "columnTitle": "A Empresa"
+      },
+      "cursos": {
+        "desc": "Formações presenciais e online para quem quer dominar o mercado digital com profundidade, prática e networking de alto nível.",
+        "email": "cursos@tegbe.com.br",
+        "links": [
+          "Gestão de E-commerce",
+          "Marketing Digital Avançado",
+          "Vendas em Marketplaces",
+          "Fotografia de Produto",
+          "Calendário de Turmas"
+        ],
+        "columnTitle": "Formações"
+      },
+      "ecommerce": {
+        "desc": "Especialistas em escalar vendas no Mercado Livre, Shopee, Amazon e outros marketplaces com estratégia, tecnologia e método.",
+        "email": "contato@tegbe.com.br",
+        "links": [
+          "Consultoria de Marketplace",
+          "Gestão de Anúncios",
+          "Integração de Plataformas",
+          "CRM e Retenção",
+          "Performance e CRO"
+        ],
+        "columnTitle": "E-commerce"
+      },
+      "marketing": {
+        "desc": "Estratégias de marketing digital orientadas por dados para transformar seguidores em clientes e clientes em fãs.",
+        "email": "contato@tegbe.com.br",
+        "links": [
+          "Tráfego Pago",
+          "Gestão de Redes Sociais",
+          "Produção de Conteúdo",
+          "SEO e Inbound",
+          "E-mail Marketing"
+        ],
+        "columnTitle": "Marketing Digital"
+      }
+    },
+    "general": {
+      "cnpj": "48.802.866/0001-42",
+      "logo": "https://tegbe-cdn.b-cdn.net/uploads/1774578674491-logo.svg",
+      "phone": "(14) 98828-1001",
+      "address":  "R. Santos Dumont, 133\nFerrarópolis — Garça/SP",
+      "mapsLink": "https://maps.app.goo.gl/J2NeYgNbQjvpeZ4q6",
+      "socials": {
+        "youtube":   "https://www.youtube.com/@tegbe",
+        "linkedin":  "https://www.linkedin.com/company/tegbe/",
+        "instagram": "https://www.instagram.com/agenciategbe"
+      },
+      "whatsappLink": "https://wa.me/5514988281001"
+    },
+    "variants": {
+      "sobre": {
+        "topBorder":     "border-white/[0.06]",
+        "hoverText":     "hover:text-white",
+        "iconBg":        "bg-white/5",
+        "iconHoverBg":   "hover:bg-white/10",
+        "iconHoverText": "hover:text-white",
+        "borderHover":   "hover:border-white/20",
+        "bgHover":       "group-hover:bg-white",
+        "decoration":    "decoration-white/30"
+      },
+      "cursos": {
+        "topBorder":     "border-white/[0.06]",
+        "hoverText":     "hover:text-white",
+        "iconBg":        "bg-white/5",
+        "iconHoverBg":   "hover:bg-white/10",
+        "iconHoverText": "hover:text-white",
+        "borderHover":   "hover:border-white/20",
+        "bgHover":       "group-hover:bg-white",
+        "decoration":    "decoration-white/30"
+      },
+      "ecommerce": {
+        "topBorder":     "border-white/[0.06]",
+        "hoverText":     "hover:text-white",
+        "iconBg":        "bg-white/5",
+        "iconHoverBg":   "hover:bg-white/10",
+        "iconHoverText": "hover:text-white",
+        "borderHover":   "hover:border-white/20",
+        "bgHover":       "group-hover:bg-white",
+        "decoration":    "decoration-white/30"
+      },
+      "marketing": {
+        "topBorder":     "border-pink-500/20",
+        "glowAmbient":   "bg-pink-600",
+        "hoverText":     "hover:text-pink-400",
+        "iconBg":        "bg-pink-500/10",
+        "iconHoverBg":   "hover:bg-pink-500/20",
+        "iconHoverText": "hover:text-pink-400",
+        "borderHover":   "hover:border-pink-500/30",
+        "bgHover":       "group-hover:bg-pink-500",
+        "decoration":    "decoration-pink-500/50"
+      }
+    },
+    "navigation": [
+      { "href": "/ecommerce", "name": "E-commerce" },
+      { "href": "/marketing", "name": "Marketing"  },
+      { "href": "/formacoes", "name": "Formações"  },
+      { "href": "/sobre",     "name": "Sobre"       },
+      { "href": "/blog",      "name": "Blog"        }
+    ]
+  },
+  "updatedAt": "2026-05-28T00:00:00.000Z"
+}
